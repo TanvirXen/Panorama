@@ -38,7 +38,7 @@ export default function InfoCompany() {
                 new era in financial services could begin.
                 <br />
                 <br />
-                We're a fully regulated bank that's driven by the latest
+                We re a fully regulated bank thats driven by the latest
                 technology and powered by our talented people.
               </Typography>
             </div>
@@ -50,7 +50,7 @@ export default function InfoCompany() {
               </div>
               <div>
                 <Typography variant="h4" color="neutral.b900">
-                  We're a fully regulated bank that's driven by the latest
+                  We re a fully regulated bank thats driven by the latest
                   technology and powered by our talented people.
                 </Typography>
               </div>
@@ -63,7 +63,7 @@ export default function InfoCompany() {
               </div>
               <div>
                 <Typography variant="h4" color="neutral.b900">
-                  We're a fully regulated bank that's driven by the latest
+                  We re a fully regulated bank that s driven by the latest
                   technology and powered by our talented people.
                 </Typography>
               </div>
