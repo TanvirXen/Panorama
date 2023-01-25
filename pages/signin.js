@@ -9,6 +9,7 @@ import GoogleIcon from "../public/google.svg";
 import FacebookIcon from "../components/svg/facebook";
 import ButtonGL from "../components/reUse/buttonGl";
 import ButtonFB from "../components/reUse/buttonFb";
+
 export default function Signin() {
 	return (
 		<div style={{ minHeight: "100%", minWidth: "100%" }}>

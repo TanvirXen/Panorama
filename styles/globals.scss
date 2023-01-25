@@ -324,6 +324,160 @@ body {
     width: 100%;
   }
 }
+.contct {
+  min-height: 600px;
+  background-color: #f5f5f5;
+}
+.vbfd {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.cnvc {
+  div {
+    padding-bottom: 16px;
+  }
+  .cxz {
+    display: flex;
+    justify-content: space-between;
+    div {
+      padding-bottom: 2px;
+    }
+  }
+}
+.scial{
+  svg{
+    margin-left: 8px;
+  }
+}
+.cntbx {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.btncopy {
+  margin-left: 4px;
+  width: 59px;
+  height: 32px;
+  cursor: pointer;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+  color: #0065ff;
+  background: #e6f0ff;
+}
+.overview{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.overText{
+  width: 80%;
+}
+.addr {
+  min-height: 100px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  padding: 16px;
+  width: 60%;
+  div {
+    padding-top: 2px;
+  }
+}
+.serveBus{
+  background-color: #F5F5F5;
+  padding-bottom: 100px;
+}
+.abthero {
+  width: 100%;
+  height: 550px;
+  background-image: url("/aboutHero.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.serhero {
+  width: 100%;
+  height: 550px;
+  background-image: url("/service.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+
+}
+.abtValues {
+  min-height: 500px;
+  background-color: #fff;
+}
+.faqa {
+  padding-top: 40px;
+}
+.cmncard {
+  background-color: #0065ff;
+  width: 70%;
+  padding: 24px;
+  .btrn {
+    margin: 12px 12px 0px 12px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 50px;
+    div {
+      padding: 12px;
+    }
+  }
+}
+.coreCard {
+  background-image: url("/heroabt.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 320px;
+  .crs {
+    padding: 12px;
+    height: 100%;
+  }
+}
+.abtprofile {
+  background-color: #f5f5f5;
+  min-height: 800px;
+  .anb {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.pdsa {
+  padding-top: 24px;
+}
+.abtTeam {
+  background-color: #fff;
+  min-height: 800px;
+}
+.faq {
+  min-height: 700px;
+  background-color: #f5f5f5;
+
+  .fra {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.crrs {
+  width: 70%;
+}
+.team {
+  padding: 8px;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+  .tms {
+    padding-top: 8px;
+    div {
+      padding-top: 8px;
+    }
+  }
+}
 @media only screen and (max-width: 1180px) {
   .srv {
     padding-top: 40px;
@@ -392,6 +546,14 @@ body {
     }
   }
 }
+@media only screen and (max-width: 1000px) {
+.cntbx {
+ display: block;
+}
+.addr {
+  width: 100%;
+}
+}
 @media only screen and (max-width: 938px) {
   .play {
     width: 100%;
@@ -442,6 +604,9 @@ body {
   }
 }
 @media only screen and (max-width: 892px) {
+  .overText{
+    width: 100%;
+  }
   .play {
     width: 100%;
 
@@ -491,21 +656,22 @@ body {
     }
   }
 }
+
 @media only screen and (max-width: 780px) {
-  .foot{
+  .foot {
     display: block;
     padding-bottom: 30px;
-    .flogo{
+    .flogo {
       width: 100%;
     }
-   .ftext {
-     width: 100%;
+    .ftext {
+      width: 100%;
+    }
   }
-  }
-  .rightd{
+  .rightd {
     padding-top: 32px;
   }
-  .stay{
+  .stay {
     padding-top: 50px;
     padding-bottom: 100px;
   }
@@ -551,6 +717,25 @@ body {
       padding: 24px;
       div {
         padding-top: 12px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .xcd {
+    padding-top: 40px;
+  }
+  .cmncard {
+    background-color: #0065ff;
+    width: 100%;
+    padding: 24px;
+    .btrn {
+      margin: 12px 12px 0px 12px;
+      text-align: center;
+      background: #ffffff;
+      border-radius: 50px;
+      div {
+        padding: 12px;
       }
     }
   }

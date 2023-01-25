@@ -15,7 +15,7 @@ import styles from "../styles/Home.module.scss";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+ 
       <Hero />
       <Service />
       {/* <Resources /> */}
@@ -24,7 +24,6 @@ export default function Home() {
       {/* <Work /> */}
       <News />
       <Started />
-      <Footer />
     </div>
   );
 }
