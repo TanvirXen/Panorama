@@ -136,6 +136,12 @@ function MyApp({ Component, pageProps }) {
         fontSize: "24px",
         lineHeight: "120%",
       },
+      h4B: {
+        fontFamily: `"Ubuntu"`,
+        fontWeight: "400",
+        fontSize: "2rem",
+        lineHeight: "120%",
+      },
       h4: {
         fontFamily: `"Ubuntu"`,
         fontWeight: "300",
@@ -151,6 +157,12 @@ function MyApp({ Component, pageProps }) {
       large: {
         fontFamily: `"Ubuntu"`,
         fontWeight: "300",
+        fontSize: "1.5rem",
+        lineHeight: "120%",
+      },
+      largeB: {
+        fontFamily: `"Ubuntu"`,
+        fontWeight: "400",
         fontSize: "1.5rem",
         lineHeight: "120%",
       },
@@ -172,6 +184,12 @@ function MyApp({ Component, pageProps }) {
         fontSize: "1rem",
         lineHeight: "120%",
       },
+      smallB: {
+        fontFamily: `"Ubuntu"`,
+        fontWeight: "500",
+        fontSize: "1rem",
+        lineHeight: "120%",
+      },
       xsmall: {
         fontFamily: `"Ubuntu"`,
         fontWeight: "400",
@@ -182,9 +200,9 @@ function MyApp({ Component, pageProps }) {
   });
   return (
     <ThemeProvider theme={outerTheme}>
-      <Navbar />
+      {/* <Navbar /> */}
       <Component {...pageProps} />
-      <Footer />
+      {/* <Footer /> */}
     </ThemeProvider>
   );
 }
