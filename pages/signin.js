@@ -23,9 +23,18 @@ export default function Signin() {
     resolver: yupResolver(signUp_schema),
   });
   const onSubmit = (data) => {
+    fetch("https://myeventizer.xyz/public/location/division/")
     // fetch(API_LIST.getCurrency)
     // fetch(API_LIST.signup, {
+    //   method: 'get',
+   
+    //   headers: {'Content-Type':'application/json',
+    //   mode: 'no-cors',},
+
+    //  });
+    // fetch(API_LIST.signup, {
     //   method: 'post',
+    //   mode: 'no-cors',
     //   headers: {'Content-Type':'application/json'},
     //   body:{
     //       jsonrpc: "2.0",
@@ -37,12 +46,18 @@ export default function Signin() {
     //       },
     //     }
     //  });
-    console.log(data);
+    // console.log(data);
+   
     const config = {
       headers: {
         "Content-Type": "application/json",
       },
     };
+    axios
+    .get(API_LIST.getCurrency,{},config)
+    .then((res) => console.log(res))
+    .catch((err) => console.log(err));
+    
     let signup_final_object = {
       jsonrpc: "2.0",
       params: {
