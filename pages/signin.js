@@ -23,54 +23,32 @@ export default function Signin() {
     resolver: yupResolver(signUp_schema),
   });
   const onSubmit = (data) => {
-    fetch("https://myeventizer.xyz/public/location/division/")
-    // fetch(API_LIST.getCurrency)
-    // fetch(API_LIST.signup, {
-    //   method: 'get',
-   
-    //   headers: {'Content-Type':'application/json',
-    //   mode: 'no-cors',},
+    var data = JSON.stringify({
+      jsonrpc: "2.0",
+      params: {
+        email: "csquzyrgkdo@eurokool.com",
+        login: "csquzyrgkdo@eurokool.com",
+        password: "Tanvir2020@",
+        name: "Tanvir Ishtiaq",
+      },
+    });
 
-    //  });
-    // fetch(API_LIST.signup, {
-    //   method: 'post',
-    //   mode: 'no-cors',
-    //   headers: {'Content-Type':'application/json'},
-    //   body:{
-    //       jsonrpc: "2.0",
-    //       params: {
-    //         email: data.email,
-    //         login: data.email,
-    //         password: data.password,
-    //         name: data.name,
-    //       },
-    //     }
-    //  });
-    // console.log(data);
-   
-    const config = {
+    var config = {
+      method: "post",
+      url: "http://66.228.54.131:8069/signup",
       headers: {
         "Content-Type": "application/json",
       },
+      data: data,
     };
-    axios
-    .get(API_LIST.getCurrency,{},config)
-    .then((res) => console.log(res))
-    .catch((err) => console.log(err));
-    
-    let signup_final_object = {
-      jsonrpc: "2.0",
-      params: {
-        email: data.email,
-        login: data.email,
-        password: data.password,
-        name: data.name,
-      },
-    };
-    axios
-      .post(API_LIST.signup, signup_final_object, config)
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err));
+
+    axios(config)
+      .then(function (response) {
+        console.log(JSON.stringify(response.data));
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   };
   console.log(errors);
   return (
