@@ -23,7 +23,7 @@ export default function FAQ() {
           <div className="faqa">
      {
       FaqData.map((e)=>{
-        return <FaqCard question={e.question} id={e.id} answer={e.answer} />
+        return <FaqCard question={e.question} key={e.id} answer={e.answer} />
       })
      }
   

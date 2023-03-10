@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-export default function CardService({ img, name, desc,type }) {
+export default function CardService({ img, name, desc,type,id }) {
   return (
     <>
     {  type=="Assessment"?    <Grid xs={12} sm={12} md={6} lg={6} xl={6}>
@@ -20,7 +20,7 @@ export default function CardService({ img, name, desc,type }) {
           </div>
         </div>
       </div>
-    </Grid>:  <Grid md={6} lg={6} xl={6}>
+    </Grid>:  <Grid md={6} lg={6} xl={6} key={id}>
       <div className="cardsd">
         <img src={img} />
         <div className="mnt">
