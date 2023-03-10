@@ -200,9 +200,9 @@ function MyApp({ Component, pageProps }) {
   });
   return (
     <ThemeProvider theme={outerTheme}>
-      {/* <Navbar /> */}
+      <Navbar />
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <Footer />
     </ThemeProvider>
   );
 }

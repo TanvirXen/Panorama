@@ -7,18 +7,16 @@ export default function Business() {
 	return (
 		<div>
 			<Container maxWidth="xl">
-				<Grid container spacing={0}>
+				<Grid container spacing={0} style={{paddingBottom:'100px'}}>
 					<Grid md={8}>
 						<div className="trst">
 							<Typography variant="h1R" color="neutral.b900">
-								Starting a business can be difficult. But we are here to help.
+							Launch with confidence, we've got your back
 							</Typography>
 
 							<div>
 								<Typography variant="large" color="neutral.b200">
-									Diagnosing what is wrong with businesses is expensive,
-									time-sensitive, and hectic which stands in the way to solve
-									the problems you are facing.
+								Take the reins of your business with ease. From financial planning to employee engagement, our expertise will steer you towards a successful future.
 								</Typography>
 							</div>
 						</div>
@@ -30,54 +28,49 @@ export default function Business() {
 							<img src="polygon.svg" alt="" />
 							<div>
 								<Typography variant="large" color="neutral.b800">
-									Understand your Business Problems
+								Understand your Business
 								</Typography>
 							</div>
 
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-									Diagnosing what is wrong with businesses is expensive,
-									time-sensitive, and hectic which stands in the way to solve
-									the problems you are facing.
+								Understand your business and reach success with our comprehensive assessment. Gain clarity and focus on the areas that matter most.
 								</Typography>
 							</div>
 						</div>
 					</Grid>
-					<Grid md={12} lg={4}>
+					<Grid xs={12} sm={12} md={12} lg={4} >
                     <div className="pdfs">
-							<img src="arw.svg" alt="" />
+					<img src="shot.svg" alt="" />
+				
 							<div>
 								<Typography variant="large" color="neutral.b800">
-								Prioritize what to solve to fix your problem
+								Solve your Business Problems
 								</Typography>
 							</div>
 
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-									Diagnosing what is wrong with businesses is expensive,
-									time-sensitive, and hectic which stands in the way to solve
-									the problems you are facing.
+								Effortlessly solve your business problems with our expert consultants and top-notch services. Experience growth and success, today.
 								</Typography>
 							</div>
 						</div>
                     </Grid>
 					<Grid md={12} lg={4}>
                     <div className="pdfs">
-							<img src="shot.svg" alt="" />
+					<img src="arw.svg" alt="" />
 							<div>
 								<Typography variant="large" color="neutral.b800">
-                                Solve your root causes and solve problems
+								Take charge of your Future
 								</Typography>
 							</div>
 
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-									Diagnosing what is wrong with businesses is expensive,
-									time-sensitive, and hectic which stands in the way to solve
-									the problems you are facing.
+								Achieve your dreams with our expert assessment and consultancy. Take charge and make them a reality.
 								</Typography>
 							</div>
 						</div>

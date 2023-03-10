@@ -11,7 +11,7 @@ export default function Hero() {
           <Grid md={8}>
             <div className="trst">
               <Typography variant="h1" color="neutral.b900">
-                Understand, prioritise and find solutions to business problems
+                Understand, prioritise and find solutions to your problems
               </Typography>
             </div>
           </Grid>
@@ -32,16 +32,18 @@ export default function Hero() {
           <Grid md={8}>
             <div className="trst">
               <Typography variant="h4" color="neutral.b900">
-                Enabling and Empowering individuals to achieve their dreams.
-                Redefining the current business process through data-driven
-                solutions to solve emerging challenges. Providing sustainable,
-                user-centric, and comprehensive global solutions.
+                Unlock your full potential and turn your dreams into reality
+                with the expert support of Panorama.
+                <br />
+                <br />
+                Let us be your guiding light, empowering you to reach new
+                heights and achieve success beyond your dreams.
               </Typography>
-			  <div className="btmd">
-              <Button kind="primary" size="md">
-                Get Started
-              </Button>
-            </div>
+              <div className="btmd">
+                <Button kind="primary" size="md">
+                  Get Started
+                </Button>
+              </div>
             </div>
           </Grid>
         </Grid>

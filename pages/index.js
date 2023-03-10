@@ -11,17 +11,21 @@ import Started from "../components/Sections/LandingPage/started/index";
 import Trust from "../components/Sections/LandingPage/trust/index.js";
 import Work from "../components/Sections/LandingPage/work/index.js";
 import styles from "../styles/Home.module.scss";
-
+import FAQ from "../components/Sections/About/faq";
+import Knowledge from "../components/Sections/LandingPage/Knowledge/index.js";
+import Growth from "../components/Sections/LandingPage/Growth/index.js";
 export default function Home() {
   return (
     <div>
- 
       <Hero />
       <Service />
+      <Growth/>
       {/* <Resources /> */}
       <Business />
-      <Trust />
-      {/* <Work /> */}
+      {/* <Trust /> */}
+      <Work />
+      <Knowledge/>
+      <FAQ />
       <News />
       <Started />
     </div>
