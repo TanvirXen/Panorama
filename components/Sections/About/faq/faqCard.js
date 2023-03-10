@@ -7,9 +7,10 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-export default function FaqCard({question,answer}) {
+export default function FaqCard({question,answer,id}) {
   return (
     <Accordion
+    key={id}
     sx={{
       "&:before": {
         display: "none",

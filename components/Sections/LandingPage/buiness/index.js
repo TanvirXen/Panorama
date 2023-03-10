@@ -11,7 +11,7 @@ export default function Business() {
 					<Grid md={8}>
 						<div className="trst">
 							<Typography variant="h1R" color="neutral.b900">
-							Launch with confidence, we've got your back
+							Launch with confidence, we&apos;ve got your back
 							</Typography>
 
 							<div>
