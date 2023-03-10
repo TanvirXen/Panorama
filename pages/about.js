@@ -15,14 +15,14 @@ import Started from "../components/Sections/LandingPage/started/index";
 export default function About() {
   return (
     <div>
-      <HeroAbout/>
+      {/* <HeroAbout/>
       <InfoCompany/>
       <Team/>
       <Career/>
       <Values/>
       <FAQ/>
       <News />
-      <Started />
+      <Started /> */}
     </div>
   );
 }

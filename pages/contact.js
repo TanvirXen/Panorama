@@ -5,9 +5,9 @@ import Maps from "../components/Sections/Contact/map/index.js";
 export default function Contact() {
   return (
     <>
-      <Maps />
+      {/* <Maps />
       <News />
-      <Started />
+      <Started /> */}
     </>
   );
 }

@@ -17,7 +17,7 @@ export default function Growth() {
           <div style={{ paddingTop: "60px" }}>
             <Typography variant="large" color="neutral.b200">
               Unleash your business potential with our full-spectrum of
-              solutions. Get a bird's eye view with our insightful business
+              solutions. Get a bird&apos;s eye view with our insightful business
               assessment, and accelerate growth with our dynamic consultancy and
               solution services.@ccc
             </Typography>
@@ -38,7 +38,7 @@ export default function Growth() {
                 <Typography variant="large" color="neutral.b200">
                   Partner with us for unrivaled growth. Our services go beyond
                   just delivering - they're designed to be a steadfast ally on
-                  your journey to success. With us by your side, you'll have the
+                  your journey to success. With us by your side, you&apos;ll have the
                   unwavering support you need to reach new heights.
                 </Typography>
               </div>

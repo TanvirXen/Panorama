@@ -18,7 +18,7 @@ export default function Knowledge() {
           <div style={{ paddingTop: "60px" }}>
             <Typography variant="large" color="neutral.b200">
               At Panorama, we understand that every business is different.
-              That's why we offer resources designed just for you, customized to
+              That&apos;s why we offer resources designed just for you, customized to
               meet your specific needs and drive success.
             </Typography>
           </div>

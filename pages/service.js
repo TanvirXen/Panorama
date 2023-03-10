@@ -10,13 +10,13 @@ import Overview from "../components/Sections/Service/overview";
 export default function Service() {
   return (
     <div>
-      <HeroService />
+      {/* <HeroService />
       <Overview/>
       <ServiceBusiness />
       <Trust />
       <FAQ />
       <News />
-      <Started />
+      <Started /> */}
     </div>
   );
 }
