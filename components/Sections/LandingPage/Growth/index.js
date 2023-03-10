@@ -29,12 +29,13 @@ export default function Growth() {
               <img src="growth.png" alt="" style={{ width: "100%" }} />
             </Grid>
             <Grid xs={12} sm={12} md={12} lg={4}>
-              <div style={{ paddingLeft: "24px" ,paddingTop:'40px' }}>
+<div className="growthPadd">
+<div style={{  paddingTop:'40px' }}>
                 <Typography variant="h4" color="neutral.b800">
                 We are your partner in growth
                 </Typography>
               </div>
-              <div style={{ paddingLeft: "24px",paddingTop:'20px' }}>
+              <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
                   Partner with us for unrivaled growth. Our services go beyond
                   just delivering - they&apos;re designed to be a steadfast ally on
@@ -42,11 +43,12 @@ export default function Growth() {
                   unwavering support you need to reach new heights.
                 </Typography>
               </div>
-              <div style={{ paddingLeft: "24px",paddingTop:'40px' }}>
+              <div style={{ paddingTop:'40px' }}>
               <Button kind="primary" size="lg">
                 Learn More
                 </Button>
               </div>
+</div>
             </Grid>
           </Grid>
         </div>

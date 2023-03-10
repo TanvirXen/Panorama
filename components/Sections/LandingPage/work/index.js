@@ -31,9 +31,9 @@ export default function Work() {
           infinite: false,
           speed: 500,
           slidesToShow: 3,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           arrows: false,
-          initialSlide: 3,
+          initialSlide: 1,
         },
       },
       {
@@ -45,7 +45,7 @@ export default function Work() {
           slidesToShow: 2.8,
           slidesToScroll: 1,
           arrows: false,
-          initialSlide: 2.8,
+          initialSlide: 1,
         },
       },
       {
@@ -57,7 +57,7 @@ export default function Work() {
           slidesToShow: 2.5,
           slidesToScroll: 1,
           arrows: false,
-          initialSlide: 2.5,
+          initialSlide: 1,
         },
       },
       {
@@ -69,7 +69,7 @@ export default function Work() {
           slidesToShow: 2.2,
           slidesToScroll: 1,
           arrows: false,
-          initialSlide: 2.2,
+          initialSlide: 1,
         },
       },
       {
@@ -81,7 +81,7 @@ export default function Work() {
           slidesToShow: 2,
           slidesToScroll: 1,
           arrows: false,
-          initialSlide: 2,
+          initialSlide: 1,
         },
       },
       {
@@ -93,7 +93,7 @@ export default function Work() {
           slidesToShow: 1.9,
           slidesToScroll: 1,
           arrows: false,
-          initialSlide: 1.9,
+          initialSlide: 1,
         },
       },
       {
@@ -105,7 +105,7 @@ export default function Work() {
           slidesToShow: 1.5,
           slidesToScroll: 1,
           arrows: false,
-          initialSlide: 1.5,
+          initialSlide: 1,
         },
       },
       {
@@ -117,7 +117,7 @@ export default function Work() {
           slidesToShow: 1.2,
           slidesToScroll: 1,
           arrows: false,
-          initialSlide: 1.2,
+          initialSlide: 1,
         },
       },
       {

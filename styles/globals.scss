@@ -12,7 +12,9 @@ body {
   color: #2e2e2e !important;
   font-weight: 500;
 }
-
+.growthPadd{
+  padding-left: 24px;
+}
 .btnCL {
   background: #f5f5f5;
   width: auto;
@@ -990,6 +992,9 @@ body {
   }
   .addr {
     width: 100%;
+  }
+  .growthPadd{
+    padding-left: 0px;
   }
 }
 @media only screen and (max-width: 938px) {
