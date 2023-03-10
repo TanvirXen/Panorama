@@ -1,5 +1,5 @@
 {
-  "name": "webf",
+  "name": "staticv1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "@carbon/react": "1.1.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -18,10 +23,7 @@
     "axios": "^1.2.6",
     "leaflet": "^1.9.3",
     "mapbox-gl": "^2.12.0",
-    "next": "13.1.1",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.0",
     "react-leaflet": "^4.2.0",
     "react-leaflet-universal": "^2.2.1",
@@ -32,10 +34,5 @@
     "sass": "1.51.0",
     "slick-carousel": "^1.8.1",
     "yup": "^0.32.11"
-  },
-  "devDependencies": {
-    "eslint": "8.30.0",
-    "eslint-config-next": "13.1.1",
-    "webpack-cli": "^5.0.1"
   }
 }
