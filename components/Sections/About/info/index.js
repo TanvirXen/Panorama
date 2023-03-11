@@ -27,7 +27,7 @@ export default function InfoCompany() {
             <Grid sm={12} md={6} lg={7}>
               <div className="xrd">
               <Typography variant="h2R" color="neutral.b900">
-              Rise above the competition with Panorama's tailored business solutions
+              Rise above the competition with Panorama&apos;s tailored business solutions
                 </Typography>
               </div>
               <div className="xcd">
