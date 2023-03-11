@@ -14,18 +14,18 @@ export default function ServiceBusiness() {
                 PROCESS
               </Typography>
             </div>
-            <div  >
+            <div>
               <Typography variant="h1R" color="neutral.b900">
-                From research to delivery, we're your agile project partner.
+                From research to delivery, we&apos;re your agile project
+                partner.
               </Typography>
-			  </div>
-              <div style={{paddingTop:'24px'}}>
-                <Typography variant="large" color="neutral.b200">
-                  Thorough research, for project success. Utilizing cutting-edge
-                  techniques for insightful data and best strategies.
-                </Typography>
-              </div>
-      
+            </div>
+            <div style={{ paddingTop: "24px" }}>
+              <Typography variant="large" color="neutral.b200">
+                Thorough research, for project success. Utilizing cutting-edge
+                techniques for insightful data and best strategies.
+              </Typography>
+            </div>
           </Grid>
           <Grid md={4}></Grid>
 
@@ -34,14 +34,18 @@ export default function ServiceBusiness() {
               <img src="researchIcon.svg" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
-				Research
+                  Research
                 </Typography>
               </div>
 
               <br />
               <div>
                 <Typography variant="small" color="neutral.b200">
-				Before diving into the project, we take the time to thoroughly research and analyze the problem at hand. Our team of experts utilizes cutting-edge research techniques to gather relevant data and insights, and to identify the best practices and strategies that will ensure project success.
+                  Before diving into the project, we take the time to thoroughly
+                  research and analyze the problem at hand. Our team of experts
+                  utilizes cutting-edge research techniques to gather relevant
+                  data and insights, and to identify the best practices and
+                  strategies that will ensure project success.
                 </Typography>
               </div>
             </div>
@@ -51,15 +55,20 @@ export default function ServiceBusiness() {
               <img src="documentation.svg" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
-				Documentation
+                  Documentation
                 </Typography>
               </div>
 
               <br />
               <div>
                 <Typography variant="small" color="neutral.b200">
-				Once we have a deep understanding of the project requirements, we document our findings in a comprehensive and detailed manner. Our documentation includes everything from project plans and timelines to technical specifications and quality assurance procedures. This ensures that everyone involved in the project is on the same page and that there is a clear roadmap for success.
-
+                  Once we have a deep understanding of the project requirements,
+                  we document our findings in a comprehensive and detailed
+                  manner. Our documentation includes everything from project
+                  plans and timelines to technical specifications and quality
+                  assurance procedures. This ensures that everyone involved in
+                  the project is on the same page and that there is a clear
+                  roadmap for success.
                 </Typography>
               </div>
             </div>
@@ -69,15 +78,19 @@ export default function ServiceBusiness() {
               <img src="development.svg" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
-				Development 
+                  Development
                 </Typography>
               </div>
 
               <br />
               <div>
                 <Typography variant="small" color="neutral.b200">
-				Armed with a solid research foundation and comprehensive documentation, we begin the development phase. We utilize agile development methods to ensure that we are able to adapt to changes in project requirements and respond quickly to feedback. Our team works collaboratively to deliver exceptional results, on time and within budget.
-
+                  Armed with a solid research foundation and comprehensive
+                  documentation, we begin the development phase. We utilize
+                  agile development methods to ensure that we are able to adapt
+                  to changes in project requirements and respond quickly to
+                  feedback. Our team works collaboratively to deliver
+                  exceptional results, on time and within budget.
                 </Typography>
               </div>
             </div>
