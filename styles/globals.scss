@@ -12,7 +12,10 @@ body {
   color: #2e2e2e !important;
   font-weight: 500;
 }
-.growthPadd{
+.xrd{
+  padding-bottom: 24px;
+}
+.growthPadd {
   padding-left: 24px;
 }
 .btnCL {
@@ -141,6 +144,13 @@ body {
 .trst {
   padding-top: 100px;
   padding-bottom: 100px;
+  div {
+    padding-top: 50px;
+  }
+}
+.trsty {
+  padding-top: 100px;
+  padding-bottom: 16px;
   div {
     padding-top: 50px;
   }
@@ -377,7 +387,7 @@ body {
 }
 .growth {
   padding-top: 100px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding-bottom: 100px;
 }
 .overview {
@@ -401,6 +411,10 @@ body {
   background-color: #f5f5f5;
   padding-bottom: 100px;
 }
+.serveBusKnowledge{
+  background-color: #FFFFFF;
+  padding-bottom: 100px;
+}
 .abthero {
   width: 100%;
   height: 550px;
@@ -408,6 +422,15 @@ body {
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center;
+  .abtp {
+    padding-top: 300px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+  }
 }
 .serhero {
   width: 100%;
@@ -415,6 +438,10 @@ body {
   background-image: url("/service.png");
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
+}
+.serheroser{
+  width: 60%;
+  padding-top: 200px;
 }
 .abtValues {
   min-height: 500px;
@@ -438,7 +465,7 @@ body {
   }
 }
 .coreCard {
-  background-image: url("/heroabt.png");
+  background-image: url("/integrity.png");
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center;
@@ -446,11 +473,76 @@ body {
   .crs {
     padding: 12px;
     height: 100%;
+    display:inline-grid;
+    div{
+      padding-bottom:'12px'
+    }
+    .vbr{
+      display:inline-grid;
+      align-items:end;
+    }
+  }
+}
+.coreCardL {
+  background-image: url("/learning.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 320px;
+  .crs {
+    padding: 12px;
+    height: 100%;
+    display:inline-grid;
+    div{
+      padding-bottom:'12px'
+    }
+    .vbr{
+      display:inline-grid;
+      align-items:end;
+    }
+  }
+}
+.coreCardR {
+  background-image: url("/relationship.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 320px;
+  .crs {
+    padding: 12px;
+    height: 100%;
+    display:inline-grid;
+    div{
+      padding-bottom:'12px'
+    }
+    .vbr{
+      display:inline-grid;
+      align-items:end;
+    }
+  }
+}
+.coreCardI {
+  background-image: url("/ineguilty.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 320px;
+  .crs {
+    padding: 12px;
+    height: 100%;
+    display:inline-grid;
+    div{
+      padding-bottom:'12px'
+    }
+    .vbr{
+      display:inline-grid;
+      align-items:end;
+    }
   }
 }
 .abtprofile {
   background-color: #f5f5f5;
-  min-height: 800px;
+  min-height: 400px;
   .anb {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -818,101 +910,101 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
-  .lty{
+  .lty {
     display: flex;
     align-items: center;
   }
-  .txtCardFullDash{
+  .txtCardFullDash {
     padding-left: 32px;
-   padding-top: 32px;
-    div{
+    padding-top: 32px;
+    div {
       padding-bottom: 12px;
       max-width: 500px;
     }
-    button{
+    button {
       margin-top: 32px;
     }
   }
 }
-.quarterArea{
+.quarterArea {
   display: flex;
   justify-content: space-between;
-  .cardQuarterDashboard{
+  .cardQuarterDashboard {
     width: 32%;
     height: 460px;
     background-color: #fff;
   }
 }
-.planCard{
+.planCard {
   padding: 20px;
   opacity: 0.6;
-  .lineHeader{
-    border: 1px solid #EBEBEB;
+  .lineHeader {
+    border: 1px solid #ebebeb;
     width: 100%;
     margin-top: 8px;
   }
-  .headerPlan{
+  .headerPlan {
     display: flex;
     align-items: center;
-    span{
+    span {
       padding-left: 8px;
     }
   }
-  .contentCard{
+  .contentCard {
     display: flex;
     align-items: center;
     min-height: 250px;
-    div{
+    div {
       padding-left: 24px;
       width: 50%;
     }
   }
 }
-.userCard{
+.userCard {
   padding: 20px;
   opacity: 0.6;
-  .lineHeader{
-    border: 1px solid #EBEBEB;
+  .lineHeader {
+    border: 1px solid #ebebeb;
     width: 100%;
     margin-top: 8px;
   }
-  .headerPlan{
+  .headerPlan {
     display: flex;
     align-items: center;
-    span{
+    span {
       padding-left: 8px;
     }
   }
-  .contentCard{
+  .contentCard {
     display: flex;
     align-items: center;
     min-height: 250px;
-    div{
+    div {
       padding-left: 24px;
       width: 50%;
     }
   }
 }
-.consultCard{
+.consultCard {
   padding: 20px;
   opacity: 0.6;
-  .lineHeader{
-    border: 1px solid #EBEBEB;
+  .lineHeader {
+    border: 1px solid #ebebeb;
     width: 100%;
     margin-top: 8px;
   }
-  .headerPlan{
+  .headerPlan {
     display: flex;
     align-items: center;
-    span{
+    span {
       padding-left: 8px;
     }
   }
-  .contentCard{
+  .contentCard {
     display: flex;
     align-items: center;
     min-height: 250px;
-    div{
+    div {
       padding-left: 24px;
       width: 50%;
     }
@@ -993,7 +1085,7 @@ body {
   .addr {
     width: 100%;
   }
-  .growthPadd{
+  .growthPadd {
     padding-left: 0px;
   }
 }
@@ -1184,4 +1276,18 @@ body {
       }
     }
   }
+}
+@media only screen and (max-width: 600px) {
+.abthero {
+
+  .abtp {
+    padding-top: 230px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+}
 }

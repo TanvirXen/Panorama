@@ -130,6 +130,12 @@ function MyApp({ Component, pageProps }) {
         fontSize: "2.5rem",
         lineHeight: "120%",
       },
+      h2R: {
+        fontFamily: `"Ubuntu"`,
+        fontWeight: "300",
+        fontSize: "2.5rem",
+        lineHeight: "120%",
+      },
       h3: {
         fontFamily: `"Ubuntu"`,
         fontWeight: "700",

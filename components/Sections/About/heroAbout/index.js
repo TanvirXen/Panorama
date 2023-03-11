@@ -1,9 +1,15 @@
-import React from 'react'
-
+import React from "react";
+import Container from "@mui/material/Container";
 export default function HeroAbout() {
   return (
     <div className="abthero">
-   
-  </div>
-  )
+      <Container maxWidth="xl">
+        <p className="abtp">
+          Solve business challenges:
+          <br />
+          Understand. Prioritize. Act.
+        </p>
+      </Container>
+    </div>
+  );
 }

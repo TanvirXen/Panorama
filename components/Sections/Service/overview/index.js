@@ -15,13 +15,12 @@ export default function Overview() {
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="h1" color="neutral.b900">
-        Unlock the full potential of your business with our expert consulting services
+        Innovating through research, documentation, and development to help you achieve project success
         </Typography>
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="large" color="neutral.b200">
-        Impact measurement is the process of determining the positive and negative effects of an action or program on a targeted population or the environment. This can include assessing the outcomes of a project or initiative in terms of specific goals and objectives, as well as measuring the impact in terms of broader social and economic indicators. Impact measurement can be used to inform decision-making, evaluate program effectiveness, and communicate results to stakeholders. There are several different frameworks and methodologies that can be used for impact measurement, including both quantitative and qualitative approaches. Some common methods include surveys, interviews, case studies, and cost-benefit analysis.
-
+        Partner with us for innovative research, documentation, and agile development that leads to project success.
         </Typography>
         </div>
         </div>

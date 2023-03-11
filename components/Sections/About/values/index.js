@@ -23,9 +23,7 @@ export default function Values() {
             <Grid xs={12} sm={12} md={8} lg={7}>
               <div style={{ paddingTop: "24px", paddingBottom: "24px" }}>
                 <Typography variant="large" color="neutral.b200">
-                  Diagnosing what is wrong with businesses is expensive,
-                  time-sensitive, and hectic which stands in the way to solve
-                  the problems you are facing.
+                Conducting diagnosing of your businesses is expensive, time-sensitive, and hectic which stands in the way to solve the problems you are facing, but we are here to assist.
                 </Typography>
               </div>
             </Grid>
@@ -35,70 +33,66 @@ export default function Values() {
             <Grid xs={12} sm={6} md={6} lg={3} xl={3} style={{paddingRight:'16px',paddingTop:'16px'}}>
               <div className="coreCard">
                 <div className="crs">
-                    <div style={{paddingBottom:'190px'}}>
+                    <div >
                     <Typography variant="h4" color="neutral.b0">
                     Integrity
                   </Typography>
                     </div>
          
-                  <div>
+                  <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
-                      Fostering transparency, straightforwardness, and leading
-                      by example.
+                    Fostering transparency, straightforwardness, and leading by example.
                     </Typography>
                   </div>
                 </div>
               </div>
             </Grid>
             <Grid xs={12} sm={6} md={6} lg={3} xl={3} style={{paddingRight:'16px',paddingTop:'16px'}}>
-              <div className="coreCard">
+              <div className="coreCardL">
                 <div className="crs">
-                    <div style={{paddingBottom:'190px'}}>
+                    <div >
                     <Typography variant="h4" color="neutral.b0">
-                    Integrity
+                    Learning and Adaptability
                   </Typography>
                     </div>
          
-                  <div>
+                  <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
-                      Fostering transparency, straightforwardness, and leading
-                      by example.
+                    Continuously acquiring new knowledge and skills, and being flexible and responsive to changing circumstances
                     </Typography>
                   </div>
                 </div>
               </div>
             </Grid>
             <Grid xs={12} sm={6} md={6} lg={3} xl={3} style={{paddingRight:'16px',paddingTop:'16px'}}>
-              <div className="coreCard">
+              <div className="coreCardR">
                 <div className="crs">
-                    <div style={{paddingBottom:'190px'}}>
+                    <div>
                     <Typography variant="h4" color="neutral.b0">
-                    Integrity
+                    Collaborative Relationships
                   </Typography>
                     </div>
          
-                  <div>
+                  <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
-                      Fostering transparency, straightforwardness, and leading
-                      by example.
+                    Assembling geniuses and building valuable relationships with our people, clients, partners, and planet.
                     </Typography>
                   </div>
                 </div>
               </div>
             </Grid>
             <Grid xs={12} sm={6} md={6} lg={3} xl={3} style={{paddingRight:'16px',paddingTop:'16px'}}>
-              <div className="coreCard">
+              <div className="coreCardI">
                 <div className="crs">
-                    <div style={{paddingBottom:'190px'}}>
+                    <div >
                     <Typography variant="h4" color="neutral.b0">
-                    Integrity
+                    Ingenuity
                   </Typography>
                     </div>
          
-                  <div>
+                  <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
-                      Fostering transparency, straightforwardness, and leading
-                      by example.
+                    Providing innovative solutions to our clients, by going extra miles to solve their challenges.
                     </Typography>
                   </div>
                 </div>

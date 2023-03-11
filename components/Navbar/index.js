@@ -2,7 +2,19 @@ import React, { useState, useEffect } from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import ChevronDown from "../svg/chevronDown";
-import { TextInput, Select, SelectItem, Checkbox, Button } from "@carbon/react";
+import {
+  TextInput,
+  Select,
+  SelectItem,
+  Checkbox,
+  Button,
+  SideNav,
+  SideNavItems,
+  Fade,
+  SideNavMenu,
+  SideNavMenuItem,
+  SideNavLink,
+} from "@carbon/react";
 import useWindowDimensions from "../reUse/WindowDimension.js";
 import HamburgerOpen from "../reUse/hamburgerOpen";
 import useWindowSize from "../reUse/WindowDimension.js";
@@ -16,6 +28,7 @@ import ArchiveIcon from "@mui/icons-material/Archive";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import NavMobile from "./mobile";
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -254,7 +267,8 @@ export default function Navbar() {
             </div>
           </Container>
         </div>
-      ) : (
+      ) : 
+      (
         <div className="mobNav">
           <Container maxWidth="xl">
             <div className="mnba">
@@ -267,7 +281,8 @@ export default function Navbar() {
             </div>
           </Container>
         </div>
-      )}
+      )
+      }
     </div>
   );
 }
