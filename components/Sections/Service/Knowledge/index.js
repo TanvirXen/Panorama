@@ -63,7 +63,7 @@ export default function KnowledgeInfo() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Looking for expert support that's committed to your success?
+                Looking for expert support that&apos;s committed to your success?
 
                 </Typography>
               </div>

@@ -73,7 +73,7 @@ export default function ServiceBusiness() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Our expert service providers don't just provide solutions, they stay with you through journey of transformation .
+                Our expert service providers don&apos;t just provide solutions, they stay with you through journey of transformation .
                 </Typography>
               </div>
             </div>

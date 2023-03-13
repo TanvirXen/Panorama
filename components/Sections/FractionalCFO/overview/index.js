@@ -20,7 +20,7 @@ export default function Overview() {
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="large" color="neutral.b200">
-        Unlock your financial potential with Panorama's Fractional CFO services. Our team of experienced professionals provides expert financial management on a part-time or project basis, giving small and medium-sized businesses access to the same level of financial expertise as larger companies. 
+        Unlock your financial potential with Panorama&apos;s Fractional CFO services. Our team of experienced professionals provides expert financial management on a part-time or project basis, giving small and medium-sized businesses access to the same level of financial expertise as larger companies. 
 <br/><br/>
 Enhance your long-term success with our data driven strategies and achieve financial stability with ease.
         </Typography>
