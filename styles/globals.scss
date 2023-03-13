@@ -16,7 +16,7 @@ body {
   padding-bottom: 24px;
 }
 .growthPadd {
-  padding-left: 24px;
+  padding-left: 40px;
 }
 .btnCL {
   background: #f5f5f5;
@@ -150,7 +150,7 @@ body {
 }
 .trsty {
   padding-top: 100px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
   div {
     padding-top: 50px;
   }
@@ -323,13 +323,13 @@ body {
   height: 100%;
 }
 .pdfs {
-  padding-right: 8px;
+  padding-right: 40px;
   img {
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 20px;
   }
-  div {
-    padding-bottom: 20px;
+  .desc{
+    padding-right: 50px;
   }
 }
 .heros {
@@ -432,6 +432,27 @@ body {
     color: #ffffff;
   }
 }
+.serheroBus {
+  width: 100%;
+  height: 550px;
+  background-image: url("/BusinessHero.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+}
+.serheroService {
+  width: 100%;
+  height: 550px;
+  background-image: url("/serviceHero.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+}
+.serheroCFO {
+  width: 100%;
+  height: 550px;
+  background-image: url("/fractionalCFOHeader.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+}
 .serhero {
   width: 100%;
   height: 550px;
@@ -441,7 +462,7 @@ body {
 }
 .serheroser{
   width: 60%;
-  padding-top: 200px;
+  padding-top: 60px;
 }
 .abtValues {
   min-height: 500px;

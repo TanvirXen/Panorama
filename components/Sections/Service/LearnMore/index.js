@@ -7,16 +7,21 @@ export default function LearnMore() {
   return (
     <div className="growth">
       <Container maxWidth="xl">
+      <div className="trsty">
+              <Typography variant="small" color="neutral.b50">
+                PROCESS
+              </Typography>
+            </div>
         <div className="overText">
           <div></div>
-          <div style={{ paddingTop: "8px" }}>
+          <div>
             <Typography variant="h1R" color="neutral.b900">
-            Comprehensive project support for exceptional results - from innovation to delivery
+            Ease your burden with our support - never tackle business challenges alone again.
             </Typography>
           </div>
-          <div style={{ paddingTop: "60px" }}>
+          <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Comprehensive project support with innovative research, agile development, and tailored solutions for exceptional results.
+            Unwind and focus on your business goals - our support has got you covered. Say goodbye to the stress and uncertainty of solo business management.
             </Typography>
           </div>
         </div>
@@ -29,12 +34,12 @@ export default function LearnMore() {
 <div className="growthPadd">
 <div style={{  paddingTop:'40px' }}>
                 <Typography variant="h4" color="neutral.b800">
-                Innovative research, agile development, tailored solutions.
+                Learn more about our Service providers
                 </Typography>
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Learn how to utilize cutting-edge techniques for insightful data and best strategies.
+                See individual ratings and remarks from our former clients.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>

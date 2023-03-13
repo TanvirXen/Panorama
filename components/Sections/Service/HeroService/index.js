@@ -4,17 +4,17 @@ import Typography from "@mui/material/Typography";
 import {Button} from "@carbon/react";
 export default function HeroService() {
   return (
-    <div className="serhero">
+    <div className="serheroService">
       <Container maxWidth="xl">
         <div className="serheroser">
           <div>
             <Typography variant="small" color="neutral.b50">
-              Research, Documentation & Development
+              Services
             </Typography>
           </div>
-          <div style={{ paddingTop: "8px" }}>
+          <div style={{ paddingTop: "8px" ,paddingBottom:'180px'}}>
             <Typography variant="h1" color="neutral.b0">
-              Embark on a journey towards your project success with us.
+            Find Your Perfect Partner with Our Expert Service Providers
             </Typography>
           </div>
           <div style={{paddingTop:'12px'}}>

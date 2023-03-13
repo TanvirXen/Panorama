@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect ,useRef} from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import ChevronDown from "../svg/chevronDown";
@@ -29,6 +29,7 @@ import FileCopyIcon from "@mui/icons-material/FileCopy";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import NavMobile from "./mobile";
+import { useOnHoverOutside } from './hoverHook'
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -73,6 +74,7 @@ const StyledMenu = styled((props) => (
   },
 }));
 export default function Navbar() {
+  const dropdownRef = useRef(null);
   //Solutions
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -111,6 +113,7 @@ export default function Navbar() {
   };
   const { height, width } = useWindowSize();
   console.log(width);
+  useOnHoverOutside(dropdownRef, handleClose3);
   return (
     <div>
       {width > 1080 ? (
@@ -174,6 +177,8 @@ export default function Navbar() {
                   aria-expanded={open3 ? "true" : undefined}
                   disableElevation
                   onClick={handleClick3}
+                  // onMouseOver={handleClick3}
+                  // onMouseLeave={handleClose3}
                 >
                   More <ChevronDown />
                 </Typography>

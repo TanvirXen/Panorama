@@ -16,14 +16,12 @@ export default function ServiceBusiness() {
             </div>
             <div>
               <Typography variant="h1R" color="neutral.b900">
-                From research to delivery, we&apos;re your agile project
-                partner.
+              The process we follow for Service
               </Typography>
             </div>
             <div style={{ paddingTop: "24px" }}>
               <Typography variant="large" color="neutral.b200">
-                Thorough research, for project success. Utilizing cutting-edge
-                techniques for insightful data and best strategies.
+              Discover Trusted Service Providers for Your Business
               </Typography>
             </div>
           </Grid>
@@ -31,66 +29,51 @@ export default function ServiceBusiness() {
 
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="researchIcon.svg" alt="" />
+            <img src="indentify.svg" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
-                  Research
+                Identify
                 </Typography>
               </div>
 
               <br />
-              <div>
+              <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                  Before diving into the project, we take the time to thoroughly
-                  research and analyze the problem at hand. Our team of experts
-                  utilizes cutting-edge research techniques to gather relevant
-                  data and insights, and to identify the best practices and
-                  strategies that will ensure project success.
+                Assess Your Business Needs. Pinpoint exactly what your business requires to succeed with our expert assessments and consultations.
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="documentation.svg" alt="" />
+              <img src="connect.svg" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
-                  Documentation
+                Get connected
                 </Typography>
               </div>
 
               <br />
-              <div>
+              <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                  Once we have a deep understanding of the project requirements,
-                  we document our findings in a comprehensive and detailed
-                  manner. Our documentation includes everything from project
-                  plans and timelines to technical specifications and quality
-                  assurance procedures. This ensures that everyone involved in
-                  the project is on the same page and that there is a clear
-                  roadmap for success.
+                Connect with Expert Service Providers: From finance to marketing and branding, we have the right service providers to help your business thrive.
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="development.svg" alt="" />
+            <img src="support.svg" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
-                  Development
+                Ongoing Support
                 </Typography>
               </div>
 
               <br />
-              <div>
+              <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                  Armed with a solid research foundation and comprehensive
-                  documentation, we begin the development phase. We utilize
-                  agile development methods to ensure that we are able to adapt
-                  to changes in project requirements and respond quickly to
-                  feedback. Our team works collaboratively to deliver
-                  exceptional results, on time and within budget.
+                Our expert service providers don't just provide solutions, they stay with you through journey of transformation .
                 </Typography>
               </div>
             </div>

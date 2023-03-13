@@ -16,7 +16,7 @@ export default function KnowledgeInfo() {
             </div>
             <div  >
               <Typography variant="h1R" color="neutral.b900">
-              Our Knowledge Center is a treat for your brain and business
+              Our Service Providers are here to make your life easier
               </Typography>
 			  </div>
       
@@ -29,7 +29,8 @@ export default function KnowledgeInfo() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Struggling to manage the complex and time-consuming process of project development
+                Are you struggling to find the right support for your business growth? 
+
                 </Typography>
               </div>
             </div>
@@ -40,7 +41,7 @@ export default function KnowledgeInfo() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Lacking the necessary resources and expertise to effectively complete the project
+                Do you need tailored solutions to meet your unique business needs?
                 </Typography>
               </div>
             </div>
@@ -51,7 +52,7 @@ export default function KnowledgeInfo() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Facing unforeseen roadblocks and challenges that are causing delays and setbacks
+                Are you feeling stuck and unsure of how to break through to the next level?
                 </Typography>
               </div>
             </div>
@@ -62,7 +63,8 @@ export default function KnowledgeInfo() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                In need of comprehensive research and documentation to ensure project success
+                Looking for expert support that's committed to your success?
+
                 </Typography>
               </div>
             </div>
@@ -73,7 +75,7 @@ export default function KnowledgeInfo() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Overwhelmed by the technical aspects of the project and unsure where to start
+                Are financial management, marketing, and branding challenges holding your business back?
                 </Typography>
               </div>
             </div>
@@ -84,7 +86,7 @@ export default function KnowledgeInfo() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Concerned about meeting project goals and delivering exceptional results within budget constraints
+                Are you ready to take your business to the next level?
                 </Typography>
               </div>
             </div>

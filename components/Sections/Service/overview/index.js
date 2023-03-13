@@ -13,14 +13,14 @@ export default function Overview() {
         OVERVIEW
         </Typography>
         </div>
-        <div style={{paddingTop:'8px'}}>
+        <div style={{paddingTop:'8px',paddingBottom:'40px'}}>
         <Typography variant="h1" color="neutral.b900">
-        Innovating through research, documentation, and development to help you achieve project success
+        Get all the services your business needs, right here, with Panorama.
         </Typography>
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="large" color="neutral.b200">
-        Partner with us for innovative research, documentation, and agile development that leads to project success.
+        You deserve a break from the stress of running a business. Trust us to take care of your financials and strategies, so you can focus on what you do best.
         </Typography>
         </div>
         </div>
