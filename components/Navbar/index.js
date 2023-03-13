@@ -122,6 +122,9 @@ export default function Navbar() {
             <div className="navpc">
               <div className="lgtxt">
                 <img src="/logoFull.svg" alt="" srcset="" />
+                <div className="headerBar">
+
+                </div>
                 <div className="line"></div>
                 <Typography
                   variant="small"
