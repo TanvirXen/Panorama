@@ -21,7 +21,7 @@ export default function LearnMore() {
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Your business deserves the perfect consultant. We've got you covered.
+            Your business deserves the perfect consultant. We&apos;ve got you covered.
             </Typography>
           </div>
         </div>

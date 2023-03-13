@@ -74,7 +74,7 @@ export default function ServiceBusiness() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                With ongoing support and progress tracking, we'll keep your business on track to meet its goals.
+                With ongoing support and progress tracking, we&apos;ll keep your business on track to meet its goals.
                 </Typography>
               </div>
             </div>
