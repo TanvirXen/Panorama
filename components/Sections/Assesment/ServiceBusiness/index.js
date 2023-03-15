@@ -55,7 +55,7 @@ export default function ServiceBusinessAssesment() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Uncover Your Business' Areas of Improvement with Our Customized Reports.
+                Uncover Your Business Areas of Improvement with Our Customized Reports.
                 </Typography>
               </div>
             </div>
