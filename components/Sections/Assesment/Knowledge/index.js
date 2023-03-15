@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
-export default function KnowledgeInfoAssesment() {
+export default function KnowledgeInfo() {
   return (
     <div className="serveBusKnowledge">
       <Container maxWidth="xl">
@@ -16,7 +16,7 @@ export default function KnowledgeInfoAssesment() {
             </div>
             <div  >
               <Typography variant="h1R" color="neutral.b900">
-              Our business assessment includes comprehensive analysis, catered to you business.
+              We are here to help you figure out your problems
               </Typography>
 			  </div>
       
@@ -29,8 +29,7 @@ export default function KnowledgeInfoAssesment() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Do you want to identify areas for improvement in your business?
-
+                Are you struggling to take your business to the next level?
                 </Typography>
               </div>
             </div>
@@ -41,8 +40,7 @@ export default function KnowledgeInfoAssesment() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Are you looking for an objective, data-driven evaluation of your business?
-
+                Do you need expert advice to reach your business goals?
                 </Typography>
               </div>
             </div>
@@ -53,7 +51,7 @@ export default function KnowledgeInfoAssesment() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Are you ready to take your business to the next level?
+                Are you  unable to focus on long-term strategic planning?
                 </Typography>
               </div>
             </div>
@@ -64,9 +62,7 @@ export default function KnowledgeInfoAssesment() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Worried about missing critical business metrics?
-
-
+                Feeling overwhelmed with the daily operations of your business?
                 </Typography>
               </div>
             </div>
@@ -77,8 +73,7 @@ export default function KnowledgeInfoAssesment() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Ready to make informed decisions to drive growth?
-
+                Ready to streamline processes and boost efficiency?
                 </Typography>
               </div>
             </div>
@@ -89,8 +84,7 @@ export default function KnowledgeInfoAssesment() {
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Want to stay ahead of the competition?
-
+                Looking for a long-term partner in business growth?
                 </Typography>
               </div>
             </div>

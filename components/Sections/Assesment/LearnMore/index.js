@@ -3,43 +3,43 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { TextInput, Select, SelectItem, Checkbox, Button } from "@carbon/react";
 import Grid from "@mui/material/Grid";
-export default function LearnMoreAssesment() {
+export default function LearnMore() {
   return (
-    <div className="LearnMoreAssesment">
+    <div className="growth">
       <Container maxWidth="xl">
       <div className="trsty">
               <Typography variant="small" color="neutral.b50">
-               LEARN MORE
+                PROCESS
               </Typography>
             </div>
         <div className="overText">
           <div></div>
           <div>
             <Typography variant="h1R" color="neutral.b900">
-            Empower Your Business with Tailored Insights and Solutions
+            Solving your business problems can be daunting, but we got you covered
             </Typography>
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Diagnosing what is wrong with businesses is expensive, time-sensitive, and hectic which stands in the way to solve the problems you are facing.
+            Your business deserves the perfect consultant. We&apos;ve got you covered.
             </Typography>
           </div>
         </div>
         <div style={{ paddingTop: "60px" }}>
           <Grid container spacing={0} style={{ paddingBottom: "100px" }}>
             <Grid xs={12} sm={12} md={12} lg={8}>
-              <img src="assesmentLearnMore.png" alt="" style={{ width: "100%" }} />
+              <img src="businessCounsultancy.png" alt="" style={{ width: "100%" }} />
             </Grid>
             <Grid xs={12} sm={12} md={12} lg={4}>
 <div className="growthPadd">
 <div style={{  paddingTop:'40px' }}>
                 <Typography variant="h4" color="neutral.b800">
-                Learn more about our business assessment
+                Learn more about our Consultation
                 </Typography>
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Discover the Insights of Your Business with Our Automated Assessment.
+                Our Consultants are here for you, get to know individual ratings and feedback  from our former clients
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>

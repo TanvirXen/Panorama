@@ -22,9 +22,7 @@ export default function Team() {
             </Typography>
           </div>
         </Grid>
-        {/* <InlineWidget url="https://calendly.com/panoramamas/30min?primary_color=0065ff" styles={{
-  height: '900px',width:'100%'
-}}  /> */}
+
 {TeamData.map((e)=>{
   return <TeamCard name={e.name} mail={e.email} img={e.img} linkedin={e.linkedin} title={e.title} key={e.id} />
 })}
