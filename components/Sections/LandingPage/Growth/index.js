@@ -38,7 +38,7 @@ export default function Growth() {
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Join us and we will help you expand to new heights. We want to be more than just a delivery service, and our offerings reflect that. When we're on your side, nothing can stop you from accomplishing your goals.
+                Join us and we will help you expand to new heights. We want to be more than just a delivery service, and our offerings reflect that. When we&apos;re on your side, nothing can stop you from accomplishing your goals.
 
                 </Typography>
               </div>
