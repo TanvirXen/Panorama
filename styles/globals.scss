@@ -385,6 +385,50 @@ body {
   color: #0065ff;
   background: #e6f0ff;
 }
+.hamburger{
+  background: #FFFFFF;
+  max-height: 80px;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.hamburgera{
+  background: #fff;
+  max-height: 80px;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.ham {
+  text-align: start;
+}
+.ham ul {
+  padding-inline-start: 12px;
+}
+.ham ul li {
+  list-style:none;
+  color: #002169  ;
+  padding-top: 32px;
+}
+
+.ham ul a {
+  text-decoration: none;
+  font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+color: #000;
+
+
+}
+
+.ham ul a:hover{
+    color:#0065FF;
+}
+
 .growth {
   padding-top: 100px;
   background-color: #f5f5f5;

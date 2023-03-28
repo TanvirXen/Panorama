@@ -30,6 +30,7 @@ import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import NavMobile from "./mobile";
 import { useOnHoverOutside } from './hoverHook'
+import NavbarM from "./mobile";
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -276,19 +277,19 @@ export default function Navbar() {
           </Container>
         </div>
       ) : 
-      (
-        <div className="mobNav">
-          <Container maxWidth="xl">
-            <div className="mnba">
-              <div>
-                <img src="/logoFull.svg" alt="" srcset="" />
-              </div>
-              <div className="nma">
-                <HamburgerOpen />
-              </div>
-            </div>
-          </Container>
-        </div>
+      (<NavbarM/>
+        // <div className="mobNav">
+        //   <Container maxWidth="xl">
+        //     <div className="mnba">
+        //       <div>
+        //         <img src="/logoFull.svg" alt="" srcset="" />
+        //       </div>
+        //       <div className="nma">
+        //         <HamburgerOpen />
+        //       </div>
+        //     </div>
+        //   </Container>
+        // </div>
       )
       }
     </div>

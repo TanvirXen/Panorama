@@ -26,7 +26,7 @@ export default function Service() {
               </Typography>
               <br />
               <Typography variant="h1R" color="neutral.b900">
-                We drive impact through...
+              Evaluate your impact through
               </Typography>
             </div>
           </Grid>

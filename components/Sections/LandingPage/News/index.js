@@ -18,8 +18,8 @@ export default function News() {
           <Grid md={6}>
             <div className="stay">
               <Typography variant="large" color="neutral.b200">
-                Get the most resourceful updates directly in your inbox and
-                always stay updated!
+              Get the most resourceful updates directly in your inbox and always stay updated!
+
               </Typography>
               <div>
                 <TextInput

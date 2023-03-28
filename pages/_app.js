@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/globals.scss";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Footer from "../components/Footer.js";

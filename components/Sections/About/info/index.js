@@ -27,14 +27,14 @@ export default function InfoCompany() {
             <Grid sm={12} md={6} lg={7}>
               <div className="xrd">
               <Typography variant="h2R" color="neutral.b900">
-              Rise above the competition with Panorama&apos;s tailored business solutions
+              Hurdle through your challenges with our custom-tailored assessments, in-depth analysis and unwavering support. 
                 </Typography>
               </div>
-              <div className="xcd">
+              {/* <div className="xcd">
                 <Typography variant="large" color="neutral.b900">
                 Unlock your full potential with our tailored assessments, analysis, and unwavering support. Stay ahead of the curve and achieve your goals with our commitment to your continuous learning and development.
                 </Typography>
-              </div>
+              </div> */}
               <div>
                 <div className="pdsa">
                   <Typography variant="large" color="neutral.b50">
@@ -56,6 +56,7 @@ export default function InfoCompany() {
                 <div>
                   <Typography variant="h4" color="neutral.b900">
                   Redefining the current business process through data-driven solutions to solve emerging challenges. Providing sustainable, user-centric, and comprehensive global solutions.
+
                   </Typography>
                 </div>
               </div>

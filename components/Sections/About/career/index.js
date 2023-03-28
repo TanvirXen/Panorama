@@ -33,10 +33,9 @@ export default function Career() {
             <div>
               <div>
                 <Typography variant="large" color="neutral.b900">
-                Join our dynamic team at Panorama where passion meets purpose. Connect with us empower businesses and individuals to succeed, and elevate your career to new heights.
-                <br/> 
-                <br/> 
+                Join our dynamic team at Panorama where passion meets purpose. Connect with us empower businesses and individuals to succeed, and elevate your career to new heights. 
 Submit your resume and cover letter to info@panoramamas.com today.
+
                 </Typography>
               </div>
             </div>

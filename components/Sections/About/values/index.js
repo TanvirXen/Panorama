@@ -24,6 +24,7 @@ export default function Values() {
               <div style={{ paddingTop: "24px", paddingBottom: "24px" }}>
                 <Typography variant="large" color="neutral.b200">
                 Conducting diagnosing of your businesses is expensive, time-sensitive, and hectic which stands in the way to solve the problems you are facing, but we are here to assist.
+
                 </Typography>
               </div>
             </Grid>
@@ -42,6 +43,7 @@ export default function Values() {
                   <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
                     Fostering transparency, straightforwardness, and leading by example.
+
                     </Typography>
                   </div>
                 </div>
@@ -59,6 +61,7 @@ export default function Values() {
                   <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
                     Continuously acquiring new knowledge and skills, and being flexible and responsive to changing circumstances
+
                     </Typography>
                   </div>
                 </div>
@@ -76,6 +79,7 @@ export default function Values() {
                   <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
                     Assembling geniuses and building valuable relationships with our people, clients, partners, and planet.
+
                     </Typography>
                   </div>
                 </div>

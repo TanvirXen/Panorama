@@ -5,9 +5,10 @@ export default function HeroAbout() {
     <div className="abthero">
       <Container maxWidth="xl">
         <p className="abtp">
-          Solve business challenges:
-          <br />
-          Understand. Prioritize. Act.
+        Overcoming challenges: 
+        <br/>
+Acknowledge, analyze and act.
+
         </p>
       </Container>
     </div>

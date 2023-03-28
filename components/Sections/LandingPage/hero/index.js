@@ -32,12 +32,10 @@ export default function Hero() {
           <Grid md={8}>
             <div className="trst">
               <Typography variant="h4" color="neutral.b900">
-                Unlock your full potential and turn your dreams into reality
-                with the expert support of Panorama.
-                <br />
-                <br />
-                Let us be your guiding light, empowering you to reach new
-                heights and achieve success beyond your dreams.
+
+
+              Let us be your guiding light on your quest to success. 
+
               </Typography>
               <div className="btmd">
                 <Button kind="primary" size="md">
