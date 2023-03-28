@@ -53,9 +53,9 @@ function NavbarM() {
                                 <li>
                                 <Link href="/rdd">Research</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                 <Link href="/contact">Contact Us</Link>
-                                </li>
+                                </li> */}
                             </ul>
 </div>
 <div style={{width:'200px',paddingTop:'60px',paddingLeft:'12px'}}>
