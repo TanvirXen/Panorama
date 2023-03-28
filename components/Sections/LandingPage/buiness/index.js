@@ -11,12 +11,14 @@ export default function Business() {
 					<Grid md={8}>
 						<div className="trst">
 							<Typography variant="h1R" color="neutral.b900">
-							Launch with confidence, we&apos;ve got your back
+							Launch with confidence
+
 							</Typography>
 
 							<div>
 								<Typography variant="large" color="neutral.b200">
-								Take the reins of your business with ease. From financial planning to employee engagement, our expertise will steer you towards a successful future.
+								Every Step of the way, from financial planning to employee engagement, we have got your back. 
+
 								</Typography>
 							</div>
 						</div>
@@ -35,7 +37,8 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Understand your business and reach success with our comprehensive assessment. Gain clarity and focus on the areas that matter most.
+								Gain clarity and refurbish your focus on the areas that matter most.
+
 								</Typography>
 							</div>
 						</div>
@@ -46,14 +49,17 @@ export default function Business() {
 				
 							<div>
 								<Typography variant="large" color="neutral.b800">
-								Solve your Business Problems
+								Formulate effective, durable, and easy solutions to your problems.
+
 								</Typography>
 							</div>
 
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Effortlessly solve your business problems with our expert consultants and top-notch services. Experience growth and success, today.
+								Formulate effective, durable, and easy solutions to your problems.
+
+
 								</Typography>
 							</div>
 						</div>
@@ -70,7 +76,8 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Achieve your dreams with our expert assessment and consultancy. Take charge and make them a reality.
+								Plan ahead and steer towards the future you envisioned 
+
 								</Typography>
 							</div>
 						</div>

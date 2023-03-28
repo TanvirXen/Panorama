@@ -146,9 +146,9 @@ export default function Work() {
 
               <div>
                 <Typography variant="large" color="neutral.b200">
-                  Diagnosing what is wrong with businesses is expensive,
-                  time-sensitive, and hectic which stands in the way to solve
-                  the problems you are facing.
+                Collaborate with us to nurture your business needs. 
+
+
                 </Typography>
               </div>
             </div>

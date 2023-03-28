@@ -3,7 +3,9 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { TextInput, Select, SelectItem, Checkbox, Button } from "@carbon/react";
 import Grid from "@mui/material/Grid";
+import { useRouter } from 'next/navigation';
 export default function Growth() {
+  const router = useRouter();
   return (
     <div className="growth">
       <Container maxWidth="xl">
@@ -11,15 +13,14 @@ export default function Growth() {
           <div></div>
           <div style={{ paddingTop: "8px" }}>
             <Typography variant="h1R" color="neutral.b900">
-              Realize your aspirations with Panorama - take control and succeed
+            Take control and succeed
+
             </Typography>
           </div>
           <div style={{ paddingTop: "60px" }}>
             <Typography variant="large" color="neutral.b200">
-              Unleash your business potential with our full-spectrum of
-              solutions. Get a bird&apos;s eye view with our insightful business
-              assessment, and accelerate growth with our dynamic consultancy and
-              solution services.@ccc
+            Get a bird&apos;s-eye view with our insightful business assessment, and speeden up your growth with our dynamic consultation and solution services.
+
             </Typography>
           </div>
         </div>
@@ -37,14 +38,12 @@ export default function Growth() {
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                  Partner with us for unrivaled growth. Our services go beyond
-                  just delivering - they&apos;re designed to be a steadfast ally on
-                  your journey to success. With us by your side, you&apos;ll have the
-                  unwavering support you need to reach new heights.
+                Join us and we will help you expand to new heights. We want to be more than just a delivery service, and our offerings reflect that. When we're on your side, nothing can stop you from accomplishing your goals.
+
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
-              <Button kind="primary" size="lg">
+              <Button kind="primary" size="lg" onClick={() => router.push('/about')}>
                 Learn More
                 </Button>
               </div>

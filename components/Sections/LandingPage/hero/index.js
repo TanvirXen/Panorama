@@ -17,7 +17,7 @@ export default function Hero() {
           </Grid>
           <Grid md={4}>
             <div className="rightd">
-              <Button kind="primary" size="md">
+              <Button kind="primary" size="md" onClick={()=>window.open("https://app.panoramamas.com/")}>
                 Get Started
               </Button>
             </div>
@@ -38,7 +38,7 @@ export default function Hero() {
 
               </Typography>
               <div className="btmd">
-                <Button kind="primary" size="md">
+                <Button kind="primary" size="md" onClick={()=>window.open("https://app.panoramamas.com/")}>
                   Get Started
                 </Button>
               </div>

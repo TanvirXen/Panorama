@@ -92,7 +92,7 @@ export default function Service() {
           </Grid>
           <Grid container spacing={0} md={12} lg={12} xl={8}>
             {serData.map((e) => {
-              return <CardService img={e.img} name={e.name} desc={e.desc} key={e.name} />;
+              return <CardService img={e.img} name={e.name} desc={e.desc} key={e.name} url={e.url} />;
             })}
           </Grid>
         </Grid>

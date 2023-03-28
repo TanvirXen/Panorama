@@ -74,8 +74,10 @@ const StyledMenu = styled((props) => (
     },
   },
 }));
+import { useRouter } from 'next/navigation';
 export default function Navbar() {
   const dropdownRef = useRef(null);
+  const router = useRouter();
   //Solutions
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -131,6 +133,7 @@ export default function Navbar() {
                   variant="small"
                   color="b800"
                   style={{ cursor: "pointer" }}
+                  onClick={()=>router.push("/assessment")}
                 >
                   Assesment
                 </Typography>
@@ -189,7 +192,7 @@ export default function Navbar() {
               </div>
               <div className="navpcsec">
                 {/* <Button kind="ghost" size="md" className='btns' >Log in</Button> */}
-                <Button kind="primary" size="md" className="btnss">
+                <Button kind="primary" size="md" className="btnss" onClick={()=>window.open("https://app.panoramamas.com/")}>
                   Get Started
                 </Button>
               </div>

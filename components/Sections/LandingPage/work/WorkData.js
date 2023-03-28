@@ -1,8 +1,9 @@
 const WorkData = [
-  { id: "01", name: "Startups", desc: "Achieve startup success with our expert guidance. We provide resources and support for creating unique products or services. Let us help you navigate your journey." },
-  { id: "02", name: "Corporate", desc: "Achieve your corporation's goals with our expert services. Let us assist you improve efficiency and profitability through consulting, technology solutions, and support." },
-  { id: "03", name: "Government ", desc: "Get innovative and digitally-driven solutions for government agencies. Find the right solutions for your challenges, and create a better tomorrow for your citizens." },
-  { id: "04", name: "NGOs", desc: "Fulfill you the missions of you NGOs/iNGO, and make a meaningful impact in the world. Let's work together to empower your organization and drive effective changes." },
-  { id: "05", name: "Venture Capital", desc: "Unlock high-growth potential with our venture capital services. Let us assist you make smart investment decisions." },
+  { id: "01", name: "Startups", desc: "Started off with a brilliant idea but struggling to catch-up with the market trends? we are just a knock away." },
+  { id: "02", name: "Corporate", desc: "Seeking resources and connectivity to enhance your corporate networks? Reach out to us!" },
+  { id: "03", name: "Government ", desc: "Striving to bring about positive changes on a mass level but having trouble sorting out the proper way to do it? Let’s work together." },
+  { id: "04", name: "NGOs", desc: "Aspiring for positive reformation but worried about keeping your vision and mission aligned? Channel your concers towards us and let us take care of the rest.  " },
+  { id: "05", name: "Venture Capital", desc: "Looking to invest but confused about whom to trust? Let us assist you make smart investment decisions." },
+  { id: "06", name: "SMEs", desc: "Looking to craft a sustainable business model? include us on your team! " },
 ];
 export default WorkData
