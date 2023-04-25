@@ -75,6 +75,7 @@ const StyledMenu = styled((props) => (
   },
 }));
 import { useRouter } from 'next/navigation';
+import Link from "next/link";
 export default function Navbar() {
   const dropdownRef = useRef(null);
   const router = useRouter();
@@ -119,182 +120,80 @@ export default function Navbar() {
   useOnHoverOutside(dropdownRef, handleClose3);
   return (
     <div>
-      {width > 1080 ? (
         <div className="nav">
           <Container maxWidth="xl">
             <div className="navpc">
               <div className="lgtxt">
                 <img src="/logoFull.svg" alt="" srcset="" />
-                <div className="headerBar">
-
-                </div>
-                <div className="line"></div>
-                <Typography
-                  variant="small"
-                  color="b800"
-                  style={{ cursor: "pointer" }}
-                  onClick={()=>router.push("/assessment")}
-                >
-                  Assesment
-                </Typography>
-
-                <Typography
-                  variant="small"
-                  color="b800"
-                  aria-controls={open ? "demo-customized-menu" : undefined}
-                  aria-haspopup="true"
-                  style={{ cursor: "pointer" }}
-                  aria-expanded={open ? "true" : undefined}
-                  disableElevation
-                  onClick={handleClick}
-                  //   endIcon={<KeyboardArrowDownIcon />}
-                >
-                  Solutions <ChevronDown />
-                </Typography>
-                <Typography
-                  variant="small"
-                  color="b800"
-                  style={{ cursor: "pointer" }}
-                  aria-controls={open1 ? "Consulting" : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={open1 ? "true" : undefined}
-                  disableElevation
-                  onClick={handleClick1}
-                >
-                  Consulting <ChevronDown />
-                </Typography>
-                <Typography
-                  variant="small"
-                  color="b800"
-                  style={{ cursor: "pointer" }}
-                  aria-controls={open2 ? "demo-customized-menu" : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={open2 ? "true" : undefined}
-                  disableElevation
-                  onClick={handleClick2}
-                >
-                  Capital <ChevronDown />
-                </Typography>
-                <Typography
-                  variant="small"
-                  color="b800"
-                  style={{ cursor: "pointer" }}
-                  aria-controls={open3 ? "demo-customized-menu" : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={open3 ? "true" : undefined}
-                  disableElevation
-                  onClick={handleClick3}
-                  // onMouseOver={handleClick3}
-                  // onMouseLeave={handleClose3}
-                >
-                  More <ChevronDown />
-                </Typography>
               </div>
+              <ul className="menu">
+                <li>
+                  <Link href="/">Assessment</Link>
+                </li>
+                <li>
+                  <Link href="/">Solutions</Link>
+                  <ChevronDown/>
+                  <ul className="submenu">
+                    <li>
+                      <Link href="/">Services</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Fractional CFO</Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link href="/">Consulting</Link>
+                  <ChevronDown/>
+                  <ul className="submenu">
+                    <li>
+                      <Link href="/">Business Consulting</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Impact Measurement</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Research, Documentation <br /> and Development</Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link href="/">Knowledge</Link>
+                  <ChevronDown/>
+                  <ul className="submenu">
+                    <li>
+                      <Link href="/">Courses</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Events and Sessions</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Resources</Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link href="/">More</Link>
+                  <ChevronDown/>
+                  <ul className="submenu">
+                    <li>
+                      <Link href="/">About</Link>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
               <div className="navpcsec">
                 {/* <Button kind="ghost" size="md" className='btns' >Log in</Button> */}
                 <Button kind="primary" size="md" className="btnss" onClick={()=>window.open("https://app.panoramamas.com/")}>
                   Get Started
                 </Button>
+                <div className="bars">
+                  <HamburgerOpen/>
+                </div>
               </div>
-              {/* Solution */}
-              <StyledMenu
-                id="demo-customized-menu"
-                MenuListProps={{
-                  "aria-labelledby": "demo-customized-button",
-                }}
-                anchorEl={anchorEl}
-                open={open}
-                autoFocus={false}
-                onClose={handleClose}
-              >
-                <MenuItem onClick={handleClose} disableRipple>
-                  Services
-                </MenuItem>
-                <Divider sx={{ my: 0.5 }} />
-                <MenuItem onClick={handleClose} disableRipple>
-                  Fractional CFO
-                </MenuItem>
-              </StyledMenu>
-              {/* Counsulting */}
-              <StyledMenu
-                id="Consulting"
-                MenuListProps={{
-                  "aria-labelledby": "Consulting",
-                }}
-                anchorEl={anchorEl1}
-                open={open1}
-                autoFocus={false}
-                onClose={handleClose1}
-              >
-                <MenuItem onClick={handleClose1} disableRipple>
-                  Business Consulting
-                </MenuItem>
-                <Divider sx={{ my: 0.5 }} />
-                <MenuItem onClick={handleClose1} disableRipple>
-                  Impact Measurement
-                </MenuItem>
-                <Divider sx={{ my: 0.5 }} />
-                <MenuItem onClick={handleClose1} disableRipple>
-                  Research, Documentation <br /> and Development
-                </MenuItem>
-              </StyledMenu>
-              {/* Capital */}
-              <StyledMenu
-                id="demo-customized-menu"
-                MenuListProps={{
-                  "aria-labelledby": "demo-customized-button",
-                }}
-                anchorEl={anchorEl2}
-                open={open2}
-                autoFocus={false}
-                onClose={handleClose2}
-              >
-                <MenuItem onClick={handleClose2} disableRipple>
-                  Courses
-                </MenuItem>
-                <Divider sx={{ my: 0.5 }} />
-                <MenuItem onClick={handleClose2} disableRipple>
-                  Events and Sessions
-                </MenuItem>
-                <Divider sx={{ my: 0.5 }} />
-                <MenuItem onClick={handleClose2} disableRipple>
-                  Resources
-                </MenuItem>
-              </StyledMenu>
-              {/* More */}
-              <StyledMenu
-                id="demo-customized-menu"
-                MenuListProps={{
-                  "aria-labelledby": "demo-customized-button",
-                }}
-                anchorEl={anchorEl3}
-                open={open3}
-                autoFocus={false}
-                onClose={handleClose3}
-              >
-                <MenuItem onClick={handleClose3} disableRipple>
-                  About
-                </MenuItem>
-              </StyledMenu>
             </div>
           </Container>
         </div>
-      ) : 
-      (<NavbarM/>
-        // <div className="mobNav">
-        //   <Container maxWidth="xl">
-        //     <div className="mnba">
-        //       <div>
-        //         <img src="/logoFull.svg" alt="" srcset="" />
-        //       </div>
-        //       <div className="nma">
-        //         <HamburgerOpen />
-        //       </div>
-        //     </div>
-        //   </Container>
-        // </div>
-      )
-      }
     </div>
   );
 }

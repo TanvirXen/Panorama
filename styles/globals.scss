@@ -37,6 +37,7 @@ body {
 .nav {
   background-color: #fff;
   height: 94px;
+  position: relative;
 }
 .mobNav {
   background-color: #fff;
@@ -88,9 +89,6 @@ body {
   }
 }
 .navpc {
-  padding-top: 20px;
-  padding-bottom: 20px;
-
   display: flex;
   justify-content: space-between;
 
@@ -105,7 +103,77 @@ body {
   .lgtxt {
     display: flex;
     align-items: center;
+    padding: 25px 0;
   }
+  .navpcsec{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 20px;
+}
+
+.menu li a {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #0D0D0D;
+  padding: 38px 0;
+  display: block;
+}
+
+.menu li svg {}
+
+.submenu {
+  position: absolute;
+  top: 95%;
+  background: #ffffff;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s;
+}
+
+.submenu li {
+  margin: 0;
+}
+
+.submenu li a {
+  padding: 9px 16px;
+  width: max-content;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.16px;
+  color: #161616;
+}
+
+.menu li:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+.bars {
+  display: none;
 }
 
 .btns {
@@ -1185,6 +1253,29 @@ color: #000;
   }
 }
 @media only screen and (max-width: 1000px) {
+  .navpc .navpcsec button{
+    display: none;
+  }
+  .menu{
+    position: absolute;
+    top: 100%;
+    display: block;
+    background: #ffffff;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+  }
+  .menu li {
+    justify-content: space-between;
+    margin: 0 20px;
+    border-top: 1px solid #E0E0E0;
+  }
+  .menu li a{
+    padding: 11px;
+  }
+  .bars {
+    display: block;
+  }
   .cntbx {
     display: block;
   }
