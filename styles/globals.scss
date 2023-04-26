@@ -1253,17 +1253,23 @@ color: #000;
   }
 }
 @media only screen and (max-width: 1000px) {
+  .submenu{
+    display: none;
+  }
   .navpc .navpcsec button{
     display: none;
   }
   .menu{
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 94px;
     display: block;
     background: #ffffff;
-    width: 100%;
     z-index: 1;
     left: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: .3s;
+    width: 0%;
   }
   .menu li {
     justify-content: space-between;
@@ -1275,6 +1281,7 @@ color: #000;
   }
   .bars {
     display: block;
+    cursor: pointer;
   }
   .cntbx {
     display: block;

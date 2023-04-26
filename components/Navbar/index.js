@@ -76,6 +76,8 @@ const StyledMenu = styled((props) => (
 }));
 import { useRouter } from 'next/navigation';
 import Link from "next/link";
+import HamburgerClose from "../reUse/hamburgerClose";
+import LeftArrow from "../reUse/LeftArrow";
 export default function Navbar() {
   const dropdownRef = useRef(null);
   const router = useRouter();
@@ -118,6 +120,10 @@ export default function Navbar() {
   const { height, width } = useWindowSize();
   console.log(width);
   useOnHoverOutside(dropdownRef, handleClose3);
+  const [menuOpen, setmenuOpen] = useState(false)
+
+  const [selectedSate, setselectedSate] = useState('');
+
   return (
     <div>
         <div className="nav">
@@ -126,26 +132,81 @@ export default function Navbar() {
               <div className="lgtxt">
                 <img src="/logoFull.svg" alt="" srcset="" />
               </div>
-              <ul className="menu">
-                <li>
-                  <Link href="/">Assessment</Link>
-                </li>
-                <li>
-                  <Link href="/">Solutions</Link>
-                  <ChevronDown/>
-                  <ul className="submenu">
+              <ul className="menu" style={menuOpen? {"width":"100%"} : {"width":"0%"}}>
+                {selectedSate === ''? (
+                  <>
                     <li>
-                      <Link href="/">Services</Link>
+                      <Link href="/">Assessment</Link>
                     </li>
-                    <li>
-                      <Link href="/">Fractional CFO</Link>
+                    <li onClick={()=>setselectedSate('solutions')}>
+                      <a>Solutions</a>
+                      <ChevronDown/>
+                      <ul className="submenu">
+                        <li>
+                          <Link href="/">Services</Link>
+                        </li>
+                        <li>
+                          <Link href="/">Fractional CFO</Link>
+                        </li>
+                      </ul>
                     </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/">Consulting</Link>
-                  <ChevronDown/>
-                  <ul className="submenu">
+                    <li onClick={()=>setselectedSate('consulting')}>
+                      <Link href="/">Consulting</Link>
+                      <ChevronDown/>
+                      <ul className="submenu">
+                        <li>
+                          <Link href="/">Business Consulting</Link>
+                        </li>
+                        <li>
+                          <Link href="/">Impact Measurement</Link>
+                        </li>
+                        <li>
+                          <Link href="/">Research, Documentation <br /> and Development</Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li onClick={()=>setselectedSate('knowledge')}>
+                      <Link href="/">Knowledge</Link>
+                      <ChevronDown/>
+                      <ul className="submenu">
+                        <li>
+                          <Link href="/">Courses</Link>
+                        </li>
+                        <li>
+                          <Link href="/">Events and Sessions</Link>
+                        </li>
+                        <li>
+                          <Link href="/">Resources</Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li onClick={()=>setselectedSate('more')}>
+                      <Link href="/">More</Link>
+                      <ChevronDown/>
+                      <ul className="submenu">
+                        <li>
+                          <Link href="/">About</Link>
+                        </li>
+                      </ul>
+                    </li>
+                  </>
+                ) : selectedSate === 'solutions'? (
+                <>
+                  <li onClick={()=>setselectedSate('')}>
+                    <a><LeftArrow /> Solutions</a>
+                  </li>
+                  <li>
+                    <Link href="/">Services</Link>
+                  </li>
+                  <li>
+                    <Link href="/">Fractional CFO</Link>
+                  </li>
+                </>
+                ) : selectedSate === 'consulting'? (
+                  <>
+                    <li onClick={()=>setselectedSate('')}>
+                      <a><LeftArrow /> Consulting</a>
+                    </li>
                     <li>
                       <Link href="/">Business Consulting</Link>
                     </li>
@@ -155,12 +216,12 @@ export default function Navbar() {
                     <li>
                       <Link href="/">Research, Documentation <br /> and Development</Link>
                     </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/">Knowledge</Link>
-                  <ChevronDown/>
-                  <ul className="submenu">
+                  </>
+                ) : selectedSate === 'knowledge'? (
+                  <>
+                    <li onClick={()=>setselectedSate('')}>
+                      <a><LeftArrow /> Knowledge</a>
+                    </li>
                     <li>
                       <Link href="/">Courses</Link>
                     </li>
@@ -170,25 +231,25 @@ export default function Navbar() {
                     <li>
                       <Link href="/">Resources</Link>
                     </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/">More</Link>
-                  <ChevronDown/>
-                  <ul className="submenu">
+                  </>
+                ) : selectedSate === 'more'? (
+                  <>
+                    <li onClick={()=>setselectedSate('')}>
+                      <a><LeftArrow /> More</a>
+                    </li>
                     <li>
                       <Link href="/">About</Link>
                     </li>
-                  </ul>
-                </li>
+                  </>
+                ) : ""}
               </ul>
               <div className="navpcsec">
                 {/* <Button kind="ghost" size="md" className='btns' >Log in</Button> */}
                 <Button kind="primary" size="md" className="btnss" onClick={()=>window.open("https://app.panoramamas.com/")}>
                   Get Started
                 </Button>
-                <div className="bars">
-                  <HamburgerOpen/>
+                <div className="bars" onClick={()=>setmenuOpen(!menuOpen)}>
+                  {menuOpen? <HamburgerClose /> : <HamburgerOpen />}
                 </div>
               </div>
             </div>
