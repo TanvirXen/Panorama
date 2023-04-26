@@ -1256,6 +1256,12 @@ color: #000;
   .submenu{
     display: none;
   }
+  .mobileMenu{
+    width: 0%;
+  }
+  .pcMenu{
+    width: 100%!important;
+  }
   .navpc .navpcsec button{
     display: none;
   }

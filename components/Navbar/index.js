@@ -132,7 +132,7 @@ export default function Navbar() {
               <div className="lgtxt">
                 <img src="/logoFull.svg" alt="" srcset="" />
               </div>
-              <ul className="menu" style={menuOpen? {"width":"100%"} : {"width":"0%"}}>
+              <ul className={menuOpen? "menu pcMenu" : "menu mobileMenu"}>
                 {selectedSate === ''? (
                   <>
                     <li>
