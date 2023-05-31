@@ -82,44 +82,7 @@ export default function Navbar() {
   const dropdownRef = useRef(null);
   const router = useRouter();
   //Solutions
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-  //Consulting
-  const [anchorEl1, setAnchorEl1] = React.useState(null);
-  const open1 = Boolean(anchorEl1);
-  const handleClick1 = (event) => {
-    setAnchorEl1(event.currentTarget);
-  };
-  const handleClose1 = () => {
-    setAnchorEl1(null);
-  };
-  //Capitals
-  const [anchorEl2, setAnchorEl2] = React.useState(null);
-  const open2 = Boolean(anchorEl2);
-  const handleClick2 = (event) => {
-    setAnchorEl2(event.currentTarget);
-  };
-  const handleClose2 = () => {
-    setAnchorEl2(null);
-  };
-  //More
-  const [anchorEl3, setAnchorEl3] = React.useState(null);
-  const open3 = Boolean(anchorEl3);
-  const handleClick3 = (event) => {
-    setAnchorEl3(event.currentTarget);
-  };
-  const handleClose3 = () => {
-    setAnchorEl3(null);
-  };
-  const { height, width } = useWindowSize();
-  console.log(width);
-  useOnHoverOutside(dropdownRef, handleClose3);
+
   const [menuOpen, setmenuOpen] = useState(false)
 
   const [selectedSate, setselectedSate] = useState('');
@@ -136,9 +99,18 @@ export default function Navbar() {
                 {selectedSate === ''? (
                   <>
                     <li>
-                      <Link href="/">Assessment</Link>
+                      <Link href="/">Home</Link>
                     </li>
-                    <li onClick={()=>setselectedSate('solutions')}>
+                    <li>
+                      <Link href="/">About Us</Link>
+                    </li>
+                    <li>
+                      <Link href="/">Knowledge Hub</Link>
+                    </li>
+                    <li>
+                      <Link href="/">FAQ</Link>
+                    </li>
+                    {/* <li onClick={()=>setselectedSate('solutions')}>
                       <a>Solutions</a>
                       <ChevronDown/>
                       <ul className="submenu">
@@ -188,7 +160,7 @@ export default function Navbar() {
                           <Link href="/">About</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                   </>
                 ) : selectedSate === 'solutions'? (
                 <>

@@ -113,14 +113,16 @@ export default function Home() {
         <meta property="og:image" content="/meta/home.png" />
       </Head>
       <Hero />
-      <Service />
-      <Growth />
-      {/* <Resources /> */}
       <Business />
+      <Growth />
+      <Service />
+     
+      {/* <Resources /> */}
+
       {/* <Trust /> */}
       <Work />
-      <Knowledge />
-      <FAQ />
+      {/* <Knowledge /> */}
+      {/* <FAQ /> */}
       <News />
       <Started />
     </div>

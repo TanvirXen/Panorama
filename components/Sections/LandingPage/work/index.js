@@ -146,8 +146,7 @@ export default function Work() {
 
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Collaborate with us to nurture your business needs. 
-
+                Elevate your business with our expertise. As trusted partners for SMEs, startups, venture capitalists, corporations, and government entities, we bring valuable insights and drive growth through expert assessments and consulting.
 
                 </Typography>
               </div>

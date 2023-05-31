@@ -19,14 +19,14 @@ export default function Service() {
     <div style={{paddingBottom:'100px'}}>
       <Container maxWidth="xl">
         <Grid container spacing={0}>
-          <Grid xs={12} sm={12} md={12}>
+          <Grid xs={12} sm={12} md={12}lg={12} xl={4}>
             <div className="trst">
               <Typography variant="large" color="neutral.b200">
-                Our Solutions
+                Our Services
               </Typography>
               <br />
               <Typography variant="h1R" color="neutral.b900">
-              Evaluate your impact through
+              We drive impact through...
               </Typography>
             </div>
           </Grid>

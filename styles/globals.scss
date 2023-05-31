@@ -18,6 +18,16 @@ body {
 .growthPadd {
   padding-left: 40px;
 }
+.cds--btn--primary{
+  z-index: 0;
+}
+.socialss{
+  display: inline-grid;
+  a{
+    padding-top: 16px;
+
+  }
+}
 .btnCL {
   background: #f5f5f5;
   width: auto;
@@ -37,7 +47,9 @@ body {
 .nav {
   background-color: #fff;
   height: 94px;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 .mobNav {
   background-color: #fff;
@@ -74,15 +86,16 @@ body {
   margin-top: 16px;
   margin-left: 16px;
   margin-bottom: 16px;
-
+  
   img {
-    width: 360px;
+    width: 100%;
     height: auto;
   }
   .mnt {
     background-color: #f5f5f5;
-    width: 360px;
+    width: 100%;
     padding: 24px;
+    height: 200px;
     div {
       padding-top: 12px;
     }
@@ -401,12 +414,20 @@ body {
   }
 }
 .heros {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 56px;
   padding-bottom: 56px;
-  img {
-    width: 100%;
+  padding-top: 94px;
+  background-image: url('/img/hero.png');
+  background-size: cover;
+    background-repeat: no-repeat;
+  height: 75vh;
+  .text{
+    width: 80%;
+    padding-left: 60px;
+    padding-top: 40px;
+    .stext{
+      width: 80%;
+      padding-top: 24px;
+    }
   }
 }
 .contct {
@@ -1486,6 +1507,7 @@ color: #000;
       }
     }
   }
+  
 }
 @media only screen and (max-width: 600px) {
 .abthero {
@@ -1498,6 +1520,24 @@ color: #000;
     font-size: 40px;
     line-height: 60px;
     color: #ffffff;
+  }
+}
+.heros {
+  padding-bottom: 56px;
+  padding-top: 94px;
+  background-image: url('/img/hero.png');
+  background-size: cover;
+    background-repeat: no-repeat;
+  height: 75vh;
+  width: 100%;
+  .text{
+    width: 100%;
+    padding-left: 12px;
+    padding-top: 40px;
+    .stext{
+      width: 100%;
+      padding-top: 24px;
+    }
   }
 }
 }

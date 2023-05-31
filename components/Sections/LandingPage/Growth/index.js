@@ -13,14 +13,13 @@ export default function Growth() {
           <div></div>
           <div style={{ paddingTop: "8px" }}>
             <Typography variant="h1R" color="neutral.b900">
-            Take control and succeed
+            Realize your aspirations with Panorama - take control and succeed
 
             </Typography>
           </div>
           <div style={{ paddingTop: "60px" }}>
             <Typography variant="large" color="neutral.b200">
-            Get a bird&apos;s-eye view with our insightful business assessment, and speeden up your growth with our dynamic consultation and solution services.
-
+            Unleash your business potential with our full-spectrum of solutions. Get a bird&apos;s eye view with our insightful business assessment, and accelerate growth with our dynamic consultancy and solution services.
             </Typography>
           </div>
         </div>
@@ -38,8 +37,7 @@ export default function Growth() {
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Join us and we will help you expand to new heights. We want to be more than just a delivery service, and our offerings reflect that. When we&apos;re on your side, nothing can stop you from accomplishing your goals.
-
+                Partner with us for unrivaled growth. Our services go beyond just delivering - they&apos;re designed to be a steadfast ally on your journey to success. With us by your side, you&apos;ll have the unwavering support you need to reach new heights.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>

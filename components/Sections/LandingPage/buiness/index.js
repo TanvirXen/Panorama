@@ -11,14 +11,13 @@ export default function Business() {
 					<Grid md={8}>
 						<div className="trst">
 							<Typography variant="h1R" color="neutral.b900">
-							Launch with confidence
+							Launch with confidence, we&apos;ve got your back
 
 							</Typography>
 
 							<div>
 								<Typography variant="large" color="neutral.b200">
-								Every Step of the way, from financial planning to employee engagement, we have got your back. 
-
+								Take the reins of your business with ease. From financial planning to employee engagement, our expertise will steer you towards a successful future.
 								</Typography>
 							</div>
 						</div>
@@ -30,15 +29,14 @@ export default function Business() {
 							<img src="polygon.svg" alt="" />
 							<div>
 								<Typography variant="large" color="neutral.b800">
-								Understand your Business
+								Solve your Business Problems
 								</Typography>
 							</div>
 
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Gain clarity and refurbish your focus on the areas that matter most.
-
+								Effortlessly solve your business problems with our expert consultants and top-notch services. Experience growth and success, today.
 								</Typography>
 							</div>
 						</div>
@@ -49,7 +47,7 @@ export default function Business() {
 				
 							<div>
 								<Typography variant="large" color="neutral.b800">
-								Formulate effective, durable, and easy solutions to your problems.
+								Understand your Business
 
 								</Typography>
 							</div>
@@ -57,8 +55,7 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Formulate effective, durable, and easy solutions to your problems.
-
+								Understand your business and reach success with our comprehensive assessment. Gain clarity and focus on the areas that matter most.
 
 								</Typography>
 							</div>
@@ -76,8 +73,7 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Plan ahead and steer towards the future you envisioned 
-
+								Achieve your dreams with our expert assessment and consultancy. Take charge and make them a reality.
 								</Typography>
 							</div>
 						</div>
