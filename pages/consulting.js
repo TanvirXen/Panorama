@@ -16,6 +16,9 @@ export default function Service() {
         <title>Expert Business Consulting Services</title>
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://vitals.vercel-insights.com" />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
