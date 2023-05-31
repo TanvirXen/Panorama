@@ -19,7 +19,7 @@ export default function Service() {
     <div style={{paddingBottom:'100px'}}>
       <Container maxWidth="xl">
         <Grid container spacing={0}>
-          <Grid xs={12} sm={12} md={12}lg={12} xl={4}>
+          <Grid xs={12} sm={12} md={12}>
             <div className="trst">
               <Typography variant="large" color="neutral.b200">
                 Our Services
