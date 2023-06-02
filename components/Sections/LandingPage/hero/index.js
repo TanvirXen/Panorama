@@ -15,8 +15,8 @@ export default function Hero() {
         Understand, prioritise and find solutions to your problems
               </Typography>
 <div className="stext">
-<Typography variant="large" color="neutral.b0">
-              Empowering individuals and fostering collective 
+<Typography variant="large" color="neutral.b10">
+Empowering individuals and fostering collective 
 growth to turn dreams into reality.
               </Typography>
 </div>

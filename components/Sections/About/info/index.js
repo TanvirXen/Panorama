@@ -16,7 +16,7 @@ export default function InfoCompany() {
                 Panorama strives to create a sustainable impact while delivering solutions to you
                 </Typography>
                 <div className="btrn">
-                  <div>
+                  <div style={{cursor:'pointer'}}>
                     <Typography variant="xsmall" color="primary.b300">
                       Download Company Profile
                     </Typography>
@@ -27,7 +27,12 @@ export default function InfoCompany() {
             <Grid sm={12} md={6} lg={7}>
               <div className="xrd">
               <Typography variant="h2R" color="neutral.b900">
-              Hurdle through your challenges with our custom-tailored assessments, in-depth analysis and unwavering support. 
+              Rise above the competition with Panorama's tailored business solutions
+                </Typography>
+                <br/>
+                <br/>
+              <Typography variant="h3R" color="neutral.b900">
+              Unleash your maximum potential through our personalized assessments, meticulous analysis, and unwavering support. By capitalizing on these resources, you can proactively stay ahead of the curve and successfully accomplish your objectives. Our dedication to your continuous learning and development ensures that you remain equipped with the latest knowledge and skills necessary for sustained growth and success. With our comprehensive approach, we are committed to empowering you to reach new heights in your personal and professional journey.
                 </Typography>
               </div>
               {/* <div className="xcd">
@@ -43,7 +48,10 @@ export default function InfoCompany() {
                 </div>
                 <div>
                   <Typography variant="h4" color="neutral.b900">
-                  Enabling and Empowering to achieve your dreams and grow together with Panorama.
+                  Empowering individuals and fostering collective growth to turn dreams into reality.
+                  <br/>
+                  <br/>
+We firmly believe in the trans-formative power of data, which has the ability to initiate change, unlock new opportunities, and drive businesses toward success. With this conviction, we are dedicated to equipping our clients with the necessary resources and intelligence to make well-informed decisions.
                   </Typography>
                 </div>
               </div>
@@ -55,8 +63,14 @@ export default function InfoCompany() {
                 </div>
                 <div>
                   <Typography variant="h4" color="neutral.b900">
-                  Redefining the current business process through data-driven solutions to solve emerging challenges. Providing sustainable, user-centric, and comprehensive global solutions.
-
+               
+Redefining the current business process through data-driven solutions to solve emerging challenges. Providing sustainable, user-centric, and comprehensive global solutions.
+<br/>
+                  <br/>
+Our mission goes beyond mere surface-level solutions. We are committed to addressing emerging obstacles, tackling complex business problems, and achieving sustainable outcomes. By harnessing the valuable insights provided by data, we empower organizations to optimize their performance, reduce costs, and enhance overall efficiency.
+<br/>
+                  <br/>
+Redefining the current business process through data-driven solutions to solve emerging challenges. Providing sustainable, user-centric, and comprehensive global solutions.
                   </Typography>
                 </div>
               </div>

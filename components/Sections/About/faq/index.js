@@ -15,11 +15,11 @@ export default function FAQ() {
     <div className="faq">
       <div className="fra">
         <Container maxWidth="xl">
-          <div>
+          {/* <div>
             <Typography variant="h1R" color="neutral.b900">
               Frequently Asked Questions
             </Typography>
-          </div>
+          </div> */}
           <div className="faqa">
      {
       FaqData.map((e)=>{

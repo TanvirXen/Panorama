@@ -8,21 +8,21 @@ export default function Business() {
 		<div>
 			<Container maxWidth="xl">
 				<Grid container spacing={0} style={{paddingBottom:'100px'}}>
-					<Grid md={8}>
+					<Grid md={10}>
 						<div className="trst">
 							<Typography variant="h1R" color="neutral.b900">
-							Launch with confidence, we&apos;ve got your back
+							We are here to provide guidance and support in navigating the challenges of starting a business.
 
 							</Typography>
 
 							<div>
 								<Typography variant="large" color="neutral.b200">
-								Take the reins of your business with ease. From financial planning to employee engagement, our expertise will steer you towards a successful future.
+								Identifying problems within businesses can be a burdensome and time-consuming undertaking, often resulting in significant costs and impeding timely resolution of the issues at hand.
 								</Typography>
 							</div>
 						</div>
 					</Grid>
-					<Grid md={4}></Grid>
+					<Grid md={2}></Grid>
 
 					<Grid md={12} lg={4}>
 						<div className="pdfs">
@@ -36,7 +36,7 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Effortlessly solve your business problems with our expert consultants and top-notch services. Experience growth and success, today.
+								Overcome your business challenges with ease: Harness the expertise of our skilled consultants and access our exceptional services for a seamless resolution. Start unlocking growth and achieving unprecedented success today.
 								</Typography>
 							</div>
 						</div>
@@ -55,7 +55,7 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Understand your business and reach success with our comprehensive assessment. Gain clarity and focus on the areas that matter most.
+								Achieve business success by gaining a deep understanding of your organization through our assessment. Our comprehensive approach will provide you with clarity and help you prioritize the key areas essential for growth and achievement.
 
 								</Typography>
 							</div>
@@ -73,7 +73,7 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Achieve your dreams with our expert assessment and consultancy. Take charge and make them a reality.
+								Seize control of your future by turning your dreams into reality with our expert assessment and consultancy services. Empower yourself to take charge and confidently pursue your aspirations.
 								</Typography>
 							</div>
 						</div>

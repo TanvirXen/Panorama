@@ -12,20 +12,19 @@ body {
   color: #2e2e2e !important;
   font-weight: 500;
 }
-.xrd{
+.xrd {
   padding-bottom: 24px;
 }
 .growthPadd {
   padding-left: 40px;
 }
-.cds--btn--primary{
+.cds--btn--primary {
   z-index: 0;
 }
-.socialss{
+.socialss {
   display: inline-grid;
-  a{
+  a {
     padding-top: 16px;
-
   }
 }
 .btnCL {
@@ -86,7 +85,7 @@ body {
   margin-top: 16px;
   margin-left: 16px;
   margin-bottom: 16px;
-  
+
   img {
     width: 100%;
     height: auto;
@@ -95,7 +94,7 @@ body {
     background-color: #f5f5f5;
     width: 100%;
     padding: 24px;
-    height: 200px;
+    min-height: 200px;
     div {
       padding-top: 12px;
     }
@@ -118,7 +117,7 @@ body {
     align-items: center;
     padding: 25px 0;
   }
-  .navpcsec{
+  .navpcsec {
     display: flex;
     align-items: center;
   }
@@ -139,17 +138,18 @@ body {
 }
 
 .menu li a {
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 18px;
-  color: #0D0D0D;
+  color: #0d0d0d;
   padding: 38px 0;
   display: block;
 }
 
-.menu li svg {}
+.menu li svg {
+}
 
 .submenu {
   position: absolute;
@@ -160,7 +160,7 @@ body {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .submenu li {
@@ -170,7 +170,7 @@ body {
 .submenu li a {
   padding: 9px 16px;
   width: max-content;
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -210,6 +210,11 @@ body {
   min-height: 400px;
   background-color: #fff;
 }
+
+.newsG {
+  min-height: 400px;
+  background-color: #f5f5f5;
+}
 .trust {
   min-height: 400px;
   background-color: #fff;
@@ -224,7 +229,7 @@ body {
 }
 .trst {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   div {
     padding-top: 50px;
   }
@@ -310,7 +315,7 @@ body {
 .stay {
   padding-top: 100px;
   div {
-    padding-top: 8px;
+    margin-top: 8px;
   }
 }
 .footer {
@@ -409,22 +414,22 @@ body {
     padding-top: 80px;
     padding-bottom: 20px;
   }
-  .desc{
+  .desc {
     padding-right: 50px;
   }
 }
 .heros {
   padding-bottom: 56px;
   padding-top: 94px;
-  background-image: url('/img/hero.png');
+  background-image: url("/img/hero.png");
   background-size: cover;
-    background-repeat: no-repeat;
-  height: 75vh;
-  .text{
+  background-repeat: no-repeat;
+  height: 85vh;
+  .text {
     width: 80%;
     padding-left: 60px;
     padding-top: 40px;
-    .stext{
+    .stext {
       width: 80%;
       padding-top: 24px;
     }
@@ -474,15 +479,15 @@ body {
   color: #0065ff;
   background: #e6f0ff;
 }
-.hamburger{
-  background: #FFFFFF;
+.hamburger {
+  background: #ffffff;
   max-height: 80px;
   min-height: 80px;
   display: flex;
   justify-content: space-between;
   width: 100vw;
 }
-.hamburgera{
+.hamburgera {
   background: #fff;
   max-height: 80px;
   min-height: 80px;
@@ -497,30 +502,28 @@ body {
   padding-inline-start: 12px;
 }
 .ham ul li {
-  list-style:none;
-  color: #002169  ;
+  list-style: none;
+  color: #002169;
   padding-top: 32px;
 }
-a{
+a {
   text-decoration: none !important;
 }
-.tagcs{
+.tagcs {
   padding-top: 0px !important;
 }
 .ham ul a {
   text-decoration: none;
   font-family: Ubuntu;
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 30px;
-color: #000;
-
-
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
 }
 
-.ham ul a:hover{
-    color:#0065FF;
+.ham ul a:hover {
+  color: #0065ff;
 }
 
 .growth {
@@ -538,7 +541,54 @@ color: #000;
   padding-bottom: 100px;
 }
 .overText {
-  width: 80%;
+  width: 85%;
+}
+.hgf {
+  width: 100%;
+  height: 2px;
+
+  background: #d9d9d9;
+}
+.xcv {
+  // border-right:3px solid #D9D9D9;
+  .rda {
+    display: flex;
+    justify-content: space-between;
+    .cda {
+      border-right: 3px solid #d9d9d9;
+      padding: 20px 20px 20px 20px;
+      text-align: center;
+      width: 100%;
+      .hpa2 {
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #ebebeb;
+      }
+      .hpa1 {
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.abtpfaq {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  padding-top: 24px;
+}
+.teamAA {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
 }
 .addr {
   min-height: 100px;
@@ -554,8 +604,8 @@ color: #000;
   background-color: #f5f5f5;
   padding-bottom: 100px;
 }
-.serveBusKnowledge{
-  background-color: #FFFFFF;
+.serveBusKnowledge {
+  background-color: #ffffff;
   padding-bottom: 100px;
 }
 .abthero {
@@ -583,8 +633,8 @@ color: #000;
   background-repeat: no-repeat;
   padding-top: 94px;
 }
-.headerBar{
-  border: 1px solid #EBEBEB;
+.headerBar {
+  border: 1px solid #ebebeb;
   height: 100%;
   margin-right: 20px;
 }
@@ -612,7 +662,7 @@ color: #000;
   background-repeat: no-repeat;
   padding-top: 94px;
 }
-.serheroser{
+.serheroser {
   width: 60%;
   padding-top: 60px;
 }
@@ -646,13 +696,13 @@ color: #000;
   .crs {
     padding: 12px;
     height: 100%;
-    display:inline-grid;
-    div{
-      padding-bottom:'12px'
+    display: inline-grid;
+    div {
+      padding-bottom: "12px";
     }
-    .vbr{
-      display:inline-grid;
-      align-items:end;
+    .vbr {
+      display: inline-grid;
+      align-items: end;
     }
   }
 }
@@ -665,13 +715,13 @@ color: #000;
   .crs {
     padding: 12px;
     height: 100%;
-    display:inline-grid;
-    div{
-      padding-bottom:'12px'
+    display: inline-grid;
+    div {
+      padding-bottom: "12px";
     }
-    .vbr{
-      display:inline-grid;
-      align-items:end;
+    .vbr {
+      display: inline-grid;
+      align-items: end;
     }
   }
 }
@@ -684,13 +734,13 @@ color: #000;
   .crs {
     padding: 12px;
     height: 100%;
-    display:inline-grid;
-    div{
-      padding-bottom:'12px'
+    display: inline-grid;
+    div {
+      padding-bottom: "12px";
     }
-    .vbr{
-      display:inline-grid;
-      align-items:end;
+    .vbr {
+      display: inline-grid;
+      align-items: end;
     }
   }
 }
@@ -703,17 +753,25 @@ color: #000;
   .crs {
     padding: 12px;
     height: 100%;
-    display:inline-grid;
-    div{
-      padding-bottom:'12px'
+    display: inline-grid;
+    div {
+      padding-bottom: "12px";
     }
-    .vbr{
-      display:inline-grid;
-      align-items:end;
+    .vbr {
+      display: inline-grid;
+      align-items: end;
     }
   }
 }
 .abtprofile {
+  background-color: #fff;
+  min-height: 400px;
+  .anb {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.abtprofiles {
   background-color: #f5f5f5;
   min-height: 400px;
   .anb {
@@ -726,6 +784,10 @@ color: #000;
 }
 .abtTeam {
   background-color: #fff;
+  min-height: 800px;
+}
+.abtTeamA {
+  background-color: #f5f5f5;
   min-height: 800px;
 }
 .faq {
@@ -744,7 +806,7 @@ color: #000;
   padding: 8px;
   width: 100%;
   img {
-    width: 100%;
+    width: 70%;
   }
   .tms {
     padding-top: 8px;
@@ -1183,29 +1245,29 @@ color: #000;
     }
   }
 }
-.hsecassbg{
-  background-color: #F5F5F5;
+.hsecassbg {
+  background-color: #f5f5f5;
 }
-.hsecAssesment{
+.hsecAssesment {
   padding-top: 100px;
   padding-bottom: 200px;
 }
-.hbrss{
+.hbrss {
   display: flex;
-    justify-content: end;
-    padding-top: 60px;
+  justify-content: end;
+  padding-top: 60px;
 }
-.assesDisplay{
+.assesDisplay {
   position: relative;
   bottom: 100px;
   padding-left: 40px;
   width: 100%;
   padding-right: 40px;
-  img{
+  img {
     width: 100%;
   }
 }
-.assesSection3{
+.assesSection3 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -1278,19 +1340,19 @@ color: #000;
   }
 }
 @media only screen and (max-width: 1000px) {
-  .submenu{
+  .submenu {
     display: none;
   }
-  .mobileMenu{
+  .mobileMenu {
     width: 0%;
   }
-  .pcMenu{
-    width: 100%!important;
+  .pcMenu {
+    width: 100% !important;
   }
-  .navpc .navpcsec button{
+  .navpc .navpcsec button {
     display: none;
   }
-  .menu{
+  .menu {
     position: fixed;
     top: 94px;
     display: block;
@@ -1299,15 +1361,15 @@ color: #000;
     left: 0;
     height: 100%;
     overflow: hidden;
-    transition: .3s;
+    transition: 0.3s;
     width: 0%;
   }
   .menu li {
     justify-content: space-between;
     margin: 0 20px;
-    border-top: 1px solid #E0E0E0;
+    border-top: 1px solid #e0e0e0;
   }
-  .menu li a{
+  .menu li a {
     padding: 11px;
   }
   .bars {
@@ -1511,37 +1573,35 @@ color: #000;
       }
     }
   }
-  
 }
 @media only screen and (max-width: 600px) {
-.abthero {
-
-  .abtp {
-    padding-top: 230px;
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 60px;
-    color: #ffffff;
-  }
-}
-.heros {
-  padding-bottom: 56px;
-  padding-top: 94px;
-  background-image: url('/img/hero.png');
-  background-size: cover;
-    background-repeat: no-repeat;
-  height: 75vh;
-  width: 100%;
-  .text{
-    width: 100%;
-    padding-left: 12px;
-    padding-top: 40px;
-    .stext{
-      width: 100%;
-      padding-top: 24px;
+  .abthero {
+    .abtp {
+      padding-top: 230px;
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 60px;
+      color: #ffffff;
     }
   }
-}
+  .heros {
+    padding-bottom: 56px;
+    padding-top: 94px;
+    background-image: url("/img/hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+    .text {
+      width: 100%;
+      padding-left: 12px;
+      padding-top: 40px;
+      .stext {
+        width: 100%;
+        padding-top: 24px;
+      }
+    }
+  }
 }

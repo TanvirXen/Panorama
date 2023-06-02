@@ -102,13 +102,13 @@ export default function Navbar() {
                       <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link href="/">About Us</Link>
+                      <Link href="/about">About Us</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/">Knowledge Hub</Link>
-                    </li>
+                    </li> */}
                     <li>
-                      <Link href="/">FAQ</Link>
+                      <Link href="/faq">FAQ</Link>
                     </li>
                     {/* <li onClick={()=>setselectedSate('solutions')}>
                       <a>Solutions</a>

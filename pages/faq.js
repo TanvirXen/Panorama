@@ -10,12 +10,12 @@ import News from "../components/Sections/LandingPage/News/index.js";
 import Started from "../components/Sections/LandingPage/started/index";
 import Advisor from "@/components/Sections/About/team/advisor";
 import NewsG from "@/components/Sections/LandingPage/News/index1";
-import TeamExp from "@/components/Sections/About/teamExperience";
-export default function About() {
+import FAQAbout from "@/components/Sections/About/heroAbout/faqAbout";
+export default function FAQs() {
   return (
     <div>
-            <Head>
-        <title>About Panorama</title>
+      <Head>
+        <title>Panorama - FAQ</title>
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
@@ -94,7 +94,10 @@ export default function About() {
         <link rel="preconnect" href="https://vitals.vercel-insights.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+          rel="stylesheet"
+        />
         <link rel="preconnect" href="https://vitals.vercel-insights.com" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:type" content="website" />
@@ -112,15 +115,8 @@ export default function About() {
         />
         <meta property="og:image" content="/meta/about.png" />
       </Head>
-      <HeroAbout/>
-      <InfoCompany/>
-      <Advisor/>
-      <Team/>
-      <Career/>
-      <Values/>
-      {/* <TeamExp/> */}
-      <NewsG />
-      <Started />
+      <FAQAbout/>
+        <FAQ/>
     </div>
   );
 }

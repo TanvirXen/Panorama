@@ -146,8 +146,7 @@ export default function Work() {
 
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Elevate your business with our expertise. As trusted partners for SMEs, startups, venture capitalists, corporations, and government entities, we bring valuable insights and drive growth through expert assessments and consulting.
-
+                Elevate your business to new heights with our unparalleled expertise. As trusted partners for a diverse range of organizations including SMEs, startups, venture capitalists, corporations, and government entities, we offer valuable insights and drive growth through expert assessments and consulting. With our comprehensive services, we help you navigate challenges, seize opportunities, and achieve remarkable success.
                 </Typography>
               </div>
             </div>

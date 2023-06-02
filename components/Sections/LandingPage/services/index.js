@@ -88,6 +88,34 @@ export default function Service() {
                   Knowledge
                 </Typography>
               </div>
+              <div
+                className={selected == "Investment" ? "pfrs" : "pfr"}
+                onClick={() => {
+                  setselected("Investment");
+                  var newArray = ServiceData.filter(function (el) {
+                    return el.type == "Investment";
+                  });
+                  setserData(newArray);
+                }}
+              >
+                <Typography variant="large" color="neutral.b900">
+                Investment Readiness
+                </Typography>
+              </div>
+              <div
+                className={selected == "Impact" ? "pfrs" : "pfr"}
+                onClick={() => {
+                  setselected("Impact");
+                  var newArray = ServiceData.filter(function (el) {
+                    return el.type == "Impact";
+                  });
+                  setserData(newArray);
+                }}
+              >
+                <Typography variant="large" color="neutral.b900">
+                Impact Measurment
+                </Typography>
+              </div>
             </div>
           </Grid>
           <Grid container spacing={0} md={12} lg={12} xl={8}>

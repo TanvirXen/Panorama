@@ -5,11 +5,12 @@ import Typography from "@mui/material/Typography";
 import { InlineWidget } from "react-calendly";
 import { TextInput, Select, SelectItem, Checkbox, Button } from "@carbon/react";
 import CareerIcon from "../../../reUse/career";
-import {TeamData} from "./teamData";
+
+import {AdvisorData} from "./teamData";
 import TeamCard from './teamCard'
-export default function Team() {
+export default function Advisor() {
   return (
-    <div className="abtTeam">
+    <div className="abtTeamA">
     <Container maxWidth="xl">
       <Grid
         container
@@ -18,12 +19,12 @@ export default function Team() {
         <Grid xs={12} sm={12} md={12} lg={12}>
           <div style={{ paddingBottom: "15px" }}>
             <Typography variant="h1R" color="neutral.b900">
-              Team
+              Advisors
             </Typography>
           </div>
         </Grid>
 
-{TeamData.map((e)=>{
+{AdvisorData.map((e)=>{
   return <TeamCard name={e.name} email={e.email} img={e.img} linkedin={e.linkedin} title={e.title} key={e.id} />
 })}
       </Grid>
