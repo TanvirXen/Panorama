@@ -13,9 +13,9 @@ export default function CardService({ img, name, desc,type,id,url }) {
         <img src={img} />
 
         <div className="mnt">
-  <div>        <Tag className="tagcs"  size="sm" >
+  {/* <div>        <Tag className="tagcs"  size="sm" >
        {"Coming Soon"}
-      </Tag></div>
+      </Tag></div> */}
           <div>
             <Typography variant="large" color="neutral.b900">
               {name}
