@@ -165,7 +165,7 @@ export default function Work() {
             <div className="caro">
               <Slider ref={slider} {...settings}>
 {WorkData.map((e)=>{
-	return <CardWork name={e.name} desc={e.desc} key={e.id}/>
+	return <CardWork name={e.name} desc={e.desc} url={e.url} key={e.id}/>
 })}
               </Slider>
             </div>

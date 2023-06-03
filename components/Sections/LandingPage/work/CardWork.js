@@ -1,8 +1,11 @@
 import React from 'react'
 import Typography from "@mui/material/Typography";
-export default function CardWork({name,desc,id}) {
+export default function CardWork({name,desc,id,url}) {
   return (
     <div className="wcard" key={id}>
+      <div className='img'>
+        <img src={url} />
+      </div>
     <div className="inner">
       <div>
         <Typography variant="large" color="neutral.b800">

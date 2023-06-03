@@ -1,11 +1,11 @@
 const WorkData = [
-  { id: "02", name: "Corporate", desc: "Achieve your corporation's goals with our expert services. Let us assist you improve efficiency and profitability through consulting, technology solutions, and support." },
-  { id: "01", name: "Startups", desc: "Achieve startup success with our expert guidance. We provide resources and support for creating unique products or services. Let us help you navigate your journey." },
-  { id: "06", name: "SMEs", desc: "Grow your SME sustainably with our expert guidance. We prioritize and improve performance for small and medium-sized businesses. Let us guide you to success." },
-  { id: "05", name: "Venture Capital", desc: "Unlock high-growth potential with our venture capital services. Let us assist you make smart investment decisions." },
-  { id: "04", name: "NGOs", desc: "Fulfill you the missions of you NGOs/iNGO, and make a meaningful impact in the world. Let's work together to empower your organization and drive effective changes." },
+  { id: "02",url:'/solution/Corporate.png', name: "Corporate", desc: "Achieve your corporation's goals with our expert services. Let us assist you improve efficiency and profitability through consulting, technology solutions, and support." },
+  { id: "01",url:'/solution/startup.png', name: "Startups", desc: "A startup company emerges as a newly established business driven by a strong momentum, fueled by the perceived demand for its product or service. The core objective of a startup is to achieve rapid growth by providing a solution that effectively addresses a specific gap in the market." },
+  { id: "06",url:'/solution/smes.png', name: "SMEs", desc: "In the European Union, small and medium-sized enterprises (SMEs) constitute an overwhelming majority, accounting for 99% of all businesses. The precise definition of an SME holds significant importance as it determines their eligibility for access to finance and allows them to avail themselves of targeted EU support programs designed specifically for these enterprises." },
+  { id: "05",url:'/solution/vc.png', name: "Venture Capital", desc: "Venture capital (VC) is a type of private equity investment that involves providing financing to startups and small businesses with high growth potential. Typically, venture capital funds are sourced from affluent investors, investment banks, and various financial institutions. This form of investment aims to support companies believed to have the potential for significant long-term growth." },
+  { id: "04",url:'/solution/ngos.png', name: "NGOs", desc: "An nongovernmental organization (NGO) is a voluntary association of individuals or organizations, independent of government affiliation, created to offer services or advocate for public policies. While a few NGOs may operate as for-profit corporations, the vast majority are nonprofit organizations. " },
  
-  { id: "03", name: "Government ", desc: "Get innovative and digitally-driven solutions for government agencies. Find the right solutions for your challenges, and create a better tomorrow for your citizens." },
+  { id: "03",url:'/solution/gov.png', name: "Government ", desc: "The Internal Revenue Service (IRS) defines several organizations that are closely affiliated with state or local governments. These include municipal hospitals or hospital districts, fire departments, public libraries, park districts, state colleges or universities, Indian tribal economic development organizations, and port authorities. ." },
   
 ];
 export default WorkData
