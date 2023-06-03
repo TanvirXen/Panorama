@@ -19,7 +19,7 @@ export default function Growth() {
           </div>
           <div style={{ paddingTop: "60px" }}>
             <Typography variant="large" color="neutral.b200">
-            Unleash your business potential with our full-spectrum of solutions. Get a bird's eye view with our insightful business assessment, and accelerate growth with our dynamic consultancy and solution services. Unlock new opportunities and drive success across all aspects of your business.
+            Unleash your business potential with our full-spectrum of solutions. Get a bird&apos;s eye view with our insightful business assessment, and accelerate growth with our dynamic consultancy and solution services. Unlock new opportunities and drive success across all aspects of your business.
             </Typography>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Growth() {
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Embark on a journey of unrivaled growth by partnering with us. Our services extend beyond mere delivery; they are crafted to become your steadfast ally. With our unwavering support, you'll have the assurance and guidance needed to soar to new heights in your endeavors.
+                Embark on a journey of unrivaled growth by partnering with us. Our services extend beyond mere delivery; they are crafted to become your steadfast ally. With our unwavering support, you&apos;ll have the assurance and guidance needed to soar to new heights in your endeavors.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
