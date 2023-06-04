@@ -10,7 +10,7 @@ const TeamData = [
   { id: "9", name: "Mithun Das Kabbo", email: "mithun@panoramamas.com", linkedin: "https://www.linkedin.com/in/mithundaskabbo/", title: "Consultant", img: "/team/mithun.png" },
 ];
 const AdvisorData =[
-  { id: "01", name: "Kelli Sherman", email: "", linkedin: "", title: "Advisor", img: "team/kelli.png" },
+  { id: "01", name: "Kelli Sherman", email: "", linkedin: "", title: "Advisor", img: "team/Kelli.png" },
   { id: "01", name: "Jerome Pfieffer", email: "", linkedin: "", title: "Advisor", img: "team/jerome.png" },
   { id: "01", name: "Salvatore (Sal) J Olimpio", email: "", linkedin: "", title: "Advisor", img: "team/salvatore.png" },
 ]

@@ -24,7 +24,7 @@ export default function Footer() {
 
             <div>
               <Typography variant="small" color="neutral.b200">
-                Copyright 2022 Panorama Advisory
+                Copyright 2023 Panorama Management Advisory Services
               </Typography>
             </div>
           </div>
