@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { Tag } from "@carbon/react";
 import Link from "next/link";
 export default function CardService({ img, name, desc,type,id,url }) {
+  const [more, setmore] = useState(false)
   return (
     <>
     {  url=="/"?    <Grid xs={12} sm={12} md={6} lg={6} xl={6}>
@@ -21,10 +22,15 @@ export default function CardService({ img, name, desc,type,id,url }) {
               {name}
             </Typography>
           </div>
-          <div>
+          <div className={more?"":"trt"}>
             <Typography variant="small" color="neutral.b200">
               {desc}
             </Typography>
+          <div>
+          {more?<span className="xyzz" onClick={()=>setmore(false)}>See Less</span>:   <span className="xyzz" onClick={()=>setmore(true)}>See More</span>}
+          </div>
+            
+         
           </div>
         </div>
       </div>

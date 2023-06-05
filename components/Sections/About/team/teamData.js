@@ -1,7 +1,7 @@
 const TeamData = [
   { id: "01", name: "Aref Ali", email: "arefali@panopramaas.com", linkedin: "https://www.linkedin.com/in/arefali/", title: "Chief Executive Officer", img: "team/aref_ali.png" },
   { id: "02", name: "Selima Allen Hossain", email: "allenselima@panopramaas.com", linkedin: "https://www.linkedin.com/in/allen-selima-96233543/", title: "Country Director", img: "/team/allen_selima.png" },
-  { id: "03", name: "Imon Chandra Banik", email: "imonbanik@panoramamas.com", linkedin: "https://www.linkedin.com/in/imon-chandra-banik-qcpa-cxa-mba-bb903553/", title: "Financial Consultant", img: "/team/imon.png" },
+  { id: "03", name: "Imon Chandra Banik", email: "imonbanik@panoramamas.com", linkedin: "https://www.linkedin.com/in/imon-chandra-banik-qcpa-cxa-mba-bb903553/", title: "Financial Consultant", img: "/team/imon.jpg" },
   { id: "05", name: "Abdullah Alif", email: "alif@panoramamas.com", linkedin: "https://www.linkedin.com/in/4lif/", title: "Accounting and Finance Associate", img: "/team/abdullah_alif.png" },
   { id: "04", name: "Julie King", email: "julieali@panoramamas.com", linkedin: "", title: "Manager, USA", img: "/team/julie_king.png" },
   { id: "06", name: "Nazmus Sadat", email: "sadat@panopramaas.com", linkedin: "https://www.linkedin.com/in/nazmussadatbuet/", title: "Consultant", img: "/team/nazmus_sadat.png" },

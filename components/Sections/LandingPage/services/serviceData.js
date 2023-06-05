@@ -122,7 +122,7 @@ const ServiceData = [
   {
     name: "Investor Deck",
     desc: "In the Panorama framework, a pitch deck, also known as a start-up or investor pitch deck, functions as a presentation that offers potential investors comprehensive information about your business. Contrary to popular belief, the primary goal of a pitch deck is not solely to secure funding, but rather to effectively progress to the next phase of discussions or meetings.",
-    img: "/solution/deck.png",
+    img: "/solution/resourcesi.png",
     type: "Investment",
     url: "/",
   },
