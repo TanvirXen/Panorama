@@ -272,7 +272,7 @@ span{
 //   }
 // }
 .wcard {
-  min-height: 500px;
+  // min-height: 500px;
   width: 300px !important;
   margin-right: 12px;
   background-color: #fff;
@@ -285,9 +285,16 @@ span{
   }
   .inner {
     padding: 20px;
-    // .para {
-    //   padding-top: 130px;
-    // }
+    .para {
+      // padding-top: 130px;
+      span{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5; /* number of lines to show */
+                line-clamp: 5; 
+        -webkit-box-orient: vertical;
+      }
+    }
     .btn {
       padding-top: 130px;
     }
