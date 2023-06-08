@@ -30,7 +30,7 @@ export default function KnowledgeInfo() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Do you need a financial expert for your business, but don't want to commit to a full-time hire?
+                Do you need a financial expert for your business, but don&apos;t want to commit to a full-time hire?
                 </Typography>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function KnowledgeInfo() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Looking for a cost-effective solution for your business' financial needs?
+                Looking for a cost-effective solution for your business financial needs?
                 </Typography>
               </div>
             </div>
