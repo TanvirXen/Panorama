@@ -16,7 +16,7 @@ export default function KnowledgeInfo() {
             </div>
             <div  >
               <Typography variant="h1R" color="neutral.b900">
-              We are here to help you figure out your problems
+              We are here to help you figure out your finance
               </Typography>
 			  </div>
       
@@ -25,11 +25,62 @@ export default function KnowledgeInfo() {
 
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="f1.svg" alt="" />
+
               <br />
-              <div>
-                <Typography variant="large" color="neutral.b200">
-                Are you struggling to take your business to the next level?
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                Do you need a financial expert for your business, but don't want to commit to a full-time hire?
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+          <Grid md={12} lg={4}>
+            <div className="pdfs">
+            <img src="f2.svg" alt="" />
+     
+
+              <br />
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                Struggling with financial management and planning?
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+          <Grid md={12} lg={4}>
+            <div className="pdfs">
+              <img src="f3.svg" alt="" />
+
+              <br />
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                Do you lack the expertise to effectively manage your business finances?
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+          <Grid md={12} lg={4}>
+            <div className="pdfs">
+              <img src="f4.png" alt="" />
+
+              <br />
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                Looking for a cost-effective solution for your business' financial needs?
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+          <Grid md={12} lg={4}>
+            <div className="pdfs">
+            <img src="f5.svg" alt="" />
+     
+
+              <br />
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                Do you want to minimize risk and maximize profitability?
 
                 </Typography>
               </div>
@@ -37,57 +88,12 @@ export default function KnowledgeInfo() {
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
-              <br />
-              <div>
-                <Typography variant="large" color="neutral.b200">
-                Do you need expert advice to reach your business goals?
-                </Typography>
-              </div>
-            </div>
-          </Grid>
-          <Grid md={12} lg={4}>
-            <div className="pdfs">
-              <img src="tick.svg" alt="" />
-              <br />
-              <div>
-                <Typography variant="large" color="neutral.b200">
-                Are you  unable to focus on long-term strategic planning?
-                </Typography>
-              </div>
-            </div>
-          </Grid>
-          <Grid md={12} lg={4}>
-            <div className="pdfs">
-              <img src="tick.svg" alt="" />
-              <br />
-              <div>
-                <Typography variant="large" color="neutral.b200">
-                Feeling overwhelmed with the daily operations of your business?
+              <img src="f6.svg" alt="" />
 
-                </Typography>
-              </div>
-            </div>
-          </Grid>
-          <Grid md={12} lg={4}>
-            <div className="pdfs">
-              <img src="tick.svg" alt="" />
               <br />
-              <div>
-                <Typography variant="large" color="neutral.b200">
-                Ready to streamline processes and boost efficiency?
-
-                </Typography>
-              </div>
-            </div>
-          </Grid>
-          <Grid md={12} lg={4}>
-            <div className="pdfs">
-              <img src="tick.svg" alt="" />
-              <br />
-              <div>
-                <Typography variant="large" color="neutral.b200">
-                Looking for a long-term partner in business growth?
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                Need someone to help guide your financial decisions?
                 </Typography>
               </div>
             </div>

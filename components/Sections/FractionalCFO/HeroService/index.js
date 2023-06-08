@@ -12,15 +12,15 @@ export default function HeroService() {
               Fractional CFO
             </Typography>
           </div>
-          <div style={{ paddingTop: "8px" ,paddingBottom:'180px'}}>
+          <div style={{ paddingTop: "8px" ,paddingBottom:'160px'}}>
             <Typography variant="h1" color="neutral.b0">
             Get access to high level financial insights and strategies
             </Typography>
           </div>
-          <div style={{paddingTop:'12px'}}>
+          <div>
           <Button kind="primary" size="lg">
                 Book a Meeting
-                </Button>
+          </Button>
           </div>
         </div>
       </Container>

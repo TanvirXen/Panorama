@@ -39,7 +39,7 @@ export default function LearnMore() {
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Get the valuable insights and guidance of a Chief Financial Officer without the need for a full-time hire.
+                Obtain the valuable insights and guidance provided by a Chief Financial Officer on a part-time basis, eliminating the requirement for a full-time hiring commitment.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>

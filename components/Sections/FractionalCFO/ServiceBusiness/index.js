@@ -16,14 +16,12 @@ export default function ServiceBusiness() {
             </div>
             <div>
               <Typography variant="h1R" color="neutral.b900">
-                From research to delivery, we&apos;re your agile project
-                partner.
+              The process we follow for Fractional CFO Services
               </Typography>
             </div>
             <div style={{ paddingTop: "24px" }}>
               <Typography variant="large" color="neutral.b200">
-                Thorough research, for project success. Utilizing cutting-edge
-                techniques for insightful data and best strategies.
+              Unlock the power of expert financial management with Fractional CFO services. No full-time hire required, just access to the valuable insights and guidance of a Chief Financial Officer.
               </Typography>
             </div>
           </Grid>

@@ -15,14 +15,12 @@ export default function Overview() {
         </div>
         <div style={{paddingTop:'8px',paddingBottom:'40px'}}>
         <Typography variant="h1" color="neutral.b900">
-      Unleash the full potential of your business with customized insights and powerful solutions.
+        Acquire the ability to obtain in-depth financial insights and implement advanced strategies.
         </Typography>
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="large" color="neutral.b200">
-        Unlock your financial potential with Panorama&apos;s Fractional CFO services. Our team of experienced professionals provides expert financial management on a part-time or project basis, giving small and medium-sized businesses access to the same level of financial expertise as larger companies. 
-<br/><br/>
-Enhance your long-term success with our data driven strategies and achieve financial stability with ease.
+        Access high-level financial advice without the commitment of a full-time CFO through our Fractional CFO services. We provide expert guidance tailored to the specific needs of your business. With our flexible solution, you can benefit from the strategic insights and financial expertise of a seasoned CFO, optimizing your financial decision-making and driving sustainable growth. Our Fractional CFO services offer the perfect balance of expertise and cost-efficiency to support your business's financial success.
         </Typography>
         </div>
         </div>
