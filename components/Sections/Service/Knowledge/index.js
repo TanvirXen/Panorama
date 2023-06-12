@@ -16,7 +16,8 @@ export default function KnowledgeInfoAssesment() {
             </div>
             <div  >
               <Typography variant="h1R" color="neutral.b900">
-              Our business assessment includes comprehensive analysis, catered to you business.
+              Our team of service providers is committed to simplifying
+ your life and making it more convenient for you
               </Typography>
 			  </div>
       
@@ -25,11 +26,11 @@ export default function KnowledgeInfoAssesment() {
 
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="ser1.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Do you want to identify areas for improvement in your business?
+                Are you having difficulties in finding the appropriate support to facilitate the growth of your business?
 
                 </Typography>
               </div>
@@ -37,11 +38,11 @@ export default function KnowledgeInfoAssesment() {
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="ser2.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Are you looking for an objective, data-driven evaluation of your business?
+                Are you seeking customized solutions that align with the specific requirements of your business?
 
                 </Typography>
               </div>
@@ -49,22 +50,22 @@ export default function KnowledgeInfoAssesment() {
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="ser3.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Are you ready to take your business to the next level?
+                Are you experiencing a sense of stagnation and uncertainty about how to overcome obstacles and progress to the next level?
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="ser4.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Worried about missing critical business metrics?
+                Are you seeking dedicated assistance from a knowledgeable professional who is fully dedicated to ensuring your success?
 
 
                 </Typography>
@@ -73,23 +74,22 @@ export default function KnowledgeInfoAssesment() {
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="ser5.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Ready to make informed decisions to drive growth?
-
+                Are you facing obstacles in financial management, marketing, and branding that are impeding the progress of your business?
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="ser6.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Want to stay ahead of the competition?
+                Are you at a point in your business where you are motivated and determined to propel it forward, surpassing your current achievements and reaching new heights of success?
 
                 </Typography>
               </div>

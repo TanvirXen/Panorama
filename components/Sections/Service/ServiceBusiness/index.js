@@ -29,7 +29,7 @@ export default function ServiceBusiness() {
 
           <Grid md={12} lg={4}>
             <div className="pdfs">
-            <img src="indentify.svg" alt="" />
+            <img src="sera.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Identify
@@ -46,7 +46,7 @@ export default function ServiceBusiness() {
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="connect.svg" alt="" />
+              <img src="serb.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Get connected
@@ -56,14 +56,14 @@ export default function ServiceBusiness() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Connect with Expert Service Providers: From finance to marketing and branding, we have the right service providers to help your business thrive.
+                Discover Expert Service Providers: Whether you need assistance in finance, marketing, or branding, we can connect you with the perfect professionals to propel your business towards success.
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-            <img src="support.svg" alt="" />
+            <img src="serc.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Ongoing Support
@@ -73,7 +73,7 @@ export default function ServiceBusiness() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Our expert service providers don&apos;t just provide solutions, they stay with you through journey of transformation .
+                Experience Transformational Support: Our  service providers not only offer solutions, but also will remain by your side throughout your trans-formative journey.
                 </Typography>
               </div>
             </div>

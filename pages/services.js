@@ -113,8 +113,6 @@ export default function Service() {
       <ServiceBusiness />
       <KnowledgeInfo />
       <LearnMore />
-      <ServiceL />
-      <FAQ />
       <News />
       <Started />
     </div>

@@ -45,10 +45,13 @@ export default function CardService({ img, name, desc,type,id,url }) {
               {name}
             </Typography>
           </div>
-          <div>
+          <div className={more?"":"trt"}>
             <Typography variant="small" color="neutral.b200">
               {desc}
             </Typography>
+          <div>
+          {more?<span className="xyzz" onClick={()=>setmore(false)}>See Less</span>:   <span className="xyzz" onClick={()=>setmore(true)}>See More</span>}
+          </div>
           </div>
         </div>
       </div>

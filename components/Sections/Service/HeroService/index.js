@@ -12,9 +12,10 @@ export default function HeroService() {
               Services
             </Typography>
           </div>
-          <div style={{ paddingTop: "8px" ,paddingBottom:'180px'}}>
+          <div style={{ paddingTop: "8px" ,paddingBottom:'150px'}}>
             <Typography variant="h1" color="neutral.b0">
-            Find Your Perfect Partner with Our Expert Service Providers
+            Find Your Perfect Partner with Our Expert
+ Service Providers
             </Typography>
           </div>
           <div style={{paddingTop:'12px'}}>

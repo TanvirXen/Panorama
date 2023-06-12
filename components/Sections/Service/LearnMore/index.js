@@ -16,12 +16,12 @@ export default function LearnMoreAssesment() {
           <div></div>
           <div>
             <Typography variant="h1R" color="neutral.b900">
-            Empower Your Business with Tailored Insights and Solutions
+            Ease your burden with our support - never tackle business challenges alone again.
             </Typography>
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Diagnosing what is wrong with businesses is expensive, time-sensitive, and hectic which stands in the way to solve the problems you are facing.
+            Unwind and focus on your business goals - our support has got you covered. Say goodbye to the overwhelming stress and unpredictability of managing a business on your own.
             </Typography>
           </div>
         </div>
@@ -34,12 +34,12 @@ export default function LearnMoreAssesment() {
 <div className="growthPadd">
 <div style={{  paddingTop:'40px' }}>
                 <Typography variant="h4" color="neutral.b800">
-                Learn more about our business assessment
+                Learn more about our Service providers
                 </Typography>
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Discover the Insights of Your Business with Our Automated Assessment.
+                Explore the individual ratings and feedback provided by our previous clients.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
