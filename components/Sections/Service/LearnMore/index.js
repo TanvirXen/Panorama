@@ -16,12 +16,12 @@ export default function LearnMoreAssesment() {
           <div></div>
           <div>
             <Typography variant="h1R" color="neutral.b900">
-            Ease your burden with our support - never tackle business challenges alone again.
+            Ease your burden with our support - never tackle business challenges alone again
             </Typography>
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Unwind and focus on your business goals - our support has got you covered. Say goodbye to the overwhelming stress and unpredictability of managing a business on your own.
+            Unwind and focus on your business goals - our support has got you covered. Say goodbye to the overwhelming stress and unpredictability of managing a business on your own
             </Typography>
           </div>
         </div>

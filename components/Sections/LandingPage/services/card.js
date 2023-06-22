@@ -36,9 +36,11 @@ export default function CardService({ img, name, desc,type,id,url }) {
       </div>
 
     </Grid>:  <Grid md={6} lg={6} xl={6} key={id}>
-            <Link href={url} passHref >
+          
       <div className="cardsd">
+      <Link href={url} passHref >
         <img src={img} />
+        </Link>
         <div className="mnt">
           <div>
             <Typography variant="large" color="neutral.b900">
@@ -55,7 +57,7 @@ export default function CardService({ img, name, desc,type,id,url }) {
           </div>
         </div>
       </div>
-      </Link>
+
     </Grid>}
     </>
 

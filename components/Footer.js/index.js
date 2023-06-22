@@ -43,16 +43,15 @@ export default function Footer() {
                     Past Services
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-                   Knowledge Hub
+                    Knowledge Hub
                   </Typography>{" "}
                   <Typography variant="small" color="neutral.b200">
-                   Templates
+                    Templates
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-                   Publications
+                    Publications
                   </Typography>
                 </div>
-
               </Grid>
               <Grid item sm={3} md={3}>
                 <div className="frl">
@@ -61,22 +60,21 @@ export default function Footer() {
                     color="neutral.b0"
                     style={{ paddingBottom: "8px" }}
                   >
-                  Pricing
+                    Pricing
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-                  Starter
+                    Starter
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-               Basic
+                    Basic
                   </Typography>{" "}
                   <Typography variant="small" color="neutral.b200">
-                   Standard
+                    Standard
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-                   Premium
+                    Premium
                   </Typography>
                 </div>
-
               </Grid>
               <Grid item sm={3} md={3}>
                 <div className="frl">
@@ -85,28 +83,27 @@ export default function Footer() {
                     color="neutral.b0"
                     style={{ paddingBottom: "8px" }}
                   >
-                 Company
+                    Company
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-                  About Us
+                    About Us
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-               Blog
+                    Blog
                   </Typography>{" "}
                   <Typography variant="small" color="neutral.b200">
-                   Partnership
+                    Partnership
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-                   Careers
+                    Careers
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-                   Publications
+                    Publications
                   </Typography>
                   <Typography variant="small" color="neutral.b200">
-                   Company Profile
+                    Company Profile
                   </Typography>
                 </div>
-
               </Grid>
               <Grid item sm={3} md={3}>
                 <div className="frl">
@@ -115,22 +112,21 @@ export default function Footer() {
                     color="neutral.b0"
                     style={{ paddingBottom: "8px" }}
                   >
-                Social
+                    Social
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
-                  Linkedin
+                  <Typography variant="small" color="neutral.b200" onClick={()=>window.open("https://www.linkedin.com/company/panoramamas/")}>
+                    Linkedin
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
-             Facebook
+                  <Typography variant="small" color="neutral.b200" onClick={()=>window.open("https://www.facebook.com/panoramamas")}>
+                    Facebook
                   </Typography>{" "}
-                  <Typography variant="small" color="neutral.b200">
-                  Instagram
+                  <Typography variant="small" color="neutral.b200" onClick={()=>window.open("https://www.instagram.com/panoramamas/")}>
+                    Instagram
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
-                   Twitter
+                  <Typography variant="small" color="neutral.b200" onClick={()=>window.open("https://twitter.com/panoramamas")}>
+                    Twitter
                   </Typography>
                 </div>
-
               </Grid>
             </Grid>
           </div>

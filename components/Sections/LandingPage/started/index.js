@@ -9,7 +9,7 @@ export default function Started() {
 				<div className="strt">
 					<div className="redy">
 						<Typography variant="h1R" color="neutral.b0">
-							Ready to get Started?
+							Ready to get started?
 						</Typography>
 					</div>
 

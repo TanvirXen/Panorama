@@ -11,14 +11,17 @@ export default function News() {
           <Grid md={6}>
             <div className="stay">
               <Typography variant="h1R" color="neutral.b900">
-                Stay up to date with the greatest and latest news from us.
+                Stay up to date with the greatest and latest news from us
               </Typography>
+            </div>
+            <div className="newsImage">
+              <img src="news.png"/>
             </div>
           </Grid>
           <Grid md={6}>
-            <div className="stay">
+            <div className="stays">
               <Typography variant="large" color="neutral.b200">
-              Get the most resourceful updates directly in your inbox and always stay updated!
+              Recieve the most valuable updates and stay constantly informed by having them delivered directly to your inbox!
 
               </Typography>
               <div>

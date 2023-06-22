@@ -18,7 +18,7 @@ const ServiceData = [
     desc: "Transform your business dreams into reality with our comprehensive range of services. We provide a one-stop solution for all your business needs by connecting you with the right service providers. From consulting and advisory services to marketing, technology, and beyond, we offer a diverse range of solutions under one umbrella. Streamline your operations and save valuable time and effort by accessing all the services required to fuel your business growth through a single point of contact. Let us be your trusted partner in connecting you with the resources you need to thrive.",
     img: "/solution/services.png",
     type: "Solutions",
-    url: "/",
+    url: "/services",
   },
   {
     name: "Business Consulting",

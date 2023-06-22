@@ -15,12 +15,12 @@ export default function Overview() {
         </div>
         <div style={{paddingTop:'8px',paddingBottom:'40px'}}>
         <Typography variant="h1" color="neutral.b900">
-        Discover a comprehensive range of services tailored to your business requirements, conveniently available in one place through Panorama.
+        Discover a comprehensive range of services tailored to your business requirements, conveniently available in one place through Panorama
         </Typography>
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="large" color="neutral.b200">
-        Give yourself a well-deserved break from the challenges of managing your business. Entrust us with your financials and strategies, allowing you to concentrate on your core competencies and excel at what you do best.
+        Give yourself a well-deserved break from the challenges of managing your business. Entrust us with your financials and strategies, allowing you to concentrate on your core competencies and excel at what you do best
         </Typography>
         </div>
         </div>

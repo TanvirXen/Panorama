@@ -38,7 +38,7 @@ export default function Career() {
                     to succeed, and elevate your career to new heights.
                     <br />
                     <br />
-                    Submit your resume and cover letter to info@panoramamas.com
+                    Submit your resume and cover letter to <span style={{fontWeight:'400'}}> <a style={{color:'black'}} href="mailto:info@panoramamas.com">info@panoramamas.com</a> </span>
                     today.
                   </Typography>
                 </div>
