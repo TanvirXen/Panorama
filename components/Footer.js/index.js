@@ -12,7 +12,7 @@ export default function Footer() {
               <img src="logoBlack.svg" alt="" srcset="" />
             </div>
             <div>
-              <Typography variant="small" color="neutral.b200">
+              <Typography variant="small" color="neutral.b100">
                 Enabling and Empowering individuals to achieve their dreams.
                 <br />
                 <br />
@@ -22,11 +22,7 @@ export default function Footer() {
               </Typography>
             </div>
 
-            <div>
-              <Typography variant="small" color="neutral.b200">
-                Copyright 2023 Panorama Management Advisory Services
-              </Typography>
-            </div>
+
           </div>
           <div className="ftext">
             <Grid container spacing={2}>
@@ -39,16 +35,16 @@ export default function Footer() {
                   >
                     Resources
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Past Services
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Knowledge Hub
                   </Typography>{" "}
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Templates
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Publications
                   </Typography>
                 </div>
@@ -62,16 +58,16 @@ export default function Footer() {
                   >
                     Pricing
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Starter
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Basic
                   </Typography>{" "}
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Standard
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Premium
                   </Typography>
                 </div>
@@ -85,22 +81,22 @@ export default function Footer() {
                   >
                     Company
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     About Us
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Blog
                   </Typography>{" "}
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Partnership
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Careers
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Publications
                   </Typography>
-                  <Typography variant="small" color="neutral.b200">
+                  <Typography variant="small" color="neutral.b100">
                     Company Profile
                   </Typography>
                 </div>
@@ -114,21 +110,26 @@ export default function Footer() {
                   >
                     Social
                   </Typography>
-                  <Typography variant="small" color="neutral.b200" onClick={()=>window.open("https://www.linkedin.com/company/panoramamas/")}>
+                  <Typography variant="small" color="neutral.b210" onClick={()=>window.open("https://www.linkedin.com/company/panoramamas/")}>
                     Linkedin
                   </Typography>
-                  <Typography variant="small" color="neutral.b200" onClick={()=>window.open("https://www.facebook.com/panoramamas")}>
+                  <Typography variant="small" color="neutral.b100" onClick={()=>window.open("https://www.facebook.com/panoramamas")}>
                     Facebook
                   </Typography>{" "}
-                  <Typography variant="small" color="neutral.b200" onClick={()=>window.open("https://www.instagram.com/panoramamas/")}>
+                  <Typography variant="small" color="neutral.b100" onClick={()=>window.open("https://www.instagram.com/panoramamas/")}>
                     Instagram
                   </Typography>
-                  <Typography variant="small" color="neutral.b200" onClick={()=>window.open("https://twitter.com/panoramamas")}>
+                  <Typography variant="small" color="neutral.b100" onClick={()=>window.open("https://twitter.com/panoramamas")}>
                     Twitter
                   </Typography>
                 </div>
               </Grid>
             </Grid>
+            <div className="cpr">
+              <Typography variant="small" color="neutral.b100">
+                Copyright 2023 Panorama Management Advisory Services
+              </Typography>
+            </div>
           </div>
         </div>
       </Container>
