@@ -110,7 +110,7 @@ export default function Footer() {
                   >
                     Social
                   </Typography>
-                  <Typography variant="small" color="neutral.b210" onClick={()=>window.open("https://www.linkedin.com/company/panoramamas/")}>
+                  <Typography variant="small" color="neutral.b100" onClick={()=>window.open("https://www.linkedin.com/company/panoramamas/")}>
                     Linkedin
                   </Typography>
                   <Typography variant="small" color="neutral.b100" onClick={()=>window.open("https://www.facebook.com/panoramamas")}>
