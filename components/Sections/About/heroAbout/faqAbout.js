@@ -9,7 +9,7 @@ export default function FAQAbout() {
         Frequently Asked Questions
         </p>
         <p className="abtpfaq">
-        If you haven't found the answer you're looking for, please don't hesitate to get in touch with us
+        If you haven&apos;t found the answer you&apos;re looking for, please don&apos;t hesitate to get in touch with us
         </p>
 <div className="bvc">
 <Button kind="primary" size="md" className="btnss" onClick={()=>window.open("https://app.panoramamas.com/")}>
