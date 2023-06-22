@@ -60,7 +60,7 @@ export default function Values() {
          
                   <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
-                    Learning and adaptability are key aspects of our approach. We believe in continuously seeking knowledge, embracing new ideas, and adapting to changing circumstances. By fostering a culture of learning and adaptability, we ensure that we stay at the forefront of industry trends, technological advancements, and best practices. This enables us to consistently improve and refine our offerings to better serve our clients' evolving needs.
+                    Learning and adaptability are key aspects of our approach. We believe in continuously seeking knowledge, embracing new ideas, and adapting to changing circumstances. By fostering a culture of learning and adaptability, we ensure that we stay at the forefront of industry trends, technological advancements, and best practices. This enables us to consistently improve and refine our offerings to better serve our clients evolving needs.
                     </Typography>
                   </div>
                 </div>
