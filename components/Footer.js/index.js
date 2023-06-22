@@ -124,7 +124,7 @@ Redefining the current business process through data-driven solutions to solve e
               </Grid>
             </Grid>
             <div className="cpr">
-              <Typography variant="small" color="neutral.b100">
+              <Typography variant="small" color="neutral.b0">
                 Copyright 2023 Panorama Management Advisory Services
               </Typography>
             </div>
