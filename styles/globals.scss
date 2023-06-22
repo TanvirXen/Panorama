@@ -770,17 +770,17 @@ a {
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center;
-  height: 380px;
+  height: 400px;
   .crs {
     padding: 12px;
-    height: 100%;
-    display: inline-grid;
-    div {
+
+    // display: inline-grid;
+    .cxz {
       padding-bottom: "12px";
+      height: 80px;
     }
     .vbr {
-      display: inline-grid;
-      align-items: end;
+padding-top: 12px;
     }
   }
 }

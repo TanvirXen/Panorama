@@ -34,7 +34,7 @@ export default function Values() {
             <Grid xs={12} sm={6} md={6} lg={3} xl={3} style={{paddingRight:'16px',paddingTop:'16px'}}>
               <div className="coreCard">
                 <div className="crs">
-                    <div >
+                    <div className="cxz">
                     <Typography variant="h4" color="neutral.b0">
                     Integrity
                   </Typography>
@@ -52,7 +52,7 @@ export default function Values() {
             <Grid xs={12} sm={6} md={6} lg={3} xl={3} style={{paddingRight:'16px',paddingTop:'16px'}}>
               <div className="coreCard">
                 <div className="crs">
-                    <div >
+                    <div className="cxz" >
                     <Typography variant="h4" color="neutral.b0">
                     Learning and Adaptability
                   </Typography>
@@ -69,7 +69,7 @@ export default function Values() {
             <Grid xs={12} sm={6} md={6} lg={3} xl={3} style={{paddingRight:'16px',paddingTop:'16px'}}>
               <div className="coreCard">
                 <div className="crs">
-                    <div>
+                    <div className="cxz">
                     <Typography variant="h4" color="neutral.b0">
                     Collaborative Relationships
                   </Typography>
@@ -87,7 +87,7 @@ Collaborative relationships are essential to our success. We value the power of 
             <Grid xs={12} sm={6} md={6} lg={3} xl={3} style={{paddingRight:'16px',paddingTop:'16px'}}>
               <div className="coreCard">
                 <div className="crs">
-                    <div >
+                    <div className="cxz" >
                     <Typography variant="h4" color="neutral.b0">
                     Ingenuity
                   </Typography>
