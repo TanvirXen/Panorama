@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import { TextInput, Select, SelectItem, Checkbox, Button } from "@carbon/react";
 export default function FAQAbout() {
   return (
-    <div className="abthero">
+    <div className="abtheros">
       <Container maxWidth="xl">
         <p className="abtp">
         Frequently Asked Questions

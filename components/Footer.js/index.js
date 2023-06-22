@@ -13,12 +13,10 @@ export default function Footer() {
             </div>
             <div>
               <Typography variant="small" color="neutral.b100">
-                Enabling and Empowering individuals to achieve their dreams.
+               Empowering individuals and fostering collective growth to turn dreams into reality.
                 <br />
                 <br />
-                Redefining the current business process through data-driven
-                solutions to solve emerging challenges. Providing sustainable,
-                user-centric, and comprehensive global solutions.
+Redefining the current business process through data-driven solutions to solve emerging challenges. Providing sustainable,user-centric,and comprehensive global solutions.
               </Typography>
             </div>
 

@@ -397,6 +397,16 @@ span{
     cursor: pointer;
   }
 }
+.cpr{
+  display: flex;
+  justify-content: flex-end;
+}
+.imgText{
+  position: absolute;
+  top: 0;
+  padding-top: 20px;
+  padding-left: 16px;
+}
 .play {
   width: 100%;
 
@@ -673,6 +683,26 @@ a {
     padding-top: 180px;
   }
 }
+.abtheros {
+  width: 100%;
+  height: 550px;
+  background-image: url("/aboutHeros.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+  .abtp {
+    padding-top: 150px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .bvc{
+    padding-top: 180px;
+  }
+}
 .serheroBus {
   width: 100%;
   height: 550px;
@@ -740,7 +770,7 @@ a {
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center;
-  height: 320px;
+  height: 380px;
   .crs {
     padding: 12px;
     height: 100%;
@@ -1624,6 +1654,17 @@ a {
 }
 @media only screen and (max-width: 600px) {
   .abthero {
+    .abtp {
+      padding-top: 230px;
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 60px;
+      color: #ffffff;
+    }
+  }
+  .abtheros {
     .abtp {
       padding-top: 230px;
       font-family: "Ubuntu";
