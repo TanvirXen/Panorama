@@ -21,7 +21,7 @@ export default function ServiceBusinessAssesment() {
             </div>
             <div style={{ paddingTop: "24px" }}>
               <Typography variant="large" color="neutral.b200">
-              Diagnosing what is wrong with businesses is expensive, time-sensitive, and hectic which stands in the way to solve the problems you are facing.
+              Identifying issues within businesses can be costly, time-consuming, and stressful, creating obstacles to effectively resolving the challenges you are encountering.
               </Typography>
             </div>
           </Grid>
@@ -29,7 +29,7 @@ export default function ServiceBusinessAssesment() {
 
           <Grid md={12} lg={4}>
             <div className="pdfs">
-            <img src="initial.svg" alt="" />
+            <img src="as1.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Initial Assessment
@@ -39,13 +39,13 @@ export default function ServiceBusinessAssesment() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Gain valuable insights on your company and unlock the full potential of your business with our tailored assessments.
+                Unlock the full potential of your business by gaining valuable insights through our customized assessments, enabling you to understand your company better and make informed decisions.
                 </Typography>
               </div>
             </div>
           </Grid>          <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="report.svg" alt="" />
+              <img src="as2.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Our Report
@@ -55,14 +55,14 @@ export default function ServiceBusinessAssesment() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Uncover Your Business Areas of Improvement with Our Customized Reports.
+                Discover areas of improvement within your business through our customized reports, providing valuable insights to enhance your operations and drive growth.
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="spider.svg" alt="" />
+              <img src="as3.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Get Connected
@@ -72,7 +72,7 @@ export default function ServiceBusinessAssesment() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Connect with our expert consultants and find solutions for your business challenges.
+                Engage with our team of expert consultants and discover tailored solutions to address your specific business challenges.
                 </Typography>
               </div>
             </div>

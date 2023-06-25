@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
-export default function KnowledgeInfo() {
+export default function KnowledgeInfoAssesment() {
   return (
     <div className="serveBusKnowledge">
       <Container maxWidth="xl">
@@ -25,29 +25,31 @@ export default function KnowledgeInfo() {
 
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="r1.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
                 Struggling to manage the complex and time-consuming process of project development
+
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="r2.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
                 Lacking the necessary resources and expertise to effectively complete the project
+
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="r3.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
@@ -58,18 +60,20 @@ export default function KnowledgeInfo() {
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="r4.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
                 In need of comprehensive research and documentation to ensure project success
+
+
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="r5.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">
@@ -80,7 +84,7 @@ export default function KnowledgeInfo() {
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="tick.svg" alt="" />
+              <img src="r6.png" alt="" />
               <br />
               <div>
                 <Typography variant="large" color="neutral.b200">

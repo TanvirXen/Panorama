@@ -8,7 +8,7 @@ import HeroSectionAssesment from "@/components/Sections/Assesment/HeroSectionAss
 import ServiceBusinessAssesment from "@/components/Sections/Assesment/ServiceBusiness";
 import LearnMoreAssesment from "@/components/Sections/Service/LearnMore";
 import FAQ from "@/components/Sections/About/faq";
-import KnowledgeInfoAssesment from "@/components/Sections/Service/Knowledge";
+import KnowledgeInfoAssesment from "../components/Sections/Assesment/knowlwdgeInfo";
 import News from "../components/Sections/LandingPage/News/index.js";
 import Started from "../components/Sections/LandingPage/started/index";
 import Head from "next/head";
@@ -118,7 +118,6 @@ export default function Assesment() {
       <HeroSectionAssesment />
       <ServiceBusinessAssesment />
       <LearnMoreAssesment />
-      <FAQ />
       <KnowledgeInfoAssesment />
       <News />
       <Started />

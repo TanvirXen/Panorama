@@ -115,8 +115,8 @@ export default function Service() {
       <ServiceBusiness />
       <KnowledgeInfo/>
       <LearnMore/>
-      <ServiceL />
-      <FAQ />
+      {/* <ServiceL />
+      <FAQ /> */}
       <News />
       <Started />
     </div>

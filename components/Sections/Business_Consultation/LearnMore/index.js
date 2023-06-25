@@ -21,7 +21,7 @@ export default function LearnMore() {
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Your business deserves the perfect consultant. We&apos;ve got you covered.
+            Your business deserves nothing but the best consultant, and we are here to ensure that you are well taken care of.
             </Typography>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function LearnMore() {
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Our Consultants are here for you, get to know individual ratings and feedback  from our former clients
+                Our team of consultants is at your disposal, and you can explore individual ratings and feedback from our previous clients to get acquainted with their experiences.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>

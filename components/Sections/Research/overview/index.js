@@ -20,7 +20,7 @@ export default function Overview() {
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="large" color="neutral.b200">
-        Partner with us for innovative research, documentation, and agile development that leads to project success.
+        Collaborate with us to achieve project success through our partnership in innovative research, documentation, and agile development.
         </Typography>
         </div>
         </div>

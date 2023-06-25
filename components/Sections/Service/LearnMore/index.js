@@ -16,12 +16,12 @@ export default function LearnMoreAssesment() {
           <div></div>
           <div>
             <Typography variant="h1R" color="neutral.b900">
-            Ease your burden with our support - never tackle business challenges alone again
+            Empower Your Business with Tailored Insights and Solutions
             </Typography>
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Unwind and focus on your business goals - our support has got you covered. Say goodbye to the overwhelming stress and unpredictability of managing a business on your own
+            Identifying and addressing issues within businesses can be a costly, time-sensitive, and demanding process, which can impede the resolution of the problems you are facing.
             </Typography>
           </div>
         </div>
@@ -34,12 +34,12 @@ export default function LearnMoreAssesment() {
 <div className="growthPadd">
 <div style={{  paddingTop:'40px' }}>
                 <Typography variant="h4" color="neutral.b800">
-                Learn more about our Service providers
+                Learn more about our business assessment
                 </Typography>
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Explore the individual ratings and feedback provided by our previous clients.
+                Identifying and addressing issues within businesses can present challenges due to the associated costs, time constraints, and demanding nature of the process. These factors can potentially hinder the timely resolution of the problems you are currently facing.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>

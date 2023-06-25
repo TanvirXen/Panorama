@@ -21,7 +21,7 @@ export default function LearnMore() {
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Comprehensive project support with innovative research, agile development, and tailored solutions for exceptional results.
+            Experience comprehensive project support encompassing innovative research, agile development, and customized solutions, resulting in exceptional outcomes.
             </Typography>
           </div>
         </div>

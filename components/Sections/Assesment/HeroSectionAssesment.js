@@ -19,15 +19,12 @@ export default function HeroSectionAssesment() {
           </div>
           <div>
             <Typography variant="h2R" color="neutral.b900">
-              Get to know you business better
+              Get to know your business better
             </Typography>
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-              Streamline your business operations with our automated assessment
-              tools. Get a clear understanding of your strengths and areas for
-              improvement, so you can make informed decisions for long-term
-              success.
+            Optimize your business operations using our automated assessment tools, enabling you to gain valuable insights into your strengths and areas that require improvement. This empowers you to make informed decisions that drive long-term success.
             </Typography>
           </div>
         </Container>

@@ -16,14 +16,13 @@ export default function ServiceBusiness() {
             </div>
             <div>
               <Typography variant="h1R" color="neutral.b900">
-                From research to delivery, we&apos;re your agile project
-                partner.
+              The process we follow for Business Consultation
               </Typography>
             </div>
             <div style={{ paddingTop: "24px" }}>
               <Typography variant="large" color="neutral.b200">
-                Thorough research, for project success. Utilizing cutting-edge
-                techniques for insightful data and best strategies.
+              Recognizing the distinctiveness of each business, we customize our services to perfectly align with your
+ specific requirements. With our guidance and support, you can attain enduring success in the long run.
               </Typography>
             </div>
           </Grid>
@@ -31,7 +30,7 @@ export default function ServiceBusiness() {
 
           <Grid md={12} lg={4}>
             <div className="pdfs">
-            <img src="initial.svg" alt="" />
+            <img src="c1.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Initial Assessment
@@ -41,13 +40,13 @@ export default function ServiceBusiness() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Our consultants analyze financials, pinpoint areas for improvement, and align our services with your business goals. 
+                Our team of consultants conducts thorough financial analysis, identifying areas that can be enhanced, and ensuring that our services are tailored to align with your specific business objectives.
                 </Typography>
               </div>
             </div>
           </Grid>          <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="development.svg" alt="" />
+              <img src="c2.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Implementation
@@ -57,14 +56,14 @@ export default function ServiceBusiness() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Working hand-in-hand with you, we&apos;ll ensure the plan fits your goals and is easy to execute.
+                By collaborating closely with you, we will ensure that the plan is customized to match your goals and is designed in a way that facilitates seamless execution.
                 </Typography>
               </div>
             </div>
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="support.svg" alt="" />
+              <img src="c3.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                 Ongoing Support
@@ -74,7 +73,7 @@ export default function ServiceBusiness() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                With ongoing support and progress tracking, we&apos;ll keep your business on track to meet its goals.
+                With continuous support and regular progress tracking, we will ensure that your business stays on course and achieves its goals as planned.
                 </Typography>
               </div>
             </div>

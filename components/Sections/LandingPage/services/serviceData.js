@@ -4,7 +4,7 @@ const ServiceData = [
     desc: "Unlock your business potential with our comprehensive assessment. Identify your short-comings, analyse their nature and formulate the best solutions to overcome your challenges with us.",
     img: "/solution/assesmentBusiness.png",
     type: "Assessment",
-    url: "/",
+    url: "/assesment",
   },
   {
     name: "Fractional CFO",
@@ -25,14 +25,14 @@ const ServiceData = [
     desc: "Panorama, a management consulting firm, offers a comprehensive range of services designed to enhance organizational performance and support the achievement of clients' goals. The firm collaborates closely with clients to identify areas requiring improvement, formulate effective strategies, implement solutions, and foster positive transformations. By leveraging their expertise, industry knowledge, and analytical abilities, Panorama empowers organizations to optimize their processes, overcome obstacles, and attain long-lasting growth.",
     img: "/solution/businessConsulting.png",
     type: "Consulting",
-    url: "/",
+    url: "/consulting",
   },
   {
     name: "Research",
     desc: "Harness the power of cutting-edge research services. Panorama offers innovative research services that enable organizations to tap into the power of valuable insights and make informed decisions. Our dedicated team provides actionable data, industry trends, and in-depth competitive analysis to fuel your organization's growth and drive strategic initiatives. By leveraging our research services, you can stay ahead of the competition, make data-driven decisions, and seize opportunities that propel your organization forward. Unlock the full potential of your business and gain a competitive edge with our exceptional research expertise.",
     img: "/solution/research.png",
     type: "Consulting",
-    url: "/",
+    url: "/rdd",
   },
   {
     name: "Training",
@@ -46,7 +46,7 @@ const ServiceData = [
     desc: "Streamline your processes and ensure clarity. Panorama's meticulous documentation services enable organizations to streamline their processes and achieve clarity. Our expertise lies in creating comprehensive and user-friendly documents that enhance efficiency. Whether it's developing policies and procedures or crafting workflow diagrams, our services ensure optimized operations and seamless workflow within your organization. With our meticulous attention to detail, we help establish clear guidelines that enhance productivity across your business.",
     img: "/solution/docs.png",
     type: "Consulting",
-    url: "/",
+    url: "/rdd",
   },
   {
     name: "Courses",

@@ -43,7 +43,7 @@ export default function Service() {
                 }}
               >
                 <Typography variant="large" color="neutral.b900">
-                  Assesment
+                  Assessment
                 </Typography>
               </div>
               <div

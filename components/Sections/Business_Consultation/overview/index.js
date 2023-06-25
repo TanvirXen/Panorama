@@ -20,7 +20,7 @@ export default function Overview() {
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="large" color="neutral.b200">
-        Navigate the complexities of running a business with our expert consulting services. Our experienced team offers a wide range of services including strategic planning, marketing, operations, and organizational development. 
+        Allow our team of expert consultants to navigate you through the complex terrain of business management. Our highly proficient professionals offer a wide range of comprehensive services, including strategic planning, marketing, operations, and organizational development. By leveraging our expertise, you can adeptly navigate the obstacles that inevitably arise in business operations.
         </Typography>
         </div>
         </div>

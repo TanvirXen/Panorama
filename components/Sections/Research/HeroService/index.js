@@ -14,7 +14,7 @@ export default function HeroService() {
           </div>
           <div style={{ paddingTop: "8px" ,paddingBottom:'180px'}}>
             <Typography variant="h1" color="neutral.b0">
-              Embark on a journey towards your project success with us.
+            Embark on a journey towards your project 
             </Typography>
           </div>
           <div style={{paddingTop:'12px'}}>

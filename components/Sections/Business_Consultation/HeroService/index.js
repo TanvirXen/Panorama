@@ -14,7 +14,7 @@ export default function HeroService() {
           </div>
           <div style={{ paddingTop: "8px" ,paddingBottom:'180px'}}>
             <Typography variant="h1" color="neutral.b0">
-            Unlock the full potential of your business with our expert consulting services
+            Unlock the full potential of your business with our expert
             </Typography>
           </div>
           <div style={{paddingTop:'12px'}}>
