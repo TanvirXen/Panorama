@@ -10,12 +10,9 @@ export default function NewsG() {
         <Grid container spacing={0}>
           <Grid md={6}>
             <div className="stay">
-              <Typography variant="h1R" color="neutral.b900">
+              <Typography variant="h2R" color="neutral.b900">
                 Stay up to date with the greatest and latest news from us
               </Typography>
-            </div>
-            <div className="newsImage">
-              <img src="news.png"/>
             </div>
           </Grid>
           <Grid md={6}>

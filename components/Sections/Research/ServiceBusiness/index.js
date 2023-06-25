@@ -64,7 +64,7 @@ export default function ServiceBusiness() {
           </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
-              <img src="rdd2.png" alt="" />
+              <img src="rdd3.png" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
                   Development
