@@ -4,7 +4,7 @@ const ServiceData = [
     desc: "Unlock your business potential with our comprehensive assessment. Identify your short-comings, analyse their nature and formulate the best solutions to overcome your challenges with us.",
     img: "/solution/assesmentBusiness.png",
     type: "Assessment",
-    url: "/assesment",
+    url: "/assessment",
   },
   {
     name: "Fractional CFO",
