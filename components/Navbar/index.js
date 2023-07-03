@@ -217,7 +217,7 @@ export default function Navbar() {
               </ul>
               <div className="navpcsec">
                 {/* <Button kind="ghost" size="md" className='btns' >Log in</Button> */}
-                <Button kind="primary" size="md" className="btnss" onClick={()=>window.open("https://app.panoramamas.com/")}>
+                <Button kind="primary" size="md" className="btnss" onClick={()=>window.open("https://test.agsmcs.info/")}>
                   Get Started
                 </Button>
                 <div className="bars" onClick={()=>setmenuOpen(!menuOpen)}>
