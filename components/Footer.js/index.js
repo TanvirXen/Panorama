@@ -82,7 +82,7 @@ export default function Footer() {
 									>
 										Company
 									</Typography>
-									<Typography variant="small" color="neutral.b100">
+									<Typography variant="small" color="neutral.b100" 	onClick={() => router.push("/about")}>
 										About Us
 									</Typography>
 									{/* <Typography variant="small" color="neutral.b100">
