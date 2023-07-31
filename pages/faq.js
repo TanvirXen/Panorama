@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Container from "@mui/material/Container";
 import Career from "../components/Sections/About/career";
 import Team from "../components/Sections/About/team";
 import InfoCompany from "../components/Sections/About/info";

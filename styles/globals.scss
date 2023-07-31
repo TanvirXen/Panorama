@@ -707,6 +707,26 @@ a {
     padding-top: 180px;
   }
 }
+.abtherosaaaa{
+  width: 100%;
+  height: 350px;
+  background-image: url("/aboutHeros.png");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center;
+  .abtp {
+    padding-top: 150px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .bvc{
+    padding-top: 180px;
+  }
+}
 .serheroBus {
   width: 100%;
   height: 620px;
