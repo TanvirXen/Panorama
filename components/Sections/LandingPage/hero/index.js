@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 export default function Hero() {
 	return (
-		<Carousel autoPlay={true} infiniteLoop={true}>
+		<Carousel autoPlay={true} infiniteLoop={true} centerMode={false}>
 			<div className="herol1">
 				<Container
 					maxWidth="xl"
@@ -21,7 +21,7 @@ export default function Hero() {
 								Understand, prioritise and find solutions to your problems
 							</Typography>
 							<div className="stext">
-								<Typography variant="large" color="neutral.b10">
+								<Typography variant="h4" color="neutral.b10">
 									Empowering individuals and fostering collective growth to turn
 									dreams into reality.
 								</Typography>
@@ -43,7 +43,7 @@ export default function Hero() {
 								Understand, prioritise and find solutions to your problems
 							</Typography>
 							<div className="stext">
-								<Typography variant="large" color="neutral.b10">
+								<Typography variant="h4" color="neutral.b10">
 									Empowering individuals and fostering collective growth to turn
 									dreams into reality.
 								</Typography>
@@ -65,7 +65,7 @@ export default function Hero() {
 								Understand, prioritise and find solutions to your problems
 							</Typography>
 							<div className="stext">
-								<Typography variant="large" color="neutral.b10">
+								<Typography variant="h4" color="neutral.b10">
 									Empowering individuals and fostering collective growth to turn
 									dreams into reality.
 								</Typography>
@@ -87,7 +87,7 @@ export default function Hero() {
 								Understand, prioritise and find solutions to your problems
 							</Typography>
 							<div className="stext">
-								<Typography variant="large" color="neutral.b10">
+								<Typography variant="h4" color="neutral.b10">
 									Empowering individuals and fostering collective growth to turn
 									dreams into reality.
 								</Typography>
@@ -109,7 +109,7 @@ export default function Hero() {
 								Understand, prioritise and find solutions to your problems
 							</Typography>
 							<div className="stext">
-								<Typography variant="large" color="neutral.b10">
+								<Typography variant="h4" color="neutral.b10">
 									Empowering individuals and fostering collective growth to turn
 									dreams into reality.
 								</Typography>
@@ -131,7 +131,7 @@ export default function Hero() {
 								Understand, prioritise and find solutions to your problems
 							</Typography>
 							<div className="stext">
-								<Typography variant="large" color="neutral.b10">
+								<Typography variant="h4" color="neutral.b10">
 									Empowering individuals and fostering collective growth to turn
 									dreams into reality.
 								</Typography>
