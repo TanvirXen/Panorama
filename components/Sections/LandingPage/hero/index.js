@@ -65,7 +65,7 @@ Your Business Essentials.
 								Get started  on a path towards achieving project success by joining us.
 							</Typography>
 							<div className="stext">
-								<Typography variant="h4" color="neutral.b10">
+								<Typography variant="h4B" color="neutral.b10">
 								In the world of business, partnerships crafted by professionals 
 are the cornerstone of triumph.
 								</Typography>
