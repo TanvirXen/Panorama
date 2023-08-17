@@ -40,12 +40,12 @@ export default function Hero() {
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Understand, prioritise and find solutions to your problems
+								Understand your business essentials better with our comprehensive assessment.
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Empowering individuals and fostering collective growth to turn
-									dreams into reality.
+									Navigate the Core: Our Comprehensive Assessment Unravels
+Your Business Essentials.
 								</Typography>
 							</div>
 						</div>
@@ -62,12 +62,12 @@ export default function Hero() {
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Understand, prioritise and find solutions to your problems
+								Get started  on a path towards achieving project success by joining us.
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Empowering individuals and fostering collective growth to turn
-									dreams into reality.
+								In the world of business, partnerships crafted by professionals 
+are the cornerstone of triumph.
 								</Typography>
 							</div>
 						</div>
@@ -84,12 +84,12 @@ export default function Hero() {
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Understand, prioritise and find solutions to your problems
+								Unlock the full potential of your business with our expert consulting services
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Empowering individuals and fostering collective growth to turn
-									dreams into reality.
+									Unlock Insights, Elevate Business: Dive Deep with Our 
+Comprehensive Assessment.
 								</Typography>
 							</div>
 						</div>
@@ -106,12 +106,11 @@ export default function Hero() {
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Understand, prioritise and find solutions to your problems
+								Discover your ideal partner through our professional service provider.
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Empowering individuals and fostering collective growth to turn
-									dreams into reality.
+									Navigate the realm of entrepreneurship with confidence, knowing that professionals are sculpting your path to the perfect business partner.
 								</Typography>
 							</div>
 						</div>
@@ -128,12 +127,13 @@ export default function Hero() {
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Understand, prioritise and find solutions to your problems
+								Get access to high level financial insights and strategies
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Empowering individuals and fostering collective growth to turn
-									dreams into reality.
+								Uncontrolled expenditure of modest sums can gradually 
+destroy your financial resources over a period.
+
 								</Typography>
 							</div>
 						</div>
