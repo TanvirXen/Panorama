@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 export default function Hero() {
 	return (
-		<Carousel autoPlay={true} infiniteLoop={true} centerMode={false}>
+		<Carousel autoPlay={true} infiniteLoop={true} centerMode={false} transitionTime={6}>
 			<div className="herol1">
 				<Container
 					maxWidth="xl"
