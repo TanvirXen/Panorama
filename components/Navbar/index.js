@@ -100,6 +100,9 @@ export default function Navbar() {
                     <li>
                       <Link href="/faq">FAQ</Link>
                     </li>
+                    <li>
+                      <Link href="/pricing">Pricing</Link>
+                    </li>
                     {/* <li onClick={()=>setselectedSate('solutions')}>
                       <a>Solutions</a>
                       <ChevronDown/>

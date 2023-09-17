@@ -481,6 +481,107 @@ span{
     }
   }
 }
+.featured-plan {
+  padding: 100px 0;
+  .featured-top {
+    .featured-header {
+      padding: 0 20px;
+      .heading {
+        margin-bottom: 18px;
+        display: block;
+      }
+    }
+  }
+  .featured-plans {
+    display: flex;
+    justify-content: space-between;
+    .single-plan {
+      background: #ffffff;
+      width: 303px;
+      padding: 16px 20px;
+      p{height: 200px;}
+      .plan-heading {
+        font-family: "Ubuntu";
+        font-style: normal;
+        font-size: 24px;
+        line-height: 34px;
+        color: #4b4b4b;
+        margin-bottom: 5px;
+        margin-top: 10px;
+      }
+      p {
+        font-family: "Ubuntu";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 120%;
+        color: #666666;
+      }
+      .single-plan-price {
+        margin-top: 17px;
+        h3 {
+          font-family: "Ubuntu";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 120%;
+          color: #0065ff;
+        }
+        p {
+          color: #292929;
+        }
+      }
+      .single-plan-btn {
+        background: #e6f0ff;
+        padding: 11px 22.5px;
+        width: 100%;
+        justify-content: center;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.16px;
+        color: #0065ff;
+        margin-top: 17px;
+        cursor: pointer;
+      }
+      .single-plan-btn:hover {
+        background: #0065ff;
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+    .single-plan:hover {
+      box-shadow: 2px 3px 9px rgba(169, 169, 169, 0.24);
+    }
+  }
+}
+
+.featured-bottom {
+  .features-list-item {
+    padding: 16px 20px;
+    margin-top: 2px;
+    li {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 120%;
+      color: #292929;
+      margin-bottom: 24px;
+    }
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .featured-plans {
+    margin-top: 2px;
+    .single-plan {
+      .features-list-item {
+        padding: 0;
+        margin-top: 0;
+      }
+    }
+  }
+}
 .cds--text-input {
   border-bottom: 0px !important;
 }
@@ -1398,6 +1499,17 @@ padding-top: 12px;
 .assesSection3 {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+@media only screen and (max-width: 1440px) {
+  .featured-plan {
+    overflow: scroll;
+  }
+  .featured-top {
+    width: 1134px;
+  }
+  .featured-bottom {
+    width: 1134px;
+  }
 }
 @media only screen and (max-width: 1180px) {
   .srv {
