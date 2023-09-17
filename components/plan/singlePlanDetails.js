@@ -94,7 +94,7 @@ export default function SinglePlanDetails({ e }) {
 		<div className="single-plan">
 			<ul className="features-list-item">
 				{e.map((s) => {
-					return <Details s={s} />;
+					return <Details s={s} key={s.name}/>;
 				})}
 			</ul>
 		</div>
