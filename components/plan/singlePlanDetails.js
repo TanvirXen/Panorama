@@ -98,5 +98,6 @@ export default function SinglePlanDetails({ e }) {
 				})}
 			</ul>
 		</div>
+        
 	);
 }
