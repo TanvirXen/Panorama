@@ -13,7 +13,7 @@ export default function SinglePLan({
 	return (
 		<div className="single-plan">
 			<h3 className="plan-heading">{Planname}</h3>
-			<h3 className="plan-heading">
+			<h3 className="plan-headingd">
 				{price == 0 ? (
 					<span style={{ color: "#0065FF" }}>Free</span>
 				) : (
