@@ -18,12 +18,12 @@ export default function Hero() {
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Understand, prioritise and find solutions to your problems
+								Understand, prioritise and identify solutions to your business problems
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Empowering individuals and fostering collective growth to turn
-									dreams into reality.
+									Empowering individuals and fostering 
+collective growth to turn dreams into reality.
 								</Typography>
 							</div>
 						</div>
@@ -44,8 +44,8 @@ export default function Hero() {
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Navigate the Core: Our Comprehensive Assessment Unravels
-Your Business Essentials.
+Resolve the heart of your business by utilizing our Comprehensive Assessment, which unveils your essential business components.
+
 								</Typography>
 							</div>
 						</div>
@@ -62,11 +62,11 @@ Your Business Essentials.
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Get started  on a path towards achieving project success by joining us.
+							Get started  on a path towards achieving business success by joining us.
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4B" color="neutral.b10">
-								In the world of business, partnerships crafted by professionals 
+				In the world of business, partnerships crafted by professionals 
 are the cornerstone of triumph.
 								</Typography>
 							</div>
@@ -84,11 +84,11 @@ are the cornerstone of triumph.
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Unlock the full potential of your business with our expert consulting services
+								Unlock the full potential of your business with our  consulting services
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Unlock Insights, Elevate Business: Dive Deep with Our 
+						Unlock Insights, Elevate Business: Dive Deep with Our 
 Comprehensive Assessment.
 								</Typography>
 							</div>
@@ -127,12 +127,11 @@ Comprehensive Assessment.
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Get access to high level financial insights and strategies
+							Find your perfect match for your business using Panorama services.
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-								Uncontrolled expenditure of modest sums can gradually 
-destroy your financial resources over a period.
+				Navigate the realm of entrepreneurship with confidence, knowing that professionals are sculpting your path to the perfect business partner.
 
 								</Typography>
 							</div>
