@@ -106,11 +106,11 @@ Comprehensive Assessment.
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-								Discover your ideal partner through our professional service provider.
+							Find your perfect match for your business using Panorama services.
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-									Navigate the realm of entrepreneurship with confidence, knowing that professionals are sculpting your path to the perfect business partner.
+								Navigate the realm of entrepreneurship with confidence, knowing that professionals are sculpting your path to the perfect business partner.
 								</Typography>
 							</div>
 						</div>
@@ -127,11 +127,12 @@ Comprehensive Assessment.
 					<div className="heros">
 						<div className="text">
 							<Typography variant="h1" color="neutral.b0">
-							Find your perfect match for your business using Panorama services.
+							Get access to high level financial insights and strategies
 							</Typography>
 							<div className="stext">
 								<Typography variant="h4" color="neutral.b10">
-				Navigate the realm of entrepreneurship with confidence, knowing that professionals are sculpting your path to the perfect business partner.
+								Uncontrolled expenditure of modest sums can gradually 
+destroy your financial resources over a period.
 
 								</Typography>
 							</div>
