@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
         xs: 0,
         sm: 768,
         md: 992,
-        lg: 1200,
-        xl: 1400,
+        lg: 1150,
+        xl: 1376,
       },
     },
     palette: {
@@ -170,13 +170,13 @@ function MyApp({ Component, pageProps }) {
       large: {
         fontFamily: `"Ubuntu"`,
         fontWeight: "300",
-        fontSize: "1.5rem",
+        fontSize: "1.8rem",
         lineHeight: "120%",
       },
       largeB: {
         fontFamily: `"Ubuntu"`,
         fontWeight: "400",
-        fontSize: "1.5rem",
+        fontSize: "1.8rem",
         lineHeight: "120%",
       },
       base: {
@@ -194,13 +194,13 @@ function MyApp({ Component, pageProps }) {
       small: {
         fontFamily: `"Ubuntu"`,
         fontWeight: "300",
-        fontSize: "1rem",
+        fontSize: "1.2rem",
         lineHeight: "120%",
       },
       smallB: {
         fontFamily: `"Ubuntu"`,
         fontWeight: "500",
-        fontSize: "1rem",
+        fontSize: "1.2rem",
         lineHeight: "120%",
       },
       xsmall: {
