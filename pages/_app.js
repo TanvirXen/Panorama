@@ -127,7 +127,7 @@ function MyApp({ Component, pageProps }) {
       },
       h2: {
         fontFamily: `"Ubuntu"`,
-        fontWeight: "700",
+        fontWeight: "600",
         fontSize: "2.5rem",
         lineHeight: "120%",
       },

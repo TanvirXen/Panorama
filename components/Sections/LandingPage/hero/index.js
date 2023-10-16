@@ -17,7 +17,7 @@ export default function Hero() {
 				>
 					<div className="heros">
 						<div className="text">
-							<Typography variant="h1" color="neutral.b0">
+							<Typography variant="h2" color="neutral.b0">
 								Understand, prioritise and identify solutions to your business problems
 							</Typography>
 							<div className="stext">
