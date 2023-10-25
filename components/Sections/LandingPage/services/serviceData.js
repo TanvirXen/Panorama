@@ -133,6 +133,27 @@ const ServiceData = [
     type: "Investment",
     url: "/",
   },
+  {
+    name: "UI/UX Development",
+    desc: "Our team excels at UI/UX Development through a blend of creativity, expertise, and meticulous processes. We start by thoroughly understanding your goals and your target audience. We conduct in-depth research to grasp user behaviors and preferences. Then, we craft visually captivating User Interfaces (UI) that resonate with your brand identity. Our User Experience (UX) designs focus on seamless navigation, ensuring every interaction is intuitive and efficient.",
+    img: "/solution/code.webp",
+    type: "IT",
+    url: "/website-development",
+  },
+  {
+    name: "Website Development",
+    desc: "Our team designs and builds websites that not only look great but also function seamlessly, providing a strong online presence and enhancing user engagement.In website development we use MERN(MongoDB, Express,React,Node.js) Stack and AWS .",
+    img: "/solution/ui.webp",
+    type: "IT",
+    url: "/website-development",
+  },
+  {
+    name: "Data Room",
+    desc: "As part of our service, we offer a data room that serves as a consolidated collection of documents designed to provide investors with a comprehensive understanding of your business. The primary goal of the data room is to equip investors with the necessary information to conduct thorough due diligence on your company. This allows them to gather all the essential details required to create an investment memo, which can be shared and discussed with their team.",
+    img: "/solution/data.png",
+    type: "IT",
+    url: "/website-development",
+  },
 ];
 
 export default ServiceData;

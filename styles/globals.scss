@@ -884,6 +884,14 @@ a {
   background-repeat: no-repeat;
   padding-top: 94px;
 }
+.serheroWeb {
+  width: 100%;
+  height: 550px;
+  background-image: url("/solution/ui.webp");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  padding-top: 94px;
+}
 .serhero {
   width: 100%;
   height: 620px;

@@ -116,6 +116,20 @@ export default function Service() {
                 Impact Measurment
                 </Typography>
               </div>
+              <div
+                className={selected == "IT" ? "pfrs" : "pfr"}
+                onClick={() => {
+                  setselected("IT");
+                  var newArray = ServiceData.filter(function (el) {
+                    return el.type == "IT";
+                  });
+                  setserData(newArray);
+                }}
+              >
+                <Typography variant="large" color="neutral.b900">
+                IT Services
+                </Typography>
+              </div>
             </div>
           </Grid>
           <Grid container spacing={0} md={12} lg={12} xl={8}>
