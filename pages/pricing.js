@@ -200,7 +200,7 @@ export default function Pricing() {
 						</Grid>
 						<Grid xs={10} sm={10} md={10} lg={10} xl={10}>
 							<div className="featured-plans">
-								{Plan.map((e,) => {
+								{Plan.map((e,i) => {
 									return <SinglePlanDetails e={e?.attributes} key={i} />;
 								})}
 							</div>

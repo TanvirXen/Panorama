@@ -88,7 +88,7 @@ export default function Service() {
                   Knowledge
                 </Typography>
               </div>
-              <div
+              {/* <div
                 className={selected == "Investment" ? "pfrs" : "pfr"}
                 onClick={() => {
                   setselected("Investment");
@@ -115,7 +115,7 @@ export default function Service() {
                 <Typography variant="large" color="neutral.b900">
                 Impact Measurment
                 </Typography>
-              </div>
+              </div> */}
               <div
                 className={selected == "IT" ? "pfrs" : "pfr"}
                 onClick={() => {

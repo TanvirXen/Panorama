@@ -13,11 +13,14 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import {Button} from "@carbon/react";
 import Grid from "@mui/material/Grid";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+import Marquee from "react-easy-marquee";
 export default function Website() {
   return (
     <div>
                         <Head>
-        <title>Website Development Service of Panorama</title>
+        <title>Digital Service of Panorama</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
         <link rel="preconnect" href="https://vitals.vercel-insights.com" />
@@ -125,7 +128,7 @@ export default function Website() {
           </div>
           <div style={{ paddingTop: "8px" ,paddingBottom:'160px'}}>
             <Typography variant="h1" color="neutral.b0">
-            Get comprehensive digital solutions tailored to your business needs
+            Get the digital solutions your business needs
             </Typography>
           </div>
           <div>
@@ -146,12 +149,13 @@ export default function Website() {
         </div>
         <div style={{paddingTop:'8px',paddingBottom:'40px'}}>
         <Typography variant="h1" color="neutral.b900">
-        Get digital solutions that are made to match exactly what your business needs and wants.
+        Get digital solutions that are made to match exactly what your business needs and wants
         </Typography>
         </div>
         <div style={{paddingTop:'8px'}}>
         <Typography variant="large" color="neutral.b200">
-        Gain access to digital solutions that are exclusively tailored to prioritize your business's individual needs and preferences starting from web development to customizing apps for your business. These solutions have been meticulously crafted to ensure a perfect alignment with the specific demands and goals of your organization, enhancing your overall efficiency and success.
+        We know it can be challenging to keep up with the digital shift in business, but don&apos;t worry, you have us. Get everything your business needs in one place.
+
         </Typography>
         </div>
         </div>
@@ -174,13 +178,28 @@ export default function Website() {
             </div>
             <div style={{ paddingTop: "24px" }}>
               <Typography variant="large" color="neutral.b200">
-              Recognizing the distinctiveness of each business, we customize our services to perfectly align with your
- specific requirements. With our guidance and support, you can attain enduring success in the long run.
+              First, we engage in discussions with the client to thoroughly understand their specific needs and requirements.
               </Typography>
             </div>
           </Grid>
           <Grid md={4}></Grid>
+          <Grid md={12} lg={4}>
+            <div className="pdfs">
+            <img src="assinit.svg" alt="" />
+              <div>
+                <Typography variant="large" color="neutral.b800">
+                Initial assessment
+                </Typography>
+              </div>
 
+              <br />
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                First, we engage in discussions with the client to thoroughly understand their specific needs and requirements.
+                </Typography>
+              </div>
+            </div>
+          </Grid>
           <Grid md={12} lg={4}>
             <div className="pdfs">
               <img src="initial.svg" alt="" />
@@ -193,24 +212,60 @@ export default function Website() {
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Tailored to your needs, our assessment analyzes finances, identifies opportunities, and aligns with your goals to elevate your company.
+                Next, our team conducts research to determine the most suitable technology solutions for your business.
                 </Typography>
               </div>
             </div>
           </Grid>
+
           <Grid md={12} lg={4}>
             <div className="pdfs">
-            <img src="development.svg" alt="" />
+              <img src="prototype.svg" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
-                UI/UX Development
+                Prototype
                 </Typography>
               </div>
 
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Dedicated to enhancing the user experience and interface of your digital products. We specialize in creating visually appealing, user-friendly designs that not only captivate your audience but also ensure smooth and intuitive navigation. For UI/UX development we use Figma
+                Afterward, we deliver an initial prototype through UI/UX design, giving you a visual representation to help you grasp the concept.
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+          <Grid md={12} lg={4}>
+            <div className="pdfs">
+              <img src="demo.svg" alt="" />
+              <div>
+                <Typography variant="large" color="neutral.b800">
+                Quality Assurance
+                </Typography>
+              </div>
+
+              <br />
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                Make features and take client feedback
+                </Typography>
+              </div>
+            </div>
+          </Grid>
+          <Grid md={12} lg={4}>
+            <div className="pdfs">
+              <img src="product.svg" alt="" />
+              <div>
+                <Typography variant="large" color="neutral.b800">
+                Product
+                </Typography>
+              </div>
+
+              <br />
+              <div className="desc">
+                <Typography variant="small" color="neutral.b200">
+                Then, we create features and gather your feedback to refine and enhance the solution.
+
                 </Typography>
               </div>
             </div>
@@ -220,14 +275,14 @@ export default function Website() {
               <img src="support.svg" alt="" />
               <div>
                 <Typography variant="large" color="neutral.b800">
-                Website Development
+        Ongoing Support
                 </Typography>
               </div>
 
               <br />
               <div className="desc">
                 <Typography variant="small" color="neutral.b200">
-                Our team designs and builds websites that not only look great but also function seamlessly, providing a strong online presence and enhancing user engagement.In website development we use MERN(MongoDB, Express,React,Node.js) Stack and AWS
+                Finally, we proceed to develop the product and provide continuous support to ensure its success.
                 </Typography>
               </div>
             </div>
@@ -235,102 +290,117 @@ export default function Website() {
         </Grid>
       </Container>
     </div>
+    <Container
+				maxWidth="xl"
+				style={{ paddingBottom: "40px", paddingTop: "40px" }}
+			>
+              <Typography variant="h1" color="neutral.b900">
+Technologies we use
+        </Typography>
+				<Marquee
+					duration={15000}
+					background="#ffffff"
+					height="220px"
+					width="100%"
+					axis="X"
+					align="center"
+					pauseOnHover={true}
+					reverse={true}
+				>
+  <img src="shopify.png" alt="" style={{paddingLeft:'12px',paddingRight:'12px'}} />
+  <img src="nodejs.svg" alt="" style={{paddingLeft:'12px',paddingRight:'12px'}} />
+  <img src="react.svg" alt="" style={{paddingLeft:'12px',paddingRight:'12px'}} />
+  <img src="firebase.svg" alt="" style={{paddingLeft:'12px',paddingRight:'12px'}} />
+  <img src="webflow.svg" alt="" style={{paddingLeft:'12px',paddingRight:'12px'}} />
+  <img src="sanity.svg" alt="" style={{paddingLeft:'12px',paddingRight:'12px'}} />
+  <img src="mongo.svg" alt="" style={{paddingLeft:'12px',paddingRight:'12px'}} />
+				</Marquee>
+			</Container>
     <div className="growth">
       <Container maxWidth="xl">
       <div className="trsty">
               <Typography variant="small" color="neutral.b50">
-              LEARN MORE
+              Our Software
               </Typography>
             </div>
         <div className="overText">
           <div></div>
           <div>
             <Typography variant="h1R" color="neutral.b900">
-            Managing your Finance can be daunting, but we got you covered
+            The idea of digitalizing your business can be scary, but you got us.
             </Typography>
           </div>
           <div style={{ paddingTop: "40px" }}>
             <Typography variant="large" color="neutral.b200">
-            Discover the benefits of fractional CFO services for your business.
+            Your business deserves nothing but the IT services, and we are here to ensure that you are well taken care of.
             </Typography>
           </div>
         </div>
         <div style={{ paddingTop: "60px" }}>
           <Grid container spacing={0} style={{ paddingBottom: "100px" }}>
             <Grid xs={12} sm={12} md={12} lg={8}>
-              <img src="finance_subhero.png" alt="" style={{ width: "100%" }} />
+            <Carousel autoPlay={true} infiniteLoop={true} centerMode={false} interval={7000}>
+              <img src="ass1.png" alt="" style={{ width: "100%" }} />
+              <img src="ass2.png" alt="" style={{ width: "100%" }} />
+              <img src="ass3.png" alt="" style={{ width: "100%" }} />
+              <img src="ass4.png" alt="" style={{ width: "100%" }} />
+              </Carousel>
             </Grid>
             <Grid xs={12} sm={12} md={12} lg={4}>
 <div className="growthPadd">
 <div style={{  paddingTop:'40px' }}>
                 <Typography variant="h4" color="neutral.b800">
-                Learn more about our Fractional CFO services
+                Assessment Software
                 </Typography>
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Obtain the valuable insights and guidance provided by a Chief Financial Officer on a part-time basis, eliminating the requirement for a full-time hiring commitment.
+                Our assessment software helps you identify areas where your business may need improvement and provides detailed analysis to guide you through the next steps for action.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
-              <Button kind="primary" size="lg">
-                Learn More
+              <Button kind="primary" size="lg" onClick={()=>window.open("https://test.agsmcs.info/")}>
+              Check Software
                 </Button>
               </div>
 </div>
+
             </Grid>
           </Grid>
-        </div>
-      </Container>
-    </div>
-    <div className="growth">
-      <Container maxWidth="xl">
-      <div className="trsty">
-              <Typography variant="small" color="neutral.b50">
-              LEARN MORE
-              </Typography>
-            </div>
-        <div className="overText">
-          <div></div>
-          <div>
-            <Typography variant="h1R" color="neutral.b900">
-            Managing your Finance can be daunting, but we got you covered
-            </Typography>
-          </div>
-          <div style={{ paddingTop: "40px" }}>
-            <Typography variant="large" color="neutral.b200">
-            Discover the benefits of fractional CFO services for your business.
-            </Typography>
-          </div>
-        </div>
-        <div style={{ paddingTop: "60px" }}>
           <Grid container spacing={0} style={{ paddingBottom: "100px" }}>
             <Grid xs={12} sm={12} md={12} lg={8}>
-              <img src="finance_subhero.png" alt="" style={{ width: "100%" }} />
+            <Carousel autoPlay={true} infiniteLoop={true} centerMode={false} interval={7000}>
+              <img src="fn1.png" alt="" style={{ width: "100%" }} />
+              <img src="fn2.png" alt="" style={{ width: "100%" }} />
+              <img src="fn3.png" alt="" style={{ width: "100%" }} />
+              <img src="fn4.png" alt="" style={{ width: "100%" }} />
+              </Carousel>
             </Grid>
             <Grid xs={12} sm={12} md={12} lg={4}>
 <div className="growthPadd">
 <div style={{  paddingTop:'40px' }}>
                 <Typography variant="h4" color="neutral.b800">
-                Learn more about our Fractional CFO services
+                Finance Software
                 </Typography>
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Obtain the valuable insights and guidance provided by a Chief Financial Officer on a part-time basis, eliminating the requirement for a full-time hiring commitment.
+                Our finance software assists you to efficiently manage your business finances, from tracking costs to directly sending invoices to your clients within the same platform.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
-              <Button kind="primary" size="lg">
-                Learn More
+              <Button kind="primary" size="lg" onClick={()=>window.open("https://panorama-finance-software-git-main-tanvirxen.vercel.app/dashboard")}>
+              Check Software
                 </Button>
               </div>
 </div>
+
             </Grid>
           </Grid>
         </div>
       </Container>
     </div>
+
       <News />
       <Started />
     </div>
