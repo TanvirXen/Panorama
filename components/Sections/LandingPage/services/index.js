@@ -46,6 +46,7 @@ export default function Service() {
                   Assessment
                 </Typography>
               </div>
+
               <div
                 className={selected == "Solutions" ? "pfrs" : "pfr"}
                 onClick={() => {
@@ -58,6 +59,20 @@ export default function Service() {
               >
                 <Typography variant="large" color="neutral.b900">
                   Solutions
+                </Typography>
+              </div>
+              <div
+                className={selected == "IT" ? "pfrs" : "pfr"}
+                onClick={() => {
+                  setselected("IT");
+                  var newArray = ServiceData.filter(function (el) {
+                    return el.type == "IT";
+                  });
+                  setserData(newArray);
+                }}
+              >
+                <Typography variant="large" color="neutral.b900">
+                IT Services
                 </Typography>
               </div>
               <div
@@ -75,20 +90,6 @@ export default function Service() {
                 </Typography>
               </div>
               <div
-                className={selected == "Knowledge" ? "pfrs" : "pfr"}
-                onClick={() => {
-                  setselected("Knowledge");
-                  var newArray = ServiceData.filter(function (el) {
-                    return el.type == "Knowledge";
-                  });
-                  setserData(newArray);
-                }}
-              >
-                <Typography variant="large" color="neutral.b900">
-                  Knowledge
-                </Typography>
-              </div>
-              {/* <div
                 className={selected == "Investment" ? "pfrs" : "pfr"}
                 onClick={() => {
                   setselected("Investment");
@@ -115,21 +116,23 @@ export default function Service() {
                 <Typography variant="large" color="neutral.b900">
                 Impact Measurment
                 </Typography>
-              </div> */}
+              </div>
               <div
-                className={selected == "IT" ? "pfrs" : "pfr"}
+                className={selected == "Knowledge" ? "pfrs" : "pfr"}
                 onClick={() => {
-                  setselected("IT");
+                  setselected("Knowledge");
                   var newArray = ServiceData.filter(function (el) {
-                    return el.type == "IT";
+                    return el.type == "Knowledge";
                   });
                   setserData(newArray);
                 }}
               >
                 <Typography variant="large" color="neutral.b900">
-                IT Services
+                  Knowledge
                 </Typography>
               </div>
+
+
             </div>
           </Grid>
           <Grid container spacing={0} md={12} lg={12} xl={8}>
