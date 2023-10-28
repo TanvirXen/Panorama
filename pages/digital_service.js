@@ -123,7 +123,7 @@ export default function Website() {
         <div className="serheroser">
           <div>
             <Typography variant="small" color="neutral.b50">
-              Website Development
+              Digital Services
             </Typography>
           </div>
           <div style={{ paddingTop: "8px" ,paddingBottom:'160px'}}>
