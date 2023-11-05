@@ -18,7 +18,7 @@ const ServiceType = [
       name: "Fractional CFO",
       desc: "Access high-level financial advice without the commitment of a full-time CFO through our Fractional CFO services. We provide expert guidance tailored to the specific needs of your business. With our flexible solution, you can benefit from the strategic insights and financial expertise of a seasoned CFO, optimizing your financial decision-making and driving sustainable growth. Our Fractional CFO services offer the perfect balance of expertise and cost-efficiency to support your business's financial success.",
       img: "/solution/CFOfractional.png",
-      type: "Fractional CFO App",
+      type: "Fractional CFO",
       url: "/fractionalcfo",
     },
     {
