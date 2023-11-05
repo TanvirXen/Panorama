@@ -111,7 +111,7 @@ export default function Navbar() {
 										<ul className="submenu">
 											{ServiceType.map((e) => {
 												return (
-													<li>
+													<li key={e.type}>
 														<Link href={e.url}>{e.type}</Link>
 													</li>
 												);
