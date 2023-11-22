@@ -122,7 +122,7 @@ export default function Navbar() {
 							{/* <Button kind="ghost" size="md" className='btns' >Log in</Button> */}
 							<Button
 								kind="primary"
-								size="md"
+								size="lg"
 								className="btnss"
 								onClick={() => window.open("https://test.agsmcs.info/")}
 							>
