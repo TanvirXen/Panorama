@@ -126,7 +126,7 @@ export default function Navbar() {
 								className="btnss"
 								onClick={() => window.open("https://test.agsmcs.info/")}
 							>
-								Get Started
+								Take an Assessment
 							</Button>
 							<div className="bars" onClick={() => setmenuOpen(!menuOpen)}>
 								{menuOpen ? <HamburgerClose /> : <HamburgerOpen />}
