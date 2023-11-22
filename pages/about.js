@@ -114,8 +114,9 @@ export default function About() {
       </Head>
       <HeroAbout/>
       <InfoCompany/>
-      <Advisor/>
       <Team/>
+      <Advisor/>
+ 
       <Career/>
       <Values/>
       {/* <TeamExp/> */}

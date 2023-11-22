@@ -15,10 +15,10 @@ export default function SinglePLan({
 			<h3 className="plan-heading">{Planname}</h3>
 			<h3 className="plan-heading">
 				{price == 0 ? (
-					<span style={{ color: "#0065FF" }}>Free</span>
+					<span style={{ color: "#0065FF",fontSize: "36px" }}>Free</span>
 				) : (
 					<span style={{ color: "#0065FF" }}>
-						<span style={{ fontSize: "36px" }}>{price}</span> {currency}
+						<span style={{ fontSize: "36px" }}>TBA</span>
 					</span>
 				)}
 			</h3>
@@ -28,12 +28,19 @@ export default function SinglePLan({
 			{/* <div className="single-plan-price">
 				<h3>Your Plan</h3>
 			</div> */}
+			{price == 0 ? (
 			<Link
 				className="single-plan-btn"
 				onClick={() => router.push('https://test.agsmcs.info/')}
 			>
 				Get Started
-			</Link>
+			</Link>):(			<Link
+				className="single-plan-btn"
+				style={{cursor:'not-allowed'}}
+			>
+				Coming Soon
+			</Link>)}
+
 		</div>
 	);
 }

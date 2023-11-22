@@ -102,13 +102,10 @@ export default function Navbar() {
 									<li>
 										<Link href="/faq">FAQ</Link>
 									</li>
-									<li>
-										<Link href="/pricing">Pricing</Link>
-									</li>
-									<li onClick={() => setselectedSate("solutions")}>
+									<li style={{cursor:'pointer'}} onClick={() => setselectedSate("solutions")}>
 										<a>Services</a>
 										<ChevronDown />
-										<ul className="submenu">
+										<ul className="submenu" >
 											{ServiceType.map((e) => {
 												return (
 													<li key={e.type}>

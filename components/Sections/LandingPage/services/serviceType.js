@@ -42,27 +42,27 @@ const ServiceType = [
       type: "Business Consulting",
       url: "/consulting",
     },
-    {
-      name: "Research",
-      desc: "Harness the power of cutting-edge research services. Panorama offers innovative research services that enable organizations to tap into the power of valuable insights and make informed decisions. Our dedicated team provides actionable data, industry trends, and in-depth competitive analysis to fuel your organization's growth and drive strategic initiatives. By leveraging our research services, you can stay ahead of the competition, make data-driven decisions, and seize opportunities that propel your organization forward. Unlock the full potential of your business and gain a competitive edge with our exceptional research expertise.",
-      img: "/solution/research.png",
-      type: "Research",
-      url: "/rdd",
-    },
-    {
-      name: "Training",
-      desc: "Panorama's services empower organizations by driving their growth through trans-formative training programs. Our dynamic workshops and engaging training sessions cover a wide range of areas, from leadership development to specialized skill-building. Designed to enhance employee capabilities and foster personal and professional growth, our programs equip your team with the skills necessary to excel in their roles. By leveraging our training solutions, you can unleash the full potential of your workforce and propel your organization forward.",
-      img: "/solution/training.png",
-      type: "Training",
-      url: "/",
-    },
-    {
-      name: "Documentation & Development",
-      desc: "Streamline your processes and ensure clarity. Panorama's meticulous documentation services enable organizations to streamline their processes and achieve clarity. Our expertise lies in creating comprehensive and user-friendly documents that enhance efficiency. Whether it's developing policies and procedures or crafting workflow diagrams, our services ensure optimized operations and seamless workflow within your organization. With our meticulous attention to detail, we help establish clear guidelines that enhance productivity across your business.",
-      img: "/solution/docs.png",
-      type: "Documentation & Development",
-      url: "/rdd",
-    },
+    // {
+    //   name: "Research",
+    //   desc: "Harness the power of cutting-edge research services. Panorama offers innovative research services that enable organizations to tap into the power of valuable insights and make informed decisions. Our dedicated team provides actionable data, industry trends, and in-depth competitive analysis to fuel your organization's growth and drive strategic initiatives. By leveraging our research services, you can stay ahead of the competition, make data-driven decisions, and seize opportunities that propel your organization forward. Unlock the full potential of your business and gain a competitive edge with our exceptional research expertise.",
+    //   img: "/solution/research.png",
+    //   type: "Research",
+    //   url: "/rdd",
+    // },
+    // {
+    //   name: "Training",
+    //   desc: "Panorama's services empower organizations by driving their growth through trans-formative training programs. Our dynamic workshops and engaging training sessions cover a wide range of areas, from leadership development to specialized skill-building. Designed to enhance employee capabilities and foster personal and professional growth, our programs equip your team with the skills necessary to excel in their roles. By leveraging our training solutions, you can unleash the full potential of your workforce and propel your organization forward.",
+    //   img: "/solution/training.png",
+    //   type: "Training",
+    //   url: "/",
+    // },
+    // {
+    //   name: "Documentation & Development",
+    //   desc: "Streamline your processes and ensure clarity. Panorama's meticulous documentation services enable organizations to streamline their processes and achieve clarity. Our expertise lies in creating comprehensive and user-friendly documents that enhance efficiency. Whether it's developing policies and procedures or crafting workflow diagrams, our services ensure optimized operations and seamless workflow within your organization. With our meticulous attention to detail, we help establish clear guidelines that enhance productivity across your business.",
+    //   img: "/solution/docs.png",
+    //   type: "Documentation & Development",
+    //   url: "/rdd",
+    // },
 
   ];
   

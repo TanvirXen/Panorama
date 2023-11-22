@@ -1,7 +1,9 @@
-import React from "react";
+import React ,{useState,useEffect} from "react";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import SinglePlanDetails from "@/components/plan/singlePlanDetails";
+import SinglePLan from "@/components/plan/singlePlan";
 import { TextInput, Select, SelectItem, Checkbox, Button } from "@carbon/react";
 import HeaderSectionAssesment from "@/components/Sections/Assesment/HeaderSectionAssesment";
 import HeroSectionAssesment from "@/components/Sections/Assesment/HeroSectionAssesment";
@@ -9,10 +11,42 @@ import ServiceBusinessAssesment from "@/components/Sections/Assesment/ServiceBus
 import LearnMoreAssesment from "@/components/Sections/Service/LearnMore";
 import FAQ from "@/components/Sections/About/faq";
 import KnowledgeInfoAssesment from "../components/Sections/Assesment/knowlwdgeInfo";
-import News from "../components/Sections/LandingPage/News/index.js";
+import NewsG from "@/components/Sections/LandingPage/News/index1";
 import Started from "../components/Sections/LandingPage/started/index";
 import Head from "next/head";
 export default function Assesment() {
+  const [Plan, setPlan] = useState([]);
+  async function getPlan() {
+      var myHeaders = new Headers();
+      myHeaders.append("Content-Type", "application/json");
+  
+      var raw = JSON.stringify({});
+  
+      var requestOptions = {
+        method: "POST",
+        credentials: "include",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: raw,
+  
+        redirect: "follow",
+      };
+      fetch("https://agsmcs.info/get_plan_list/", requestOptions)
+        .then(async (response) => {
+          let dsa = await response.json();
+          if (dsa.result.plan) {
+            setPlan(dsa.result.plan);
+            //No user handle
+          } else if (dsa.error && dsa.error.message == "Odoo Session Expired") {
+
+          }
+        })
+        .catch((error) => console.log("error", error));
+    }
+    useEffect(() => {
+      getPlan();
+    }, []);
   return (
     <div>
             <Head>
@@ -119,7 +153,77 @@ export default function Assesment() {
       <ServiceBusinessAssesment />
       <LearnMoreAssesment />
       <KnowledgeInfoAssesment />
-      <News />
+<div className="tgy">
+<Container maxWidth="xl">
+<div className="featured-plan">
+				<div className="featured-top">
+					<Grid container spacing={0}>
+						<Grid xs={2} sm={2} md={2} lg={2} xl={2}>
+							<div className="featured-header">
+								<div>
+									<Typography variant="small" color="neutral.b800">
+										Features
+									</Typography>
+								</div>
+								<div>
+									<Typography
+										variant="h4B"
+										color="neutral.b800"
+										className="heading"
+									>
+										Features by Plan
+									</Typography>
+								</div>
+								<div>
+									<Typography variant="small" color="neutral.b800">
+										Our most advanced tools, unlimited contacts, and priority
+										support; built for teams.
+									</Typography>
+								</div>
+							</div>
+						</Grid>
+						<Grid xs={10} sm={10} md={10} lg={10} xl={10}>
+							<div className="featured-plans">
+								{Plan.map((e) => {
+									return (
+										<SinglePLan
+											Planname={e.name}
+											description={e.description}
+											key={e.name}
+											planID={e.id}
+											price={e.price}
+											currency={e.currency}
+										/>
+									);
+								})}
+							</div>
+						</Grid>
+					</Grid>
+				</div>
+				<div className="featured-bottom">
+					<Grid container spacing={0}>
+						<Grid xs={2} sm={2} md={2} lg={2} xl={2}>
+							<ul className="features-list-item">
+								{Plan[0]?.attributes.map((e) => {
+									return <li key={e.name}>{e.name}</li>;
+								})}
+							</ul>
+						</Grid>
+						<Grid xs={10} sm={10} md={10} lg={10} xl={10}>
+							<div className="featured-plans">
+								{Plan.map((e,i) => {
+									return <SinglePlanDetails e={e?.attributes} key={i} />;
+								})}
+							</div>
+						</Grid>
+					</Grid>
+				</div>
+			</div>
+</Container>
+</div>
+	
+
+  <NewsG />
       <Started />
     </div>
   );
