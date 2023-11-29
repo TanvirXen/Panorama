@@ -15,9 +15,9 @@ export default function SinglePLan({
 			<h3 className="plan-heading">{Planname}</h3>
 			<h3 className="plan-heading">
 				{price == 0 ? (
-					<span style={{ color: "#0065FF",fontSize: "36px" }}>Free</span>
+					<span style={{ color: "#000",fontSize: "36px",fontWeight:'400' }}>Free</span>
 				) : (
-					<span style={{ color: "#0065FF" }}>
+					<span style={{ color: "#000",fontWeight:'400' }}>
 						<span style={{ fontSize: "36px" }}>TBA</span>
 					</span>
 				)}
