@@ -37,7 +37,7 @@ export default function Growth() {
               </div>
               <div style={{ paddingTop:'20px' }}>
                 <Typography variant="large" color="neutral.b200">
-                Embark on a journey of unrivaled growth by partnering with us. Our services extend beyond mere delivery; they are crafted to become your steadfast ally. With our unwavering support, you&apos;ll have the assurance and guidance needed to soar to new heights in your endeavors.
+                Start on unparalleled growth with us. Our services go beyond delivery, serving as your steadfast ally, providing unwavering support for your journey to new heights.
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>

@@ -28,7 +28,7 @@ export default function Business() {
 
 							<div>
 								<Typography variant="large" color="neutral.b200">
-								Identifying problems within businesses can be a burdensome and time-consuming undertaking, often resulting in significant costs and impeding timely resolution of the issues at hand.
+								Identifying  issues within businesses is an exhausting and time-intensive task, filled with substantial costs that hinder the prompt resolution of pressing challenges.
 								</Typography>
 							</div>
 						</div>
@@ -39,7 +39,7 @@ export default function Business() {
 						<div className="pdfs">
 							<img src="polygon.svg" alt="" />
 							<div>
-								<Typography variant="large" color="neutral.b800">
+								<Typography variant="largeB" color="neutral.b800">
 								Solve your Business Problems
 								</Typography>
 							</div>
@@ -57,7 +57,7 @@ export default function Business() {
 					<img src="shot.svg" alt="" />
 				
 							<div>
-								<Typography variant="large" color="neutral.b800">
+								<Typography variant="largeB" color="neutral.b800">
 								Understand your Business
 
 								</Typography>
@@ -76,7 +76,7 @@ export default function Business() {
                     <div className="pdfs">
 					<img src="arw.svg" alt="" />
 							<div>
-								<Typography variant="large" color="neutral.b800">
+								<Typography variant="largeB" color="neutral.b800">
 								Take charge of your Future
 								</Typography>
 							</div>
