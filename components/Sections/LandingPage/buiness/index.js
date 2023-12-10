@@ -2,7 +2,7 @@ import React from "react";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-
+import { TypeAnimation } from 'react-type-animation';
 export default function Business() {
 	return (
 		<div>
@@ -10,14 +10,25 @@ export default function Business() {
 				<Grid container spacing={0} style={{paddingBottom:'100px'}}>
 					<Grid md={10}>
 						<div className="trst">
-							<Typography variant="h1R" color="neutral.b900">
-							We are here to provide guidance and support in navigating the challenges of starting a business.
-
-							</Typography>
+						<TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'What if there was a website dedicated to solving your business problems?',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'What if you had a platform to assess and optimize your business at your fingertips?',
+        1000,
+        'What if your business consultant could be easily reached anytime, anywhere?',
+        1000,
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '3.4em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
 
 							<div>
 								<Typography variant="large" color="neutral.b200">
-								Identifying problems within businesses can be a burdensome and time-consuming undertaking, often resulting in significant costs and impeding timely resolution of the issues at hand.
+								Identifying  issues within businesses is an exhausting and time-intensive task, filled with substantial costs that hinder the prompt resolution of pressing challenges.
 								</Typography>
 							</div>
 						</div>
@@ -28,7 +39,7 @@ export default function Business() {
 						<div className="pdfs">
 							<img src="polygon.svg" alt="" />
 							<div>
-								<Typography variant="large" color="neutral.b800">
+								<Typography variant="largeB" color="neutral.b800">
 								Solve your Business Problems
 								</Typography>
 							</div>
@@ -46,7 +57,7 @@ export default function Business() {
 					<img src="shot.svg" alt="" />
 				
 							<div>
-								<Typography variant="large" color="neutral.b800">
+								<Typography variant="largeB" color="neutral.b800">
 								Understand your Business
 
 								</Typography>
@@ -65,7 +76,7 @@ export default function Business() {
                     <div className="pdfs">
 					<img src="arw.svg" alt="" />
 							<div>
-								<Typography variant="large" color="neutral.b800">
+								<Typography variant="largeB" color="neutral.b800">
 								Take charge of your Future
 								</Typography>
 							</div>

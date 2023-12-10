@@ -146,7 +146,7 @@ export default function Work() {
 
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Elevate your business to new heights with Panorama. As trusted partners for a diverse range of organizations including corporations, startups, SMEs,  venture capitalists,  and government entities, we offer valuable insights and drive growth through expert assessments and consulting. With our comprehensive services, we help you navigate challenges, seize opportunities, and achieve remarkable success.
+                Empower your business with Panorama&apos;s expertise. As trusted partners for corporations, startups, SMEs, venture capitalists, and government entities, we provide valuable insights, drive growth, and guide you to remarkable success through expert assessments and consulting.
                 </Typography>
               </div>
             </div>
