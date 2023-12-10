@@ -146,7 +146,7 @@ export default function Work() {
 
               <div>
                 <Typography variant="large" color="neutral.b200">
-                Empower your business with Panorama&apos;s expertise. As trusted partners for corporations, startups, SMEs, venture capitalists, and government entities, we provide valuable insights, drive growth, and guide you to remarkable success through expert assessments and consulting.
+                Empower your business with Panorama's expertise. As trusted partners for corporations, startups, SMEs, venture capitalists, and government entities, we provide valuable insights, drive growth, and guide you to remarkable success through expert assessments and consulting.
                 </Typography>
               </div>
             </div>
