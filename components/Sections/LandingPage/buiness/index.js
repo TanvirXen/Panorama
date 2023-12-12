@@ -13,11 +13,17 @@ export default function Business() {
 						<TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'What if there was a website dedicated to solving your business problems?',
+        'Imagine a website designed to help you achieve your business goals.',
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'What if you had a platform to assess and optimize your business at your fingertips?',
+        'Imagine a website poised to unleash the full potential of your business.',
         1000,
-        'What if your business consultant could be easily reached anytime, anywhere?',
+        'Imagine a website capable of identifying the challenges facing your business.',
+        1000,
+		'Imagine a website dedicated to assisting you in gaining leadership alignment.',
+        1000,
+		'Imagine a website that facilitates visualizing the untapped potential of your business.',
+        1000,
+		'Imagine a website capable of conducting a thorough assessment of your business status.',
         1000,
       ]}
       wrapper="span"
@@ -47,7 +53,9 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Overcome your business challenges with ease: Harness the expertise of our skilled consultants and access our exceptional services for a seamless resolution. Start unlocking growth and achieving unprecedented success today.
+								Overcome your business challenges effortlessly with our expert consultants and exceptional services,
+unlocking growth and achieving unprecedented success.
+
 								</Typography>
 							</div>
 						</div>
@@ -66,8 +74,8 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Achieve business success by gaining a deep understanding of your organization through our assessment. Our comprehensive approach will provide you with clarity and help you prioritize the key areas essential for growth and achievement.
-
+								Attain business success through our assessment, gaining clarity and prioritizing key areas for growth and
+achievement.
 								</Typography>
 							</div>
 						</div>
@@ -84,7 +92,8 @@ export default function Business() {
 							<br />
 							<div>
 								<Typography variant="small" color="neutral.b200">
-								Seize control of your future by turning your dreams into reality with our expert assessment and consultancy services. Empower yourself to take charge and confidently pursue your aspirations.
+								Seize control of your future by turning your dreams into reality with our expert assessment and
+consultancy services. Empower yourself to take charge and confidently pursue your aspirations.
 								</Typography>
 							</div>
 						</div>

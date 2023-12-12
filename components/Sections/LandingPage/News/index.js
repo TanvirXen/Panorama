@@ -11,7 +11,7 @@ export default function News() {
           <Grid md={6}>
             <div className="stay">
               <Typography variant="h2R" color="neutral.b900">
-                Stay up to date with the greatest and latest news from us
+              Stay tuned for the latest updates and news from us!
               </Typography>
             </div>
           </Grid>

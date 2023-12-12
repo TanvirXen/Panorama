@@ -11,7 +11,7 @@ export default function NewsG() {
           <Grid md={6}>
             <div className="stay">
               <Typography variant="h2R" color="neutral.b900">
-                Stay up to date with the greatest and latest news from us
+              Stay tuned for the latest updates and news from us!
               </Typography>
             </div>
           </Grid>
@@ -25,12 +25,12 @@ export default function NewsG() {
                 <TextInput
                   id="text-input-1"
                   type="text"
-                  size="lg"
+                  size="xl"
                   placeholder="Email"
                            />
               </div>
               <div>
-                <Button kind="primary" size="lg">
+                <Button kind="primary" size="xl">
                   Submit
                 </Button>
               </div>
