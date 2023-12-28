@@ -124,7 +124,7 @@ export default function Navbar() {
 								kind="primary"
 								size="lg"
 								className="btnss"
-								onClick={() => window.open("https://test.agsmcs.info/")}
+								onClick={() => window.open("https://app.panoramamas.com/")}
 							>
 								Take an Assessment
 							</Button>
