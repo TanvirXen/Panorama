@@ -114,13 +114,14 @@ export default function About() {
       </Head>
       <HeroAbout/>
       <InfoCompany/>
+      <Values/>
       <Team/>
-      <Advisor/>
+      {/* <Advisor/> */}
  
       <Career/>
-      <Values/>
+
       {/* <TeamExp/> */}
-      <NewsG />
+      <News />
       <Started />
     </div>
   );

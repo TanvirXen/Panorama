@@ -46,8 +46,8 @@ export default function FaqCard({question,answer,id}) {
         paddingRight: "32px",
       }}
     >
-      <Typography variant="small" color="neutral.b200">
-{answer}
+      <Typography variant="small" color="neutral.b200" dangerouslySetInnerHTML={{__html: answer}}>
+{/* {answer} */}
       </Typography>
     </AccordionDetails>
   </Accordion>

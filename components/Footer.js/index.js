@@ -27,7 +27,7 @@ export default function Footer() {
 					</div>
 					<div className="ftext">
 						<Grid container spacing={2}>
-							<Grid item sm={3} md={3}>
+							{/* <Grid item sm={3} md={3}>
 								<div className="frl">
 									<Typography
 										variant="small"
@@ -72,7 +72,7 @@ export default function Footer() {
 										Premium
 									</Typography>
 								</div>
-							</Grid>
+							</Grid> */}
 							<Grid item sm={3} md={3}>
 								<div className="frl">
 									<Typography

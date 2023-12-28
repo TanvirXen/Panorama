@@ -32,7 +32,7 @@ export default function Assesment() {
   
         redirect: "follow",
       };
-      fetch("https://agsmcs.info/get_plan_list/", requestOptions)
+      fetch("https://production.panoramamas.com/get_plan_list/", requestOptions)
         .then(async (response) => {
           let dsa = await response.json();
           if (dsa.result.plan) {
@@ -222,7 +222,7 @@ export default function Assesment() {
 </Container>
 </div>
 	
-
+<FAQ/>
   <NewsG />
       <Started />
     </div>

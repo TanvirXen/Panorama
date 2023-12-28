@@ -17,7 +17,7 @@ export default function InfoCompany() {
                   delivering solutions to you
                 </Typography>
                 <div className="btrn">
-                  <div style={{ cursor: "pointer" }}>
+                  <div style={{ cursor: "pointer" }} onClick={()=>window.open("https://panoramamas.com/Panorama_company_profile.pdf")} >
                     <Typography variant="xsmall" color="primary.b300">
                       Download Company Profile
                     </Typography>

@@ -1,22 +1,93 @@
 const FaqData = [
-  { id: "01", question: "How does Panorama help businesses?", answer: "Panorama offers a unique approach to business growth by helping entrepreneurs understand the root cause of their challenges. Our tool provides a clear visual representation of your business problems, which you can then prioritize and solve with the help of our solution-providing partners." },
-  { id: "02", question: "What is the Panorama tool and how does it work?", answer: "The Panorama tool is a questionnaire developed in collaboration with industry experts that provides a clear visual representation of your business challenges. You can take the questionnaire at your own pace and get a comprehensive analysis of your business problems." },
-  { id: "03", question: "Who is behind Panorama?", answer: "Panorama is led by CEO Aref Ali, a seasoned business leader with over 20 years of experience in the US and Allen Selima from the heart of the startup industry in Bangladesh. Our team includes industry experts and solution-providing partners to help entrepreneurs grow their businesses." },
-  { id: "04", question: "What is Panorama?", answer: "Panorama is a business solutions provider that helps entrepreneurs understand, prioritize, and solve their business problems. We provide a tool to analyze business challenges through visualization and offer solution-providing partners to help address weaknesses in your business." },
-  { id: "05", question: "What kind of businesses does Panorama serve?", answer: "Panorama serves businesses of all sizes and industries. Our goal is to help entrepreneurs understand and solve their business problems, regardless of their background." },
-  { id: "06", question: "How much does it cost to use the services?", answer: "The cost of using Panorama may vary depending on the solutions you need to address your business problems. Please contact us for a personalized quote." },
-  { id: "07", question: "Can I try before I commit?", answer: "Yes, you can try with a free trial of our tool. Please contact us to learn more." },
-  { id: "08", question: "Can I take the self-assessment tool at my own pace?", answer: "Yes, the self-assessment tool is designed to be taken at the entrepreneur's own pace, making it convenient and accessible." },
-  { id: "09", question: "How does Panorama help me prioritize my business problems?", answer: "The self-assessment tool provides a visual representation of a business's strengths and weaknesses, allowing entrepreneurs to prioritize the challenges they need to address." },
-  { id: "10", question: " Is the self-assessment tool free?", answer: "The cost of the self-assessment tool may vary, please check with the Panorama website for more information." },
-  { id: "11", question: "Who developed the self-assessment tool?", answer: "The self-assessment tool was developed in collaboration with industry experts to ensure its accuracy and effectiveness." },
-  { id: "12", question: "What makes Panorama different from other consulting firms?", answer: "Panorama's focus on helping entrepreneurs understand the root cause of their business challenges sets it apart from traditional consulting firms that only address symptoms." },
-  { id: "13", question: "What if I have more questions about Panorama's services?", answer: "Entrepreneurs can contact Panorama's customer support for additional information and clarification on its services." },
-  { id: "14", question: "Can I cancel my subscription at any time?", answer: "Yes, entrepreneurs have the ability to cancel their subscription at any time, as long as it is within the terms and conditions specified on the Panorama website." },
-  { id: "15", question: "What services do you offer for startups and businesses?", answer: "Our services include expert evaluation, analysis of financials, and consultancy to identify areas for improvement and align our services with your business goals." },
-  { id: "16", question: "How does your assessment process work?", answer: " Our assessment process involves analyzing financials, understanding your business operations, and pinpointing areas for improvement. We then present our findings and recommendations, aligning our services with your business goals." },
-  { id: "17", question: "Can you provide services for government entities as well?", answer: "Yes, we offer our services to government entities, providing assessments and consultancy to improve their operations and reach new levels of success." },
-  { id: "18", question: "How long does the assessment process usually take and what is the next step after the assessment?", answer: "The length of the assessment process varies based on the specific needs of each client, but we strive to complete the assessment as efficiently as possible. After the assessment, we will provide recommendations and work with the client to align our services with their goals for a successful outcome." },
-  { id: "19", question: "How much do your services cost?", answer: "To find the pricing for our packages, visit Panorama; our services are cost-effective and priced based on the specific needs and goals of each client." },
+  {
+    "id": "01",
+    "question": "How do I create an account on the Panorama Assessment App?",
+    "answer": `You can find the “Take an Assessment'' button on the top banner that will take you to our application site. Click on “Create a new account” and fill in the required information on the sign-up page. You will be asked to verify your email address using a link sent to your email. The link will take you to our login page where you have to log in using the email address and password you have set. Your account has been successfully created!`
+  },
+  {
+    "id": "02",
+    "question": "What types of assessment is available on the platform?",
+    "answer": `The Panorama Assessment App is a comprehensive multiple choice questionnaire consisting of questions from the eight business blocks of a business covering areas like purpose, people, customer, marketing and more. Visit our <a href="https://panoramamas.com/assessment" >Panorama Assessment App</a> page for more info!`
+  },
+  {
+    "id": "03",
+    "question": "How much does an assessment cost?",
+    "answer": `You can avail a free assessment which will give you access to a summary report. The paid plans let you take up to four assessments per user giving you access to our detailed report and executive. For more information, visit our <a href="https://panoramamas.com/assessment" >Pricing and Plans</a> page.`
+  },
+  {
+    "id": "04",
+    "question": "What are the contents of the assessment questionnaire?",
+    "answer": `Our assessment contains eight sections covering the seven plus one (7+1) blocks of your business. Namely: Purpose, People, Customer, Marketing, Operation & Technology, Reporting & Feedback, Financial Control and Cash Flow. The number of questions for each block vary from section to section and some questions may assess your business in multiple areas.`
+  },
+  {
+    "id": "05",
+    "question": "Can I retake an assessment if I'm not satisfied with my initial results?",
+    "answer": `The basic package only allows you to take one assessment within 30 days of availing the plan whereas the Standard has two and, the Premium, or the Enterprise Plan gives you up to four assessments per user. However, the purpose of multiple assessments is to be able to measure your progress over certain periods within the duration of the plans. Therefore, you cannot take another assessment before 30 days of taking one. We encourage honest and well thought out responses for the assessment, as it reflects your company's current state.`
+  },
+  {
+    "id": "06",
+    "question": "What will the report show?",
+    "answer": `Based on the subscription plan, you can avail varying levels of detailed reports. However, the summary report is open to all and scores your business based on the eight business blocks and your clarity on the business. To see our sample reports, click here.`
+  },
+  {
+    "id": "07",
+    "question": "Can my data be seen by others on the platform?",
+    "answer": `No, your data is confidential with us. We prioritize your privacy, and we don't share your data with anyone other than our consultants and analytics team.`
+  },
+  {
+    "id": "08",
+    "question": "How long will the assessment take to complete?",
+    "answer": `Average of 45 mins to an hour. We recommend that we refrain from over analyzing and answer honestly and candidly. Moreover, you will be able to pause and resume later on so do not worry about having to complete it all at once.`
+  },
+  {
+    "id": "09",
+    "question": "Do I have to complete the whole assessment at once?",
+    "answer": `No, you can save and come back to the last section you were answering whenever you want.`
+  },
+  {
+    "id": "10",
+    "question": "Can I access the app on different devices, such as smartphones and tablets?",
+    "answer": `Yes, the Panorama Assessment App is accessible on a laptop, PC, smartphones and tablets. However, your progress on one device will not carry over to another. Therefore, an assessment needs to be completed on one device at a time. Your report can be accessed from any device.`
+  },
+  {
+    "id": "11",
+    "question": "What should I do if I encounter technical issues while taking an assessment?",
+    "answer": `For assistance with technical issues, please contact us at <a href="mailto:info@panoramamas.com">info@panoramamas.com</a>. A support staff will reach out to you within 24-48 hours. To report a bug, go to our "Report & Feedback" page in the Dashboard and report your issues. TBU`
+  },
+  {
+    "id": "12",
+    "question": "Are the assessment results immediately available upon completion?",
+    "answer": `Yes.`
+  },
+  {
+    "id": "13",
+    "question": "Can I share my assessment results with others, such as employers or colleagues?",
+    "answer": `Yes, you will find the option to generate a detailed PDF of your report for sharing, printing or distribution for all the paid plans. However, the PDF generation is not available for the Basic Plan.`
+  },
+  {
+    "id": "14",
+    "question": "Is there a limit to the number of assessments I can take?",
+    "answer": `Yes. In the free plan, you can take one assessment, two assessments in the standard plan, and four assessments in both the premium and enterprise plans. To get a comprehensive feature list, click here.`
+  },
+  {
+    "id": "15",
+    "question": "Can I pause and resume an assessment if I'm unable to complete it at once?",
+    "answer": `Yes, you can leave at any point and return to the last section you were answering when you come back to the assessment.`
+  },
+  {
+    "id": "16",
+    "question": "How can I provide feedback on the assessment questions or overall user experience?",
+    "answer": `For assistance with technical issues, please contact us at <a href="mailto:info@panoramamas.com">info@panoramamas.com</a>. A support staff will reach out to you within 24-48 hours. To report a bug, go to our "Report & Feedback" page in the Dashboard and report your issues.`
+  },
+  {
+    "id": "17",
+    "question": "Are there any recommended browsers for optimal performance on the app?",
+    "answer": `No. However, we recommend Chrome, Safari, Edge and Firefox for the best experience.`
+  },
+  {
+    "id": "18",
+    "question": "Can I update my profile or business info on the Panorama Assessment App?",
+    "answer": `Yes, you can update your profile and business info from the “Profile” section of our dashboard.`
+  }
 ];
 export default FaqData
