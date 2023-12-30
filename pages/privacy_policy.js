@@ -124,7 +124,7 @@ export default function Privacy() {
 								<br />
 								<br />
 								<br />
-                                <a href="/Panorama Privacy Policy Bangladesh.pdf">
+                                <a href="/Privacy Policy Bangladesh.pdf">
 								<Typography variant="large" color="neutral.b800">
 									Bangladesh(English)
 								</Typography>
@@ -133,7 +133,7 @@ export default function Privacy() {
 								<br />
 								<br />
 								<br />
-								<a href="/Panorama গোপনীয়তা নীতি Privacy Policy.pdf"><Typography variant="large" color="neutral.b800">
+								<a href="/গোপনীয়তা নীতি Privacy Policy.pdf"><Typography variant="large" color="neutral.b800">
 									Bangladesh(Bangla)
 								</Typography> </a>
 								<br />
