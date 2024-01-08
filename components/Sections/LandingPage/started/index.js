@@ -18,7 +18,7 @@ export default function Started() {
 						Consult with our team to tailor the perfect business solution.
 						</Typography>
 						<div className="talk">
-							<Button kind="primary" size="lg" className="btnss" onClick={()=>window.open("https://app.panoramamas.com/")} >
+							<Button kind="primary" size="lg" className="btnss" onClick={()=>window.open("https://calendly.com/panoramaltd/consult")} >
 								Start Now
 							</Button>
 						</div>
