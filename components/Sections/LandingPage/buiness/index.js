@@ -23,7 +23,7 @@ export default function Business() {
         1000,
 		'Imagine a website that facilitates visualizing the untapped potential of your business.',
         1000,
-		'Imagine a website capable of conducting a thorough assessment of your business .',
+		'Imagine a website capable of conducting a thorough assessment of your business.',
         1000,
       ]}
       wrapper="span"
