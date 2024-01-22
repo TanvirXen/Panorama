@@ -1874,6 +1874,7 @@ a {
 	}
 }
 @media only screen and (max-width: 750px) {
+	
 	.xcd {
 		padding-top: 40px;
 	}
@@ -1924,12 +1925,14 @@ a {
 		height: 100vh;
 		width: 100%;
 		.text {
+
 			width: 100%;
 			padding-left: 12px;
 			padding-top: 40px;
 			.stext {
+				display: none;
 				width: 100%;
-				padding-top: 35vh;
+				padding-top: 15vh;
 				padding-left: 0px !important;
 			}
 		}
