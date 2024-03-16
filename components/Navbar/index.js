@@ -123,6 +123,7 @@ export default function Navbar() {
               <Button
                 kind="primary"
                 size="lg"
+				style={{marginRight:'8px'}}
                 className="btnss"
                 onClick={() => window.open("https://app.panoramamas.com/")}
               >
