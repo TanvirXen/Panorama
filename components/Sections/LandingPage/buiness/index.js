@@ -34,7 +34,15 @@ export default function Business() {
 
 							<div>
 								<Typography variant="large" color="neutral.b200">
-								Identifying  issues within businesses is an exhausting and time-intensive task, filled with substantial costs that hinder the prompt resolution of pressing challenges.
+								Unlock the full potential of your business with our comprehensive business assessments. Our
+cutting-edge assessment tool meticulously analyzes every aspect of your business, from
+strategic planning to operational execution, providing you with actionable insights and tailored
+recommendations for growth. Our AI Agent will guide you through your areas of strength and
+opportunity, offering personalized steps to enhance your business performance.
+<br/><br/>
+Exclusively for serious business professionals, we&#39;re offering our premium assessment service
+for free to the first 20 users. Seize this limited-time opportunity to gain invaluable insights and
+drive your business forward. Don&#39;t miss out - take the first step towards success today!”
 								</Typography>
 							</div>
 						</div>
