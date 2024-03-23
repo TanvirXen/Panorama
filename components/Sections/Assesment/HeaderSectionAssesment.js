@@ -18,7 +18,7 @@ export default function HeaderSectionAssesment() {
             </Grid>
             <Grid md={4}>
               <div className="hbrss">
-                <Button kind="primary" size="lg" onClick={() => window.open("https://test.agsmcs.info/")}>
+                <Button kind="primary" size="lg" onClick={() => window.open("https://production.panoramamas.com/")}>
                  Try Now
                 </Button>
               </div>

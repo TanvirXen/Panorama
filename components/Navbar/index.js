@@ -85,7 +85,14 @@ export default function Navbar() {
         <Container maxWidth="xl">
           <div className="navpc">
             <div className="lgtxt">
-              <img src="/logoFull.svg" alt="" srcset="" />
+              <Link href="/">
+                <img
+                  src="/logoFull.svg"
+                  style={{ cursor: "pointer" }}
+                  alt=""
+                  srcset=""
+                />
+              </Link>
             </div>
             <ul className={menuOpen ? "menu pcMenu" : "menu mobileMenu"}>
               <>
@@ -123,7 +130,7 @@ export default function Navbar() {
               <Button
                 kind="primary"
                 size="lg"
-				style={{marginRight:'8px'}}
+                style={{ marginRight: "8px" }}
                 className="btnss"
                 onClick={() => window.open("https://app.panoramamas.com/")}
               >
@@ -133,7 +140,9 @@ export default function Navbar() {
                 kind="primary"
                 size="lg"
                 className="btnss"
-                onClick={() => window.open("https://app.panoramamas.com/signup")}
+                onClick={() =>
+                  window.open("https://app.panoramamas.com/signup")
+                }
               >
                 Take an Assessment
               </Button>

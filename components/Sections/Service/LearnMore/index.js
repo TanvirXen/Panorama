@@ -43,7 +43,7 @@ export default function LearnMoreAssesment() {
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
-              <Button kind="primary" size="lg" onClick={() => window.open("https://test.agsmcs.info/")}>
+              <Button kind="primary" size="lg" onClick={() => window.open("https://production.panoramamas.com/")}>
                  Try Now
                 </Button>
               </div>

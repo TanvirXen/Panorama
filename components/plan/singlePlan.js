@@ -31,7 +31,7 @@ export default function SinglePLan({
 			{price == 0 ? (
 			<Link
 				className="single-plan-btn"
-				onClick={() => router.push('https://test.agsmcs.info/')}
+				onClick={() => router.push('https://production.panoramamas.com/')}
 			>
 				Get Started
 			</Link>):(			<Link

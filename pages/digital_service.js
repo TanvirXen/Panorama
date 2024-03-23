@@ -132,7 +132,7 @@ export default function Website() {
             </Typography>
           </div>
           <div>
-          <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consult")}>
+          <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consultation")}>
                 Book a Meeting
           </Button>
           </div>
@@ -389,7 +389,7 @@ Technologies we use
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
-              <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consult")}>
+              <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consultation")}>
                 Book a Meeting
           </Button>
               </div>

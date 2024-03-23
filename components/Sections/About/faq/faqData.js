@@ -12,7 +12,7 @@ const FaqData = [
   {
     "id": "03",
     "question": "How much does an assessment cost?",
-    "answer": `You can avail a free assessment which will give you access to a summary report. The paid plans let you take up to four assessments per user giving you access to our detailed report and executive. For more information, visit our <a href="https://panoramamas.com/assessment" >Pricing and Plans</a> page.`
+    "answer": `You can avail a free assessment which will give you access to a summary report. The paid plans let you take up to four assessments per user giving you access to our detailed report and executive. For more information, visit our <a href="https://panoramamas.com/assessment#price" >Pricing and Plans</a> page.`
   },
   {
     "id": "04",
@@ -52,7 +52,7 @@ const FaqData = [
   {
     "id": "11",
     "question": "What should I do if I encounter technical issues while taking an assessment?",
-    "answer": `For assistance with technical issues, please contact us at <a href="mailto:info@panoramamas.com">info@panoramamas.com</a>. A support staff will reach out to you within 24-48 hours. To report a bug, go to our "Report & Feedback" page in the Dashboard and report your issues. TBU`
+    "answer": `For assistance with technical issues, please contact us at <a href="mailto:info@panoramamas.com">info@panoramamas.com</a>. A support staff will reach out to you within 24-48 hours. To report a bug, go to our "Report & Feedback" page in the Dashboard and report your issues.`
   },
   {
     "id": "12",
@@ -67,7 +67,7 @@ const FaqData = [
   {
     "id": "14",
     "question": "Is there a limit to the number of assessments I can take?",
-    "answer": `Yes. In the free plan, you can take one assessment, two assessments in the standard plan, and four assessments in both the premium and enterprise plans. To get a comprehensive feature list, click here.`
+    "answer": `Yes. In the free plan, you can take one assessment, two assessments in the standard plan, and four assessments in both the premium and enterprise plans. To get a comprehensive feature list,<a href="https://panoramamas.com/assessment#price" >click here</a>.`
   },
   {
     "id": "15",

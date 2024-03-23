@@ -155,7 +155,7 @@ export default function Assesment() {
       <KnowledgeInfoAssesment />
 <div className="tgy">
 <Container maxWidth="xl">
-<div className="featured-plan">
+<div className="featured-plan" id="price">
 				<div className="featured-top">
 					<Grid container spacing={0}>
 						<Grid xs={2} sm={2} md={2} lg={2} xl={2}>

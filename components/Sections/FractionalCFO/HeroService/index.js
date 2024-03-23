@@ -18,7 +18,7 @@ export default function HeroService() {
             </Typography>
           </div>
           <div>
-          <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consult")}>
+          <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consultation")}>
                 Book a Meeting
           </Button>
           </div>
