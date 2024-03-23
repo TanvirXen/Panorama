@@ -166,15 +166,60 @@ export default function Footer() {
 									</Typography>
 								</div>
 							</Grid>
+							<Grid item sm={6} md={6}>
+								<div className="frl">
+									<Typography
+										variant="small"
+										color="neutral.b0"
+										style={{ paddingBottom: "8px" }}
+									>
+										Location
+									</Typography>
+								
+									<Typography
+										variant="small"
+										color="neutral.b50"
+										style={{ paddingBottom: "8px" }}
+									>
+										United States
+									</Typography>
+									<Typography
+										variant="small"
+										color="neutral.b100"
+									>
+								2727 Palomar Road, Celina, Texas 75009, United States of America
+									</Typography>
+									<br/>
+									<Typography
+										variant="small"
+										color="neutral.b50"
+										style={{ paddingBottom: "8px" }}
+									>
+										Bangladesh
+									</Typography>
+									<Typography
+										variant="small"
+										color="neutral.b100"
+									>
+									Apartment 5/A, House 8/A, Road 04, DOHS Banani, Dhaka Cantonment, 1206, Bangladesh
+									</Typography>
+								</div>
+							</Grid>
 						</Grid>
+
 						<div className="cpr">
 							<Typography variant="small" color="neutral.b0">
 								Copyright 2023 Panorama Management Advisory Services
 							</Typography>
 						</div>
 					</div>
+					
 				</div>
+				
 			</Container>
+			<div className="ssl">
+<img src="/banner.jpg" style={{width:'100%'}}></img>
+						</div>
 		</div>
 	);
 }

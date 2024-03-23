@@ -1657,7 +1657,18 @@ a {
 		}
 	}
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 982px) {
+	.stays {
+		padding-top: 10px;
+		padding-left: 0px;
+		div {
+			margin-top: 8px;
+		}
+	}
+	.stay{
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
 	.submenu {
 		display: none;
 	}
