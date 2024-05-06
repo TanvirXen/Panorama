@@ -17,7 +17,7 @@ export default function InfoCompany() {
                   delivering solutions to you
                 </Typography>
                 <div className="btrn">
-                  <div style={{ cursor: "pointer" }}>
+                  <div style={{ cursor: "pointer" }} onClick={()=>window.open("https://panoramamas.com/Panorama_company_profile.pdf")} >
                     <Typography variant="xsmall" color="primary.b300">
                       Download Company Profile
                     </Typography>
@@ -28,21 +28,15 @@ export default function InfoCompany() {
             <Grid sm={12} md={6} lg={7}>
               <div className="xrd">
                 <Typography variant="large" color="neutral.b900">
-                  Achieve a stronger market presence by leveraging
-                  Panorama&apos;s tailor-made business solutions, surpassing
-                  your competitors. Unlock your full potential through our
-                  personalized assessments, in-depth analysis, and unwavering
-                  support.
+                Elevate your market presence with Panorama&apos;s custom business solutions, surpassing competitors.
+
+   
                   <br />
                   <br />
-                  By harnessing these valuable resources, you can outpace
-                  industry trends, proactively achieve your goals, and attain
-                  long-term success. Our unwavering commitment to your ongoing
-                  learning and growth guarantees that you possess the most
-                  up-to-date knowledge and skills required for sustainable
-                  expansion. With our holistic approach, we are dedicated to
-                  empowering you to reach unprecedented milestones in both your
-                  personal and professional endeavors.
+                  Unlock your full potential through personalized assessments, deep analysis, and steadfast support.
+Outpace industry trends, proactively achieve goals, and secure long-term success. Our commitment to
+ongoing learning ensures up-to-date skills for sustainable expansion. Empower yourself with a holistic
+approach, reaching unprecedented milestones in both personal and professional endeavors.
                 </Typography>
                 {/* <Typography variant="h2R" color="neutral.b900">
               Rise above the competition with Panorama&apos;s tailored business solutions
@@ -66,27 +60,17 @@ export default function InfoCompany() {
                 </div>
                 <div>
                   <Typography variant="large" color="neutral.b900">
-                    Empowering individuals and fostering collective growth to
-                    turn dreams into reality.
+                  “Empowering individuals and fostering collective growth to turn dreams into reality.”
                     <br />
                     <br />
-                    At the core of our beliefs lies the profound impact of data,
-                    capable of instigating transformation, revealing untapped
-                    possibilities, and propelling businesses towards triumph.
-                    Guided by this principle, we are committed to providing our
-                    clients with the essential tools and insights to make
-                    informed decisions with confidence. We understand the
-                    intrinsic value of data and its potential to revolutionize
-                    businesses, and our vision is to empower our clients with
-                    the intelligence they need to thrive.
+                    At our core, we believe in the transformative power of data to drive success. Committed to empowering
+clients, we provide essential tools for informed decision-making.
+
                     <br />
                     <br />
-                    Our vision goes beyond superficial fixes. We are committed
-                    to addressing emerging obstacles, tackling complex business
-                    problems, and achieving sustainable outcomes. By harnessing
-                    the insights provided by data, we empower organizations to
-                    optimize their performance, reduce costs, and enhance
-                    overall efficiency.
+                    Beyond quick fixes, our vision involves addressing challenges, solving complex problems, and achieving
+sustainable outcomes. By leveraging data insights, we empower organizations to optimize performance,
+cut costs, and enhance efficiency.
                   </Typography>
                 </div>
               </div>
@@ -98,28 +82,21 @@ export default function InfoCompany() {
                 </div>
                 <div>
                   <Typography variant="large" color="neutral.b900">
-                    At Panorama, we have a clear and unwavering mission: to
-                    transform conventional business practices by leveraging
-                    data-driven solutions. Our in-depth understanding of the
-                    constantly evolving challenges faced by businesses worldwide
-                    is what propels us to deliver innovative, user-centric, and
-                    comprehensive solutions on a global scale.
+                  “Transforming current business processes with data-driven solutions to tackle emerging challenges. Our
+dedication lies in delivering sustainable, user-centric, and comprehensive global solutions.”
                     <br />
                     <br />
-                    We firmly believe in the profound potential of data to bring
-                    about transformation. It holds the power to initiate change,
-                    unlock new opportunities, and propel businesses toward
-                    success. With this belief at our core, we are dedicated to
-                    equipping our clients with the necessary resources and
-                    intelligence to make well-informed decisions.
+                    At Panorama, our mission is crystal clear: revolutionize traditional business practices through data-driven
+solutions. Fueled by a deep understanding of global business challenges, we deliver innovative,
+user-centric, and comprehensive solutions.
+
                     <br />
                     <br />
-                    Our mission goes beyond mere surface-level solutions. We are
-                    committed to addressing emerging obstacles, tackling complex
-                    business problems, and achieving sustainable outcomes. By
-                    harnessing the valuable insights provided by data, we
-                    empower organizations to optimize their performance, reduce
-                    costs, and enhance overall efficiency.
+                    We firmly believe in data&apos;s transformative potential to unlock opportunities and drive success. Our
+commitment extends beyond surface-level fixes, addressing emerging obstacles and achieving
+sustainable outcomes by empowering organizations with valuable data insights to optimize performance
+and enhance efficiency.
+
                   </Typography>
                 </div>
               </div>

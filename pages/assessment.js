@@ -32,7 +32,7 @@ export default function Assesment() {
   
         redirect: "follow",
       };
-      fetch("https://agsmcs.info/get_plan_list/", requestOptions)
+      fetch("https://production.panoramamas.com/get_plan_list/", requestOptions)
         .then(async (response) => {
           let dsa = await response.json();
           if (dsa.result.plan) {
@@ -155,7 +155,7 @@ export default function Assesment() {
       <KnowledgeInfoAssesment />
 <div className="tgy">
 <Container maxWidth="xl">
-<div className="featured-plan">
+<div className="featured-plan" id="price">
 				<div className="featured-top">
 					<Grid container spacing={0}>
 						<Grid xs={2} sm={2} md={2} lg={2} xl={2}>
@@ -222,7 +222,7 @@ export default function Assesment() {
 </Container>
 </div>
 	
-
+<FAQ/>
   <NewsG />
       <Started />
     </div>

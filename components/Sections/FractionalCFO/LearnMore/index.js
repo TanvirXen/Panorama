@@ -43,9 +43,9 @@ export default function LearnMore() {
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
-              <Button kind="primary" size="lg">
+              {/* <Button kind="primary" size="lg">
                 Learn More
-                </Button>
+                </Button> */}
               </div>
 </div>
             </Grid>

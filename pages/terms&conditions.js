@@ -133,7 +133,7 @@ export default function Privacy() {
 								<br />
 								<br />
 								<br />
-								<a href="/Panorama শর্তাবলী Terms and Condition.pdf"><Typography variant="large" color="neutral.b800">
+								<a href="/শর্তাবলী Terms and Condition.pdf"><Typography variant="large" color="neutral.b800">
 									Bangladesh(Bangla)
 								</Typography> </a>
 								<br />

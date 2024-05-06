@@ -9,17 +9,17 @@ export default function Started() {
 				<div className="strt">
 					<div className="redy">
 						<Typography variant="h1R" color="neutral.b0">
-							Ready to get started?
+						Ready to start?
 						</Typography>
 					</div>
 
 					<div>
 						<Typography variant="large" color="neutral.b0">
-							Talk with our team to design the best solution for your business.
+						Consult with our team to tailor the perfect business solution.
 						</Typography>
 						<div className="talk">
-							<Button kind="primary" size="lg" className="btnss">
-								Learn More
+							<Button kind="primary" size="lg" className="btnss" onClick={()=>window.open("https://production.panoramamas.com/")} >
+								Start Now
 							</Button>
 						</div>
 					</div>

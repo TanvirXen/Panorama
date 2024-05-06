@@ -124,7 +124,7 @@ export default function Privacy() {
 								<br />
 								<br />
 								<br />
-                                <a href="/Panorama Refund Policy Bangladesh.pdf">
+                                <a href="/Refund Policy Bangladesh.pdf">
 								<Typography variant="large" color="neutral.b800">
 									Bangladesh(English)
 								</Typography>

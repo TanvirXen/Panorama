@@ -23,7 +23,9 @@ export default function Values() {
             <Grid xs={12} sm={12} md={8} lg={7}>
               <div style={{ paddingTop: "24px", paddingBottom: "24px" }}>
                 <Typography variant="large" color="neutral.b200">
-                Conducting diagnosing of your businesses is expensive, time-sensitive, and hectic which stands in the way to solve the problems you are facing, but we are here to assist.
+                Conducting a business diagnosis is costly, time-sensitive, and challenging. We&apos;re here to assist you in
+overcoming these obstacles.
+
 
                 </Typography>
               </div>
@@ -42,7 +44,8 @@ export default function Values() {
          
                   <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
-                    Integrity is of utmost importance to us. We strive to uphold the highest ethical standards in every aspect of our business operations. This includes being honest, transparent, and accountable in all our interactions with clients, partners, and stakeholders.
+                    Integrity is foundational. We maintain the highest ethical standards, prioritizing honesty, transparency,
+and accountability in all interactions with clients, partners, and stakeholders.
 
                     </Typography>
                   </div>
@@ -60,7 +63,10 @@ export default function Values() {
          
                   <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
-                    Learning and adaptability are key aspects of our approach. We believe in continuously seeking knowledge, embracing new ideas, and adapting to changing circumstances. By fostering a culture of learning and adaptability, we ensure that we stay at the forefront of industry trends, technological advancements, and best practices. This enables us to consistently improve and refine our offerings to better serve our clients evolving needs.
+                    Continuous learning and adaptability drive our approach. We embrace new ideas and stay ahead of
+industry trends, technological advancements, and best practices. Fostering a culture of learning enables
+us to consistently refine our offerings, ensuring we meet our clients evolving needs.
+
                     </Typography>
                   </div>
                 </div>
@@ -78,7 +84,10 @@ export default function Values() {
                   <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
                     
-Collaborative relationships are essential to our success. We value the power of collaboration and actively seek to build strong and mutually beneficial partnerships with our clients, as well as with other organizations and experts in our field. By working together, we can leverage collective expertise and resources to achieve remarkable outcomes for our clients and communities.
+                    Collaborative relationships are vital to our success. We actively build strong partnerships with clients,
+organizations, and experts in our field. By leveraging collective expertise, we achieve remarkable
+outcomes for clients and communities.
+
                     </Typography>
                   </div>
                 </div>
@@ -95,7 +104,9 @@ Collaborative relationships are essential to our success. We value the power of 
          
                   <div className="vbr">
                     <Typography variant="small" color="neutral.b0">
-                    Ingenuity is a driving force behind our innovation and growth. We encourage creativity, originality, and a forward-thinking mindset within our team. By fostering an environment that encourages and rewards ingenuity, we are able to generate innovative solutions and approaches that deliver exceptional value to our clients.
+                    Ingenuity fuels our innovation and growth. We foster a culture that values creativity, originality, and a
+forward-thinking mindset within our team. By encouraging and rewarding ingenuity, we generate
+innovative solutions, providing exceptional value to our clients
                     </Typography>
                   </div>
                 </div>

@@ -19,9 +19,9 @@ export default function HeroService() {
             </Typography>
           </div>
           <div style={{paddingTop:'12px'}}>
-          <Button kind="primary" size="lg">
+          <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consultation")}>
                 Book a Meeting
-                </Button>
+          </Button>
           </div>
         </div>
       </Container>

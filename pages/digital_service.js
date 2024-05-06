@@ -132,7 +132,7 @@ export default function Website() {
             </Typography>
           </div>
           <div>
-          <Button kind="primary" size="lg">
+          <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consultation")}>
                 Book a Meeting
           </Button>
           </div>
@@ -359,7 +359,7 @@ Technologies we use
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
-              <Button kind="primary" size="lg" onClick={()=>window.open("https://test.agsmcs.info/")}>
+              <Button kind="primary" size="lg" onClick={()=>window.open("https://app.panoramamas.com/")}>
               Check Software
                 </Button>
               </div>
@@ -389,9 +389,9 @@ Technologies we use
                 </Typography>
               </div>
               <div style={{ paddingTop:'40px' }}>
-              <Button kind="primary" size="lg" onClick={()=>window.open("https://panorama-finance-software-git-main-tanvirxen.vercel.app/dashboard")}>
-              Check Software
-                </Button>
+              <Button kind="primary" size="lg" onClick={()=>window.open("https://calendly.com/panoramaltd/consultation")}>
+                Book a Meeting
+          </Button>
               </div>
 </div>
 

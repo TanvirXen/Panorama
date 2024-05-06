@@ -1,43 +1,21 @@
 import React from "react";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import { TextInput, Select, SelectItem, Checkbox, Button } from "@carbon/react";
-import Grid from "@mui/material/Grid";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+import CustomForm from "./customForm";
 export default function News() {
-	return (
-    <div className="news">
-      <Container maxWidth="xl">
-        <Grid container spacing={0}>
-          <Grid md={6}>
-            <div className="stay">
-              <Typography variant="h2R" color="neutral.b900">
-                Stay up to date with the greatest and latest news from us
-              </Typography>
-            </div>
-          </Grid>
-          <Grid md={6}>
-            <div className="stays">
-              <Typography variant="large" color="neutral.b200">
-              Recieve the most valuable updates and stay constantly informed by having them delivered directly to your inbox!
-
-              </Typography>
-              <div>
-                <TextInput
-                  id="text-input-1"
-                  type="text"
-                  size="lg"
-                  placeholder="Email"
-                />
-              </div>
-              <div>
-                <Button kind="primary" size="lg">
-                  Submit
-                </Button>
-              </div>
-            </div>
-          </Grid>
-        </Grid>
-      </Container>
-    </div>
+  const url =
+    "https://nuzzld.us17.list-manage.com/subscribe/post?u=9faf38e143882fa5c1344dc22&amp;id=0794217a97&amp;f_id=00ea53e0f0";
+  return (
+    <>
+      <MailchimpSubscribe
+        url={url}
+        render={({ subscribe, status, message }) => (
+          <CustomForm
+            status={status}
+            message={message}
+            onValidated={(formData) => subscribe(formData)}
+          />
+        )}
+      />
+    </>
   );
 }

@@ -116,13 +116,14 @@ export default function Home() {
       </Head>
       <Hero />
       <Business />
-      <Growth />
-      <Service />
+      {/* <Growth /> */}
+
      
       {/* <Resources /> */}
 
       {/* <Trust /> */}
       <Work />
+      <Service />
       {/* <Knowledge /> */}
       {/* <FAQ /> */}
       <News />
