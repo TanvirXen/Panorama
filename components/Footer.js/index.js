@@ -209,7 +209,7 @@ export default function Footer() {
 										variant="small"
 										color="neutral.b100"
 									>
-									Apartment 5/A, House 8/A, Road 04, DOHS Banani, Dhaka Cantonment, 1206, Bangladesh
+								Awal Center, CoSpace Level 4, 34 Kamal Ataturk Avenue, Banani, Dhaka-1230
 									</Typography>
 								</div>
 							</Grid>
