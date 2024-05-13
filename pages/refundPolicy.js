@@ -133,7 +133,7 @@ export default function Privacy() {
 								<br />
 								<br />
 								<br />
-								<a href="/Panorama রিটার্ন এবং রিফান্ড নীতি Refund Policy.pdf"><Typography variant="large" color="neutral.b800">
+								<a href="/রিটার্ন এবং রিফান্ড নীতি Refund Policy (1).pdf"><Typography variant="large" color="neutral.b800">
 									Bangladesh(Bangla)
 								</Typography> </a>
 								<br />
